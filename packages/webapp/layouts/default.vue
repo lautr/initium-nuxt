@@ -1,8 +1,8 @@
 <template>
-  <LayoutSplash>
+  <LayoutApplication>
     <template #header>
       <slot name="header" />
     </template>
     <slot />
-  </LayoutSplash>
+  </LayoutApplication>
 </template>

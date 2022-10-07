@@ -1,8 +1,5 @@
 <template>
-  <div class="bg-slate-50 min-h-screen flex flex-col">
-    <header class="sticky max-h-10 w-full">
-      <slot name="header" />
-    </header>
+  <div class="bg-slate-50 dark:bg-slate-600 min-h-screen flex flex-col">
     <main class="flex justify-center items-center flex-grow">
       <slot />
     </main>

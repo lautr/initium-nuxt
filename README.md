@@ -10,16 +10,35 @@
 ## Features
 - [💚 Nuxt 3](https://v3.nuxtjs.org) - SSR, ESR, File-based routing, components auto importing, modules, etc.
 - 🤓 Optimized for VSCode usage
-- ⚡️ Vite - Instant HMR
-- VITEST
-- 🚝 Monorepo setup using [pnpm](https://pnpm.io/)
-- 🌬️ [Tailwind 3](https://tailwindcss.com/) - the utility-first CSS framework
-- 🖌️ [Storybook](https://storybook.js.org/) - open source tool for building UI components and pages in isolatio
+- [⚡️ Vite](https://vitejs.dev/) - Instant HMR
+- [✨ Vitest](https://vitest.dev/guide/) - A blazing fast unit test framework 
+- [🚝 Monorepo](https://pnpm.io/workspaces) - workspace setup using [pnpm](https://pnpm.io/)
+- [🌬️ Tailwind 3](https://tailwindcss.com/) - the utility-first CSS framework
+- [🖌️ Storybook](https://storybook.js.org/) - build UI components and pages in isolation
+- [🌓 Color Mode](https://github.com/nuxt-community/color-mode-module) - dark, light & custom mode integrated in tailwind and nuxt
 - 🔥 The `<script setup>` syntax
-- 🍍 [State Management via Pinia](https://pinia.esm.dev), see [./composables/user.ts](./composables/user.ts)
-- 📑 [Layout system](./layouts)
+- [🍍 State Management via Pinia](https://pinia.esm.dev), see [./stores/AuthStore.ts](./stores/AuthStore.ts)
+- [📑 Layout system](./layouts) - switch between layouts
 - 📥 APIs auto importing - for Composition API, VueUse, Components (localy & from design) and custom composables
-- 🦾 TypeScript
+- [🦾 TypeScript](https://www.typescriptlang.org/) - JavaScript, but trongly typed and better
+
+## Commands
+```
+# install all dependencies of the monorepo
+pnpm install
+# start webapp & storybook
+pnpm dev
+# start dev webapp
+pnpm webapp dev
+# build webapp for prod
+pnpm webapp build
+# start webapp for prod
+pnpm webapp start
+# start dev storybook
+pnpm design dev
+# run tests in webapp
+pnpm webapp test
+```
 
 ## Plugins
 
@@ -27,24 +46,11 @@
 
 - [VueUse](https://github.com/vueuse/vueuse) - collection of useful composition APIs.
 - [ColorMode](https://github.com/nuxt-community/color-mode-module) - dark and Light mode with auto detection made easy with Nuxt.
-- [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine.
 - [Pinia](https://pinia.esm.dev/) - intuitive, type safe, light and flexible Store for Vue.
 
 ## IDE
 
 This Template is designed to provide great DX with [VS Code](https://code.visualstudio.com/) and [Volar](https://github.com/johnsoncodehk/volar).
-
-### Troubleshooting
-- [Volar Version v0.38.8 & v0.38.7 seem to have a bug for path resolution](https://github.com/johnsoncodehk/volar/issues/1585) if it still occurs use Version v0.38.6
-- disable Vetur
-- enable extensions recommended in `.vscode\extensions.json`
-- enable [Takeover Mode](https://vuejs.org/guide/typescript/overview.html#takeover-mode)
-
-## Try it now!
-<!-- 
-### Online
-
-<a href="https://stackblitz.com/github/antfu/vitesse-nuxt3"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a> -->
 
 ### GitHub Template
 

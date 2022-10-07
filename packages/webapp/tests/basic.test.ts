@@ -9,6 +9,6 @@ describe('pages', async () => {
     const html = await $fetch('/')
 
     // should render text
-    expect(html).toContain('hello world')
+    expect(html).toContain('Authenticate')
   })
 })

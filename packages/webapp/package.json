@@ -1,28 +1,26 @@
 {
-  "private": true,
   "name": "webapp",
+  "private": true,
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "start": "nuxi start",
     "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "postinstall": "nuxi prepare"
   },
   "devDependencies": {
-    "@nuxt/test-utils-edge": "3.0.0-rc.5-27630352.df04a66",
-    "@nuxtjs/tailwindcss": "5.3.0",
+    "@nuxt/test-utils-edge": "3.0.0-rc.12-27746784.92ff066",
+    "@nuxtjs/color-mode": "3.1.8",
+    "@nuxtjs/tailwindcss": "5.3.3",
+    "@pinia/nuxt": "0.4.2",
+    "@vueuse/nuxt": "9.3.0",
     "autoprefixer": "10.4.7",
-    "design": "workspace:*",
-    "nuxt": "3.0.0-rc.5",
+    "nuxt": "3.0.0-rc.11",
+    "pinia": "2.0.22",
     "postcss": "8.4.14",
     "postcss-import": "14.1.0",
-    "tailwindcss": "3.1.6",
-    "vitest": "0.18.0"
-  },
-  "dependencies": {
-    "@pinia/nuxt": "0.3.0",
-    "@vueuse/nuxt": "8.9.3",
-    "pinia": "2.0.16"
+    "tailwindcss": "3.1.8",
+    "vitest": "0.23.4"
   }
 }
