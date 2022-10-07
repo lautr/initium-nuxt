@@ -1,7 +1,7 @@
 #  lautr/initium-nuxt 🔥
 
 <pre align="center">
-🚀 Opnionated Nuxt, Tailwind & Storybook monorepo template
+🚀 Opinionated Nuxt, Tailwind & Storybook monorepo template
 </pre>
 <hr />
 
