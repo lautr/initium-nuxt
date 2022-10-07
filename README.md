@@ -15,7 +15,7 @@
 - [🚝 Monorepo](https://pnpm.io/workspaces) - workspace setup using [pnpm](https://pnpm.io/)
 - [🌬️ Tailwind 3](https://tailwindcss.com/) - the utility-first CSS framework
 - [🖌️ Storybook](https://storybook.js.org/) - build UI components and pages in isolation
-- [🌓 Color Mode](https://github.com/nuxt-community/color-mode-module) - dark, light & custom mode integrated in tailwind and nuxt
+- [🌓 Color Mode](https://github.com/nuxt-community/color-mode-module) - dark, light & custom mode integrated in Tailwind and Nuxt
 - 🔥 The `<script setup>` syntax
 - [🍍 State Management via Pinia](https://pinia.esm.dev), see [./stores/AuthStore.ts](./stores/AuthStore.ts)
 - [📑 Layout system](./layouts) - switch between layouts
