@@ -17,10 +17,11 @@ jobs:
 
       - uses: pnpm/action-setup@v2.0.1
         name: Install pnpm
-        id: pnpm-install  -no-frozen-lockfile
+        id: pnpm-install
         with:
           version: 7
-          run_install: false
+          run_install:
+            - args: [--frozen-lockfile]
 
       - name: Get pnpm store directory
         id: pnpm-cache
