@@ -21,7 +21,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',
-    'design/nuxt',
+    '@lautr/initium-nuxt-design/nuxt',
   ],
   typescript: {
     shim: false,
