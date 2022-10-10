@@ -20,8 +20,8 @@ jobs:
         id: pnpm-install
         with:
           version: 7
-          run_install: |
-            args: [--frozen-lockfile]
+          # run_install: |
+          #   args: [--frozen-lockfile]
 
       - name: Get pnpm store directory
         id: pnpm-cache
