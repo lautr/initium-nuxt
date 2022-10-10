@@ -11,6 +11,7 @@
     "node": "16.*"
   },
   "scripts": {
+    "lint": "pnpm eslint .",
     "webapp": "pnpm --filter webapp",
     "design": "pnpm --filter design",
     "dev": "concurrently \"pnpm design dev\" \"pnpm webapp dev\""
