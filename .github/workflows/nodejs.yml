@@ -1,16 +1,10 @@
 on:
-  # - push
-  # - pull_request
-  - pull_request_target
-
-permissions: read-all
+  - push
+  - pull_request
 
 jobs:
   cache-and-install:
     runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
-      contents: write
 
     steps:
       - name: Checkout
