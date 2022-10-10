@@ -17,17 +17,25 @@ jobs:
 
       - uses: pnpm/action-setup@v2.0.1
         name: Install pnpm
-        id: pnpm-install
         with:
           version: 7
-          run_install: |
-            args: [--frozen-lockfile=false]
 
+      - uses: actions/checkout@v3
+        name: fix lockfile and install packages
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+      - run: pnpm i --lockfile-only
+      - run: |
+          git config --global user.name github-actions[bot]
+          git config --global user.email github-actions[bot]@users.noreply.github.com
+          git add pnpm-lock.yaml
+          git commit -m "Update pnpm-lock.yaml"
+          git push
+      - run: pnpm install
       - name: Get pnpm store directory
         id: pnpm-cache
         run: |
           echo "::set-output name=pnpm_cache_dir::$(pnpm store path)"
-
       - uses: actions/cache@v3
         name: Setup pnpm cache
         with:
@@ -35,7 +43,6 @@ jobs:
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
-
       - name: Install dependencies
         run: pnpm install
 
