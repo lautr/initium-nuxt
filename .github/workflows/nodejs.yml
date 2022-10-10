@@ -39,11 +39,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build Application
-        run: pnpm build
-
       - name: Run linter
         run: pnpm lint
+
+      - name: Build Webapp
+        run: pnpm webapp build
 
       - name: Run webapp tests
         run: pnpm webapp test
