@@ -61,6 +61,7 @@ importers:
 
   packages/webapp:
     specifiers:
+      '@lautr/initium-nuxt-design': workspace:*
       '@nuxt/test-utils-edge': 3.0.0-rc.12-27746784.92ff066
       '@nuxtjs/color-mode': 3.1.8
       '@nuxtjs/tailwindcss': 5.3.3
@@ -74,6 +75,7 @@ importers:
       tailwindcss: 3.1.8
       vitest: 0.23.4
     devDependencies:
+      '@lautr/initium-nuxt-design': link:../design
       '@nuxt/test-utils-edge': 3.0.0-rc.12-27746784.92ff066
       '@nuxtjs/color-mode': 3.1.8
       '@nuxtjs/tailwindcss': 5.3.3

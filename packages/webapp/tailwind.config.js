@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    'node_modules/design/**/*.vue',
+    'node_modules/@lautr/initium-nuxt-design/**/*.vue',
   ],
   darkMode: 'class',
   theme: {

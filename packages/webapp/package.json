@@ -1,5 +1,5 @@
 {
-  "name": "webapp",
+  "name": "@lautr/initium-nuxt-webapp",
   "private": true,
   "scripts": {
     "build": "nuxi build",
@@ -10,6 +10,7 @@
     "postinstall": "nuxi prepare"
   },
   "devDependencies": {
+    "@lautr/initium-nuxt-design": "workspace:*",
     "@nuxt/test-utils-edge": "3.0.0-rc.12-27746784.92ff066",
     "@nuxtjs/color-mode": "3.1.8",
     "@nuxtjs/tailwindcss": "5.3.3",

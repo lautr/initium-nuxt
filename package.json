@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-tailwind-storybook",
+  "name": "@lautr/initium-nuxt",
   "version": "1.0.0",
   "packageManager": "pnpm@7.5.1*",
   "description": "",
@@ -12,8 +12,8 @@
   },
   "scripts": {
     "lint": "pnpm eslint .",
-    "webapp": "pnpm --filter webapp",
-    "design": "pnpm --filter design",
+    "webapp": "pnpm --filter @lautr/initium-nuxt-webapp",
+    "design": "pnpm --filter @lautr/initium-nuxt-design",
     "dev": "concurrently \"pnpm design dev\" \"pnpm webapp dev\""
   },
   "devDependencies": {
