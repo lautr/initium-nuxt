@@ -48,7 +48,7 @@ jobs:
 
       - name: Run webapp tests
         run: pnpm webapp test
-      
+
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Apply dependency update changes
