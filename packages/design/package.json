@@ -4,8 +4,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "build-storybook": "build-storybook",
     "dev": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "ci:test": "concurrently -k -s first -n \"SB,TEST\" -c \"magenta,blue\" \"pnpm build-storybook --quiet && npx http-server storybook-static --port 6006 --silent\" \"wait-on tcp:6006 && pnpm test-storybook\""
   },
   "dependencies": {
     "@nuxt/kit": "3.0.0-rc.11",
@@ -18,6 +19,7 @@
     "@storybook/addon-links": "^6.5.9",
     "@storybook/addon-postcss": "2.0.0",
     "@storybook/builder-vite": "^0.2.0",
+    "@storybook/test-runner": "0.8.0",
     "@storybook/vue3": "^6.5.9",
     "@vitejs/plugin-vue": "^3.0.0",
     "autoprefixer": "10.4.7",

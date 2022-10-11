@@ -7,8 +7,6 @@ describe('pages', async () => {
   })
   it('render index', async () => {
     const html = await $fetch('/')
-
-    // should render text
     expect(html).toContain('Authenticate')
   })
 })

@@ -5,9 +5,9 @@
     "build": "nuxi build",
     "dev": "nuxi dev",
     "start": "nuxi start",
-    "test": "vitest run",
     "coverage": "vitest run --coverage",
-    "postinstall": "nuxi prepare"
+    "postinstall": "nuxi prepare",
+    "ci:test": "vitest run"
   },
   "devDependencies": {
     "@lautr/initium-nuxt-design": "workspace:*",

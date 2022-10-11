@@ -25,12 +25,6 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.ref }}
       - run: pnpm i --lockfile-only
-      - run: |
-          git config --global user.name github-actions[bot]
-          git config --global user.email github-actions[bot]@users.noreply.github.com
-          git add pnpm-lock.yaml
-          git commit -m "Update pnpm-lock.yaml"
-          git push
       - run: pnpm install
       - name: Get pnpm store directory
         id: pnpm-cache
@@ -53,4 +47,11 @@ jobs:
         run: pnpm webapp build
 
       - name: Run webapp tests
-        run: pnpm webapp test
+        run: pnpm webapp ci:test
+
+      - name: Run & Test Design System
+        run: pnpm design ci:test
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Apply dependency update changes
