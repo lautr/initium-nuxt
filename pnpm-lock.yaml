@@ -68,7 +68,7 @@ importers:
       '@nuxtjs/tailwindcss': 5.3.3
       '@pinia/nuxt': 0.4.2
       '@vueuse/nuxt': 9.3.0
-      autoprefixer: 10.4.7
+      autoprefixer: 10.4.12
       nuxt: 3.0.0-rc.11
       pinia: 2.0.22
       postcss: 8.4.14
@@ -82,7 +82,7 @@ importers:
       '@nuxtjs/tailwindcss': 5.3.3
       '@pinia/nuxt': 0.4.2
       '@vueuse/nuxt': 9.3.0_nuxt@3.0.0-rc.11
-      autoprefixer: 10.4.7_postcss@8.4.14
+      autoprefixer: 10.4.12_postcss@8.4.14
       nuxt: 3.0.0-rc.11
       pinia: 2.0.22
       postcss: 8.4.14
@@ -5606,6 +5606,22 @@ packages:
     hasBin: true
     dev: true
 
+  /autoprefixer/10.4.12_postcss@8.4.14:
+    resolution: {integrity: sha512-WrCGV9/b97Pa+jtwf5UGaRjgQIg7OK3D06GnoYoZNcG1Xb8Gt3EfuKjlhh9i/VtT16g6PYjZ69jdJ2g8FxSC4Q==}
+    engines: {node: ^10 || ^12 || >=14}
+    hasBin: true
+    peerDependencies:
+      postcss: ^8.1.0
+    dependencies:
+      browserslist: 4.21.4
+      caniuse-lite: 1.0.30001410
+      fraction.js: 4.2.0
+      normalize-range: 0.1.2
+      picocolors: 1.0.0
+      postcss: 8.4.14
+      postcss-value-parser: 4.2.0
+    dev: true
+
   /autoprefixer/10.4.12_postcss@8.4.17:
     resolution: {integrity: sha512-WrCGV9/b97Pa+jtwf5UGaRjgQIg7OK3D06GnoYoZNcG1Xb8Gt3EfuKjlhh9i/VtT16g6PYjZ69jdJ2g8FxSC4Q==}
     engines: {node: ^10 || ^12 || >=14}
@@ -5619,22 +5635,6 @@ packages:
       normalize-range: 0.1.2
       picocolors: 1.0.0
       postcss: 8.4.17
-      postcss-value-parser: 4.2.0
-    dev: true
-
-  /autoprefixer/10.4.7_postcss@8.4.14:
-    resolution: {integrity: sha512-ypHju4Y2Oav95SipEcCcI5J7CGPuvz8oat7sUtYj3ClK44bldfvtvcxK6IEK++7rqB7YchDGzweZIBG+SD0ZAA==}
-    engines: {node: ^10 || ^12 || >=14}
-    hasBin: true
-    peerDependencies:
-      postcss: ^8.1.0
-    dependencies:
-      browserslist: 4.21.4
-      caniuse-lite: 1.0.30001410
-      fraction.js: 4.2.0
-      normalize-range: 0.1.2
-      picocolors: 1.0.0
-      postcss: 8.4.14
       postcss-value-parser: 4.2.0
     dev: true
 
