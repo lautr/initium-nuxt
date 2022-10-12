@@ -74,7 +74,7 @@ importers:
       postcss: 8.4.17
       postcss-import: 15.0.0
       tailwindcss: 3.1.8
-      vitest: 0.23.4
+      vitest: 0.24.1
     devDependencies:
       '@lautr/initium-nuxt-design': link:../design
       '@nuxt/test-utils-edge': 3.0.0-rc.12-27746784.92ff066
@@ -88,7 +88,7 @@ importers:
       postcss: 8.4.17
       postcss-import: 15.0.0_postcss@8.4.17
       tailwindcss: 3.1.8_postcss@8.4.17
-      vitest: 0.23.4
+      vitest: 0.24.1
 
 packages:
 
@@ -16660,8 +16660,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.23.4:
-    resolution: {integrity: sha512-iukBNWqQAv8EKDBUNntspLp9SfpaVFbmzmM0sNcnTxASQZMzRw3PsM6DMlsHiI+I6GeO5/sYDg3ecpC+SNFLrQ==}
+  /vitest/0.24.1:
+    resolution: {integrity: sha512-NKkK1xnDIOOr42pKBfGQQl6b6IWdFVBpG6ZS1T+nUlJuqcOiZ7lxjVwHy9wrtTYpJ0BWww9y6bSGYXubD29Nag==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
