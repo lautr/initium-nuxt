@@ -65,7 +65,7 @@ importers:
       '@lautr/initium-nuxt-design': workspace:*
       '@nuxt/test-utils-edge': 3.0.0-rc.12-27746784.92ff066
       '@nuxtjs/color-mode': 3.1.8
-      '@nuxtjs/tailwindcss': 5.3.3
+      '@nuxtjs/tailwindcss': 5.3.5
       '@pinia/nuxt': 0.4.3
       '@vueuse/nuxt': 9.3.0
       autoprefixer: 10.4.12
@@ -79,7 +79,7 @@ importers:
       '@lautr/initium-nuxt-design': link:../design
       '@nuxt/test-utils-edge': 3.0.0-rc.12-27746784.92ff066
       '@nuxtjs/color-mode': 3.1.8
-      '@nuxtjs/tailwindcss': 5.3.3
+      '@nuxtjs/tailwindcss': 5.3.5
       '@pinia/nuxt': 0.4.3
       '@vueuse/nuxt': 9.3.0_nuxt@3.0.0-rc.11
       autoprefixer: 10.4.12_postcss@8.4.17
@@ -2513,8 +2513,8 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxtjs/tailwindcss/5.3.3:
-    resolution: {integrity: sha512-1YyDcOJuZue3PtTX7c58FEIieAy0utpRa6s9nJ4BVE/UloRG2mDw4ch7s9O4afdsHiib5e7uxNfY1ZZGKupqaw==}
+  /@nuxtjs/tailwindcss/5.3.5:
+    resolution: {integrity: sha512-d6noacVfcN88R6Iqd5/kl7YyumE+EIsz6ky26JvidHtkTeAPxZt8XN/KFEMJ6xwSvhsUndrNW94XYPKv7l79jg==}
     dependencies:
       '@nuxt/kit': 3.0.0-rc.11
       '@nuxt/postcss8': 1.1.3
@@ -6752,7 +6752,7 @@ packages:
     dev: true
 
   /concat-map/0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
   /concat-stream/1.6.2:
@@ -7655,7 +7655,7 @@ packages:
     dev: true
 
   /ee-first/1.1.1:
-    resolution: {integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=}
+    resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
     dev: true
 
   /electron-to-chromium/1.4.258:
@@ -11854,7 +11854,7 @@ packages:
     dev: true
 
   /media-typer/0.3.0:
-    resolution: {integrity: sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=}
+    resolution: {integrity: sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==}
     engines: {node: '>= 0.6'}
     dev: true
 
