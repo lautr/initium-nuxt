@@ -1,5 +1,9 @@
 on:
-  - pull_request_target
+  - pull_request
+  - push
+
+permissions:
+  pull-requests: write
 
 jobs:
   cache-and-install:
