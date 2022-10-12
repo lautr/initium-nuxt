@@ -2,8 +2,7 @@ on:
   - pull_request
   - push
 
-permissions:
-  pull-requests: write
+permissions: write-all
 
 jobs:
   cache-and-install:
