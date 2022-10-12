@@ -66,7 +66,7 @@ importers:
       '@nuxt/test-utils-edge': 3.0.0-rc.12-27746784.92ff066
       '@nuxtjs/color-mode': 3.1.8
       '@nuxtjs/tailwindcss': 5.3.3
-      '@pinia/nuxt': 0.4.2
+      '@pinia/nuxt': 0.4.3
       '@vueuse/nuxt': 9.3.0
       autoprefixer: 10.4.12
       nuxt: 3.0.0-rc.11
@@ -80,7 +80,7 @@ importers:
       '@nuxt/test-utils-edge': 3.0.0-rc.12-27746784.92ff066
       '@nuxtjs/color-mode': 3.1.8
       '@nuxtjs/tailwindcss': 5.3.3
-      '@pinia/nuxt': 0.4.2
+      '@pinia/nuxt': 0.4.3
       '@vueuse/nuxt': 9.3.0_nuxt@3.0.0-rc.11
       autoprefixer: 10.4.12_postcss@8.4.17
       nuxt: 3.0.0-rc.11
@@ -2535,11 +2535,11 @@ packages:
       - webpack
     dev: true
 
-  /@pinia/nuxt/0.4.2:
-    resolution: {integrity: sha512-yPrJVFOTVDsCcwzVvElLmSFB6IKWo+0WpVmVPCZyj/LD2uNYBK8I3lTPHdZ4q/VS2Sj8LkA7aq6S8PFpwguQ0A==}
+  /@pinia/nuxt/0.4.3:
+    resolution: {integrity: sha512-pDyThvbOi9ztSPI9RDJG857Knb/mmUdDrDiLXbtLVQ3/l647jKncdP4TiRLnMlObENJjcFPEwHT7OVPq4VhQMw==}
     dependencies:
       '@nuxt/kit': 3.0.0-rc.11
-      pinia: 2.0.22
+      pinia: 2.0.23
     transitivePeerDependencies:
       - '@vue/composition-api'
       - supports-color
@@ -4738,6 +4738,10 @@ packages:
 
   /@vue/devtools-api/6.2.1:
     resolution: {integrity: sha512-OEgAMeQXvCoJ+1x8WyQuVZzFo0wcyCmUR3baRVLmKBo1LmYZWMlRiXlux5jd0fqVJu6PfDbOrZItVqUEzLobeQ==}
+    dev: true
+
+  /@vue/devtools-api/6.4.4:
+    resolution: {integrity: sha512-Ku31WzpOV/8cruFaXaEZKF81WkNnvCSlBY4eOGtz5WMSdJvX1v1WWlSMGZeqUwPtQ27ZZz7B62erEMq8JDjcXw==}
     dev: true
 
   /@vue/reactivity-transform/3.2.40:
@@ -13173,6 +13177,22 @@ packages:
       vue-demi: 0.13.4
     dev: true
 
+  /pinia/2.0.23:
+    resolution: {integrity: sha512-N15hFf4o5STrxpNrib1IEb1GOArvPYf1zPvQVRGOO1G1d74Ak0J0lVyalX/SmrzdT4Q0nlEFjbURsmBmIGUR5Q==}
+    peerDependencies:
+      '@vue/composition-api': ^1.4.0
+      typescript: '>=4.4.4'
+      vue: ^2.6.14 || ^3.2.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+      typescript:
+        optional: true
+    dependencies:
+      '@vue/devtools-api': 6.4.4
+      vue-demi: 0.13.4
+    dev: true
+
   /pinkie-promise/2.0.1:
     resolution: {integrity: sha512-0Gni6D4UcLTbv9c57DfxDGdr41XfgUjqWZu492f0cIGr16zDU06BWP/RAEvOuo7CQ0CNjHaLlM59YJJFm3NWlw==}
     engines: {node: '>=0.10.0'}
@@ -16884,7 +16904,7 @@ packages:
     peerDependencies:
       vue: ^3.2.0
     dependencies:
-      '@vue/devtools-api': 6.2.1
+      '@vue/devtools-api': 6.4.4
       vue: 3.2.40
     dev: true
 
