@@ -4,12 +4,15 @@ const emit = defineEmits<{
 }>()
 
 const identity = ref(null)
+const onSignIn = () => {
+  emit('signIn', identity)
+}
 </script>
 
 <template>
   <form
     class="flex flex-col space-y-2"
-    @submit.prevent="emit('signIn', identity)"
+    @submit.prevent="onSignIn"
   >
     <UiInput
       v-model="identity"
