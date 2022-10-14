@@ -23,6 +23,9 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@lautr/initium-nuxt-design/nuxt',
   ],
+  tailwindcss: {
+    viewer: false,
+  },
   typescript: {
     shim: false,
   },
