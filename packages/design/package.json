@@ -13,7 +13,7 @@
     "@nuxt/kit": "3.0.0-rc.11",
     "@storybook/addon-actions": "6.5.12",
     "@storybook/addon-essentials": "6.5.12",
-    "@storybook/addon-links": "6.5.12",
+    "@storybook/addon-links": "6.5.13",
     "@storybook/addon-postcss": "2.0.0",
     "@storybook/builder-vite": "0.2.4",
     "@storybook/test-runner": "0.9.0",
