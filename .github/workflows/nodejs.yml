@@ -23,11 +23,6 @@ jobs:
           version: 7
 
       - uses: actions/checkout@v3
-        name: fix lockfile and install packages
-        with:
-          ref: ${{ github.event.pull_request.head.ref }}
-      - run: pnpm i --lockfile-only
-      - run: pnpm install
       - name: Get pnpm store directory
         id: pnpm-cache
         run: |
@@ -53,7 +48,3 @@ jobs:
 
       - name: Run & Test Design System
         run: pnpm design ci:test
-
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Apply dependency update changes
