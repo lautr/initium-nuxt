@@ -11,7 +11,7 @@
   "devDependencies": {
     "@babel/core": "7.19.6",
     "@nuxt/kit": "3.0.0-rc.11",
-    "@storybook/addon-actions": "6.5.12",
+    "@storybook/addon-actions": "6.5.13",
     "@storybook/addon-essentials": "6.5.12",
     "@storybook/addon-links": "6.5.12",
     "@storybook/addon-postcss": "2.0.0",
