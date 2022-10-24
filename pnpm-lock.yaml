@@ -17,7 +17,7 @@ importers:
   packages/design:
     specifiers:
       '@babel/core': 7.19.6
-      '@nuxt/kit': 3.0.0-rc.11
+      '@nuxt/kit': 3.0.0-rc.12
       '@storybook/addon-actions': 6.5.12
       '@storybook/addon-essentials': 6.5.12
       '@storybook/addon-links': 6.5.12
@@ -39,7 +39,7 @@ importers:
       vue-tsc: 1.0.8
     devDependencies:
       '@babel/core': 7.19.6
-      '@nuxt/kit': 3.0.0-rc.11
+      '@nuxt/kit': 3.0.0-rc.12
       '@storybook/addon-actions': 6.5.12
       '@storybook/addon-essentials': 6.5.12_zom5z4pcv5rohtsyp4g7bw37py
       '@storybook/addon-links': 6.5.12
@@ -51,7 +51,7 @@ importers:
       autoprefixer: 10.4.12_postcss@8.4.18
       babel-loader: 8.2.5_@babel+core@7.19.6
       postcss: 8.4.18
-      tailwindcss: 3.1.8_postcss@8.4.18
+      tailwindcss: 3.1.8
       typescript: 4.8.4
       unplugin-auto-import: 0.11.2
       unplugin-vue-components: 0.22.8_vue@3.2.41
@@ -87,7 +87,7 @@ importers:
       pinia: 2.0.23
       postcss: 8.4.18
       postcss-import: 15.0.0_postcss@8.4.18
-      tailwindcss: 3.2.0_postcss@8.4.18
+      tailwindcss: 3.2.0
       vitest: 0.24.3
 
 packages:
@@ -2700,7 +2700,7 @@ packages:
       postcss-custom-properties: 12.1.9_postcss@8.4.18
       postcss-nesting: 10.2.0_postcss@8.4.18
       tailwind-config-viewer: 1.7.2_tailwindcss@3.2.0
-      tailwindcss: 3.2.0_postcss@8.4.18
+      tailwindcss: 3.2.0
       ufo: 0.8.5
     transitivePeerDependencies:
       - supports-color
@@ -16070,17 +16070,15 @@ packages:
       open: 7.4.2
       portfinder: 1.0.32
       replace-in-file: 6.3.5
-      tailwindcss: 3.2.0_postcss@8.4.18
+      tailwindcss: 3.2.0
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /tailwindcss/3.1.8_postcss@8.4.18:
+  /tailwindcss/3.1.8:
     resolution: {integrity: sha512-YSneUCZSFDYMwk+TGq8qYFdCA3yfBRdBlS7txSq0LUmzyeqRe3a8fBQzbz9M3WS/iFT4BNf/nmw9mEzrnSaC0g==}
     engines: {node: '>=12.13.0'}
     hasBin: true
-    peerDependencies:
-      postcss: ^8.0.9
     dependencies:
       arg: 5.0.2
       chokidar: 3.5.3
@@ -16108,12 +16106,10 @@ packages:
       - ts-node
     dev: true
 
-  /tailwindcss/3.2.0_postcss@8.4.18:
+  /tailwindcss/3.2.0:
     resolution: {integrity: sha512-ARh/W0uH5UlWIC2nn02V0+5fyF0k6qZliyt4QYic2upOhPUE/Spu1EURNc9txJ3+4j8OEmdigqfDpw4d2tA4vA==}
     engines: {node: '>=12.13.0'}
     hasBin: true
-    peerDependencies:
-      postcss: ^8.0.9
     dependencies:
       arg: 5.0.2
       chokidar: 3.5.3
