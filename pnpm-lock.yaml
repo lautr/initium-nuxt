@@ -73,7 +73,7 @@ importers:
       pinia: 2.0.23
       postcss: 8.4.18
       postcss-import: 15.0.0
-      tailwindcss: 3.2.0
+      tailwindcss: 3.2.1
       vitest: 0.24.3
     devDependencies:
       '@lautr/initium-nuxt-design': link:../design
@@ -87,7 +87,7 @@ importers:
       pinia: 2.0.23
       postcss: 8.4.18
       postcss-import: 15.0.0_postcss@8.4.18
-      tailwindcss: 3.2.0_postcss@8.4.18
+      tailwindcss: 3.2.1_postcss@8.4.18
       vitest: 0.24.3
 
 packages:
@@ -2699,8 +2699,8 @@ packages:
       postcss: 8.4.18
       postcss-custom-properties: 12.1.9_postcss@8.4.18
       postcss-nesting: 10.2.0_postcss@8.4.18
-      tailwind-config-viewer: 1.7.2_tailwindcss@3.2.0
-      tailwindcss: 3.2.0_postcss@8.4.18
+      tailwind-config-viewer: 1.7.2_tailwindcss@3.2.1
+      tailwindcss: 3.2.1_postcss@8.4.18
       ufo: 0.8.5
     transitivePeerDependencies:
       - supports-color
@@ -16055,7 +16055,7 @@ packages:
     resolution: {integrity: sha512-qImOD23aDfnIDNqlG1NOehdB9IYsn1V9oByPjKY1nakv2MQYCEMyX033/q+aEtYCpmYK1cv2+NTmlH+ra6GA5A==}
     dev: true
 
-  /tailwind-config-viewer/1.7.2_tailwindcss@3.2.0:
+  /tailwind-config-viewer/1.7.2_tailwindcss@3.2.1:
     resolution: {integrity: sha512-3JJCeAAlvG+i/EBj+tQb0x4weo30QjdSAo4hlcnVbtD+CkpzHi/UwU9InbPMcYH+ESActoa2kCyjpLEyjEkn0Q==}
     engines: {node: '>=8'}
     hasBin: true
@@ -16070,7 +16070,7 @@ packages:
       open: 7.4.2
       portfinder: 1.0.32
       replace-in-file: 6.3.5
-      tailwindcss: 3.2.0_postcss@8.4.18
+      tailwindcss: 3.2.1_postcss@8.4.18
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -16108,8 +16108,8 @@ packages:
       - ts-node
     dev: true
 
-  /tailwindcss/3.2.0_postcss@8.4.18:
-    resolution: {integrity: sha512-ARh/W0uH5UlWIC2nn02V0+5fyF0k6qZliyt4QYic2upOhPUE/Spu1EURNc9txJ3+4j8OEmdigqfDpw4d2tA4vA==}
+  /tailwindcss/3.2.1_postcss@8.4.18:
+    resolution: {integrity: sha512-Uw+GVSxp5CM48krnjHObqoOwlCt5Qo6nw1jlCRwfGy68dSYb/LwS9ZFidYGRiM+w6rMawkZiu1mEMAsHYAfoLg==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
@@ -16125,6 +16125,7 @@ packages:
       glob-parent: 6.0.2
       is-glob: 4.0.3
       lilconfig: 2.0.6
+      micromatch: 4.0.5
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.0.0
