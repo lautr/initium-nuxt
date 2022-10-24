@@ -5,19 +5,19 @@ importers:
   .:
     specifiers:
       '@antfu/eslint-config': 0.27.0
-      concurrently: 7.4.0
+      concurrently: 7.5.0
       eslint: 8.25.0
       typescript: 4.8.4
     devDependencies:
       '@antfu/eslint-config': 0.27.0_z4bbprzjrhnsfa24uvmcbu7f5q
-      concurrently: 7.4.0
+      concurrently: 7.5.0
       eslint: 8.25.0
       typescript: 4.8.4
 
   packages/design:
     specifiers:
       '@babel/core': 7.19.6
-      '@nuxt/kit': 3.0.0-rc.11
+      '@nuxt/kit': 3.0.0-rc.12
       '@storybook/addon-actions': 6.5.12
       '@storybook/addon-essentials': 6.5.12
       '@storybook/addon-links': 6.5.12
@@ -40,7 +40,7 @@ importers:
       vue-tsc: 1.0.8
     devDependencies:
       '@babel/core': 7.19.6
-      '@nuxt/kit': 3.0.0-rc.11
+      '@nuxt/kit': 3.0.0-rc.12
       '@storybook/addon-actions': 6.5.12
       '@storybook/addon-essentials': 6.5.12_zom5z4pcv5rohtsyp4g7bw37py
       '@storybook/addon-links': 6.5.12
@@ -53,7 +53,7 @@ importers:
       babel-loader: 8.2.5_@babel+core@7.19.6
       playwright: 1.27.1
       postcss: 8.4.18
-      tailwindcss: 3.1.8_postcss@8.4.18
+      tailwindcss: 3.1.8
       typescript: 4.8.4
       unplugin-auto-import: 0.11.2
       unplugin-vue-components: 0.22.8_vue@3.2.41
@@ -65,7 +65,7 @@ importers:
   packages/webapp:
     specifiers:
       '@lautr/initium-nuxt-design': workspace:*
-      '@nuxt/test-utils-edge': 3.0.0-rc.12-27765227.8f7a7ec
+      '@nuxt/test-utils-edge': 3.0.0-rc.13-27776700.5a88510
       '@nuxtjs/color-mode': 3.1.8
       '@nuxtjs/tailwindcss': 5.3.5
       '@pinia/nuxt': 0.4.3
@@ -79,7 +79,7 @@ importers:
       vitest: 0.24.3
     devDependencies:
       '@lautr/initium-nuxt-design': link:../design
-      '@nuxt/test-utils-edge': 3.0.0-rc.12-27765227.8f7a7ec
+      '@nuxt/test-utils-edge': 3.0.0-rc.13-27776700.5a88510
       '@nuxtjs/color-mode': 3.1.8
       '@nuxtjs/tailwindcss': 5.3.5
       '@pinia/nuxt': 0.4.3
@@ -89,7 +89,7 @@ importers:
       pinia: 2.0.23
       postcss: 8.4.18
       postcss-import: 15.0.0_postcss@8.4.18
-      tailwindcss: 3.2.0_postcss@8.4.18
+      tailwindcss: 3.2.0
       vitest: 0.24.3
 
 packages:
@@ -2426,11 +2426,11 @@ packages:
     resolution: {integrity: sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==}
     dev: true
 
-  /@nuxt/kit-edge/3.0.0-rc.12-27765227.8f7a7ec:
-    resolution: {integrity: sha512-cTdY2cdKd6qUBetIsDbp1cteIK8czu4k4bLmvvDBkxdZvI7hUctbJP6JQHUcPKRmC3AKyaEl6p7TaXx3BjEt1A==}
-    engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0}
+  /@nuxt/kit-edge/3.0.0-rc.13-27776700.5a88510:
+    resolution: {integrity: sha512-+FayTCTk6iPacTkI3PqUUdQBC9WDhS5VBfnC5r6EUKH2pL55ZEHKU8Pv+56Uu3NOTojQz4fcq2DyFKJlyNaVhA==}
+    engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     dependencies:
-      '@nuxt/schema': /@nuxt/schema-edge/3.0.0-rc.12-27765227.8f7a7ec
+      '@nuxt/schema': /@nuxt/schema-edge/3.0.0-rc.13-27776700.5a88510
       c12: 0.2.13
       consola: 2.15.3
       defu: 6.1.0
@@ -2519,9 +2519,9 @@ packages:
       - webpack
     dev: true
 
-  /@nuxt/schema-edge/3.0.0-rc.12-27765227.8f7a7ec:
-    resolution: {integrity: sha512-KrnsT7vuRoPmDeWrP6qCBbypyJRGSf5SRnnDmKFUQzf3PmGgzG6A8I9i3NnOWxYiZf8Caz8hMuQKkQaG14NhPw==}
-    engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0}
+  /@nuxt/schema-edge/3.0.0-rc.13-27776700.5a88510:
+    resolution: {integrity: sha512-R6qkMxXiJvkhv8wFqNv1f1yTN7X9ROBgHLbmNSowNmWZPAncV5jKFaFNbeF5NCQEG6sd5aORNHSNs7nMPdIsLw==}
+    engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     dependencies:
       c12: 0.2.13
       create-require: 1.1.1
@@ -2586,7 +2586,7 @@ packages:
       consola: 2.15.3
       create-require: 1.1.1
       defu: 6.1.0
-      destr: 1.1.1
+      destr: 1.2.0
       dotenv: 16.0.3
       fs-extra: 10.1.0
       git-url-parse: 13.1.0
@@ -2604,20 +2604,20 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/test-utils-edge/3.0.0-rc.12-27765227.8f7a7ec:
-    resolution: {integrity: sha512-BgsVhhmoeub0AD4feK/XR+TFiLSj9BH2IPPN7zF9fHqzkkq/zlanAW/+i3iEywbzJoPomYtOjTFvnNPhZJA/Cw==}
-    engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0}
+  /@nuxt/test-utils-edge/3.0.0-rc.13-27776700.5a88510:
+    resolution: {integrity: sha512-uxfu3jJ3fCfBJ91173W7cthfql+Kzf/TnkBFENKeSU065b9XWHBS68x5C7vBewvAGhjqZU1VyvqhGQ6Y5Xo7fw==}
+    engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     peerDependencies:
       vue: ^3.2.41
     dependencies:
-      '@nuxt/kit': /@nuxt/kit-edge/3.0.0-rc.12-27765227.8f7a7ec
-      '@nuxt/schema': /@nuxt/schema-edge/3.0.0-rc.12-27765227.8f7a7ec
+      '@nuxt/kit': /@nuxt/kit-edge/3.0.0-rc.13-27776700.5a88510
+      '@nuxt/schema': /@nuxt/schema-edge/3.0.0-rc.13-27776700.5a88510
       consola: 2.15.3
       defu: 6.1.0
       execa: 6.1.0
       get-port-please: 2.6.1
       jiti: 1.16.0
-      ohmyfetch: 0.4.19
+      ohmyfetch: 0.4.20
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2702,7 +2702,7 @@ packages:
       postcss-custom-properties: 12.1.9_postcss@8.4.18
       postcss-nesting: 10.2.0_postcss@8.4.18
       tailwind-config-viewer: 1.7.2_tailwindcss@3.2.0
-      tailwindcss: 3.2.0_postcss@8.4.18
+      tailwindcss: 3.2.0
       ufo: 0.8.5
     transitivePeerDependencies:
       - supports-color
@@ -6964,15 +6964,15 @@ packages:
       typedarray: 0.0.6
     dev: true
 
-  /concurrently/7.4.0:
-    resolution: {integrity: sha512-M6AfrueDt/GEna/Vg9BqQ+93yuvzkSKmoTixnwEJkH0LlcGrRC2eCmjeG1tLLHIYfpYJABokqSGyMcXjm96AFA==}
+  /concurrently/7.5.0:
+    resolution: {integrity: sha512-5E3mwiS+i2JYBzr5BpXkFxOnleZTMsG+WnE/dCG4/P+oiVXrbmrBwJ2ozn4SxwB2EZDrKR568X+puVohxz3/Mg==}
     engines: {node: ^12.20.0 || ^14.13.0 || >=16.0.0}
     hasBin: true
     dependencies:
       chalk: 4.1.2
       date-fns: 2.29.3
       lodash: 4.17.21
-      rxjs: 7.5.6
+      rxjs: 7.5.7
       shell-quote: 1.7.3
       spawn-command: 0.0.2-1
       supports-color: 8.1.1
@@ -13106,15 +13106,6 @@ packages:
     resolution: {integrity: sha512-qynly1AFIpGWEAW88p6DhMNqok/Swb52/KsiU+Toi7er058Ptvno3tkfTML6wYcEgFgp2GsUziW4Nqn62ciuyw==}
     dev: true
 
-  /ohmyfetch/0.4.19:
-    resolution: {integrity: sha512-OH2xVeRPNsHkx+JFdq1ewe9EwVDfTrv6lsBHpIx8wIWXowP5FyLhhYVaXIVlPsW542rt7gmwK14FwIDWUXEO+Q==}
-    dependencies:
-      destr: 1.2.0
-      node-fetch-native: 0.1.8
-      ufo: 0.8.6
-      undici: 5.11.0
-    dev: true
-
   /ohmyfetch/0.4.20:
     resolution: {integrity: sha512-+c3/l+X91owrT1reTos1R13rb2j8NGZpKi0bRWwrnxIHlr1FZ8NzghIsNBKpUvk9nsnFoNK4phw+nTnXrcALzA==}
     dependencies:
@@ -15215,12 +15206,6 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /rxjs/7.5.6:
-    resolution: {integrity: sha512-dnyv2/YsXhnm461G+R/Pe5bWP41Nm6LBXEYWI6eiFP4fiwx6WRI/CD0zbdVAudd9xwLEF2IDcKXLHit0FYjUzw==}
-    dependencies:
-      tslib: 2.4.0
-    dev: true
-
   /rxjs/7.5.7:
     resolution: {integrity: sha512-z9MzKh/UcOqB3i20H6rtrlaE/CgjLOvheWK/9ILrbhROGTweAi1BaFsTT9FbwZi5Trr1qNRs+MXkhmR06awzQA==}
     dependencies:
@@ -16073,17 +16058,15 @@ packages:
       open: 7.4.2
       portfinder: 1.0.32
       replace-in-file: 6.3.5
-      tailwindcss: 3.2.0_postcss@8.4.18
+      tailwindcss: 3.2.0
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /tailwindcss/3.1.8_postcss@8.4.18:
+  /tailwindcss/3.1.8:
     resolution: {integrity: sha512-YSneUCZSFDYMwk+TGq8qYFdCA3yfBRdBlS7txSq0LUmzyeqRe3a8fBQzbz9M3WS/iFT4BNf/nmw9mEzrnSaC0g==}
     engines: {node: '>=12.13.0'}
     hasBin: true
-    peerDependencies:
-      postcss: ^8.0.9
     dependencies:
       arg: 5.0.2
       chokidar: 3.5.3
@@ -16111,12 +16094,10 @@ packages:
       - ts-node
     dev: true
 
-  /tailwindcss/3.2.0_postcss@8.4.18:
+  /tailwindcss/3.2.0:
     resolution: {integrity: sha512-ARh/W0uH5UlWIC2nn02V0+5fyF0k6qZliyt4QYic2upOhPUE/Spu1EURNc9txJ3+4j8OEmdigqfDpw4d2tA4vA==}
     engines: {node: '>=12.13.0'}
     hasBin: true
-    peerDependencies:
-      postcss: ^8.0.9
     dependencies:
       arg: 5.0.2
       chokidar: 3.5.3

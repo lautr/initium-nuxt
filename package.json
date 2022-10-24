@@ -1,7 +1,7 @@
 {
   "name": "@lautr/initium-nuxt",
   "version": "1.0.0",
-  "packageManager": "pnpm@7.5.1*",
+  "packageManager": "pnpm@7.14",
   "description": "",
   "author": "",
   "license": "ISC",
@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "0.27.0",
-    "concurrently": "7.4.0",
+    "concurrently": "7.5.0",
     "eslint": "8.25.0",
     "typescript": "4.8.4"
   }
