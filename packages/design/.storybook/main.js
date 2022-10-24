@@ -23,6 +23,8 @@ module.exports = {
   async viteFinal(config, {
     configType
   }) {
+    console.log(config)
+
     // return the customized config
     return mergeConfig(config, {
       // customize the Vite config here
@@ -53,17 +55,20 @@ module.exports = {
       })]
     });
   },
-
-  "stories": ["../stories/*.stories.mdx", "../stories/*.stories.js"],
-  "addons": ["@storybook/addon-links", "@storybook/addon-essentials", {
-    name: "@storybook/addon-postcss",
-    options: {
-      postcssLoaderOptions: {
-        implementation: require("postcss")
+  stories: ["../stories/*.stories.mdx", "../stories/*.stories.js"],
+  addons: [
+    "@storybook/addon-links",
+    "@storybook/addon-essentials",
+    {
+      name: "@storybook/addon-postcss",
+      options: {
+        postcssLoaderOptions: {
+          implementation: require("postcss")
+        }
       }
     }
-  }],
-  "framework": {
+  ],
+  framework: {
     name: "@storybook/vue3-vite",
     options: {}
   },
