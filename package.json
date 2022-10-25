@@ -8,7 +8,7 @@
   "keywords": [],
   "main": "index.js",
   "engines": {
-    "node": "16.*"
+    "node": "18.*"
   },
   "scripts": {
     "lint": "pnpm eslint .",
