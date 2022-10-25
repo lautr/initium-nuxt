@@ -65,7 +65,7 @@ importers:
   packages/webapp:
     specifiers:
       '@lautr/initium-nuxt-design': workspace:*
-      '@nuxt/test-utils-edge': 3.0.0-rc.13-27777092.59d8c51
+      '@nuxt/test-utils-edge': 3.0.0-rc.13-27778536.1d795f0
       '@nuxtjs/color-mode': 3.1.8
       '@nuxtjs/tailwindcss': 6.1.1
       '@pinia/nuxt': 0.4.3
@@ -79,7 +79,7 @@ importers:
       vitest: 0.24.3
     devDependencies:
       '@lautr/initium-nuxt-design': link:../design
-      '@nuxt/test-utils-edge': 3.0.0-rc.13-27777092.59d8c51
+      '@nuxt/test-utils-edge': 3.0.0-rc.13-27778536.1d795f0
       '@nuxtjs/color-mode': 3.1.8
       '@nuxtjs/tailwindcss': 6.1.1
       '@pinia/nuxt': 0.4.3
@@ -2306,11 +2306,11 @@ packages:
     resolution: {integrity: sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==}
     dev: true
 
-  /@nuxt/kit-edge/3.0.0-rc.13-27777092.59d8c51:
-    resolution: {integrity: sha512-qz99ygNMr1pNmIMPD5Cw6IxIDPV/NSoAWhn/+6KhKeCW2K6hlWo3KF7D9CChnN5DzXhvv/hPHxnEnNEj77jMoQ==}
+  /@nuxt/kit-edge/3.0.0-rc.13-27778536.1d795f0:
+    resolution: {integrity: sha512-9az7VeECobAxS8M1xfBL6E+daVDpYBYUhsNm+YFqq6B+7wVVIOi3oatbmBVJVeMC+ypEpI3n1TR4GP+OkcoGNQ==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     dependencies:
-      '@nuxt/schema': /@nuxt/schema-edge/3.0.0-rc.13-27777092.59d8c51
+      '@nuxt/schema': /@nuxt/schema-edge/3.0.0-rc.13-27778536.1d795f0
       c12: 0.2.13
       consola: 2.15.3
       defu: 6.1.0
@@ -2399,8 +2399,8 @@ packages:
       - webpack
     dev: true
 
-  /@nuxt/schema-edge/3.0.0-rc.13-27777092.59d8c51:
-    resolution: {integrity: sha512-bcvZh3zkQd0xmahcM/Q0avUHz51jk/81SWr9LMKeiPWql1BGzUkBn+u3YhMqGFvq1fHHdfu+9j/aYVAVxppCfQ==}
+  /@nuxt/schema-edge/3.0.0-rc.13-27778536.1d795f0:
+    resolution: {integrity: sha512-V5PcxWmWdsEH0LrLIzm6E+4uphwmDmQBaftIb/h+BYbC6q4C9J1RZkHAySKHQ9syp7QEaFnGWKM5IQZA/BrthA==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     dependencies:
       c12: 0.2.13
@@ -2484,14 +2484,14 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/test-utils-edge/3.0.0-rc.13-27777092.59d8c51:
-    resolution: {integrity: sha512-Ykxh+OpQ3JZd1kXUL2irXD1fiwRx43AIBdZTTko7RXIxjZafAQ8aLoFj/H8WMkwu1Kug6+ALmvwu1dAuPW3hGg==}
+  /@nuxt/test-utils-edge/3.0.0-rc.13-27778536.1d795f0:
+    resolution: {integrity: sha512-BOz9Y5YXq24MFlFQaaxqm9M6bU7VDzyLGwv+4LjpjcspvoUQt7vHiJlkNkzB4bYku1weqBMhdU/8j/z3XqQtmQ==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     peerDependencies:
       vue: ^3.2.41
     dependencies:
-      '@nuxt/kit': /@nuxt/kit-edge/3.0.0-rc.13-27777092.59d8c51
-      '@nuxt/schema': /@nuxt/schema-edge/3.0.0-rc.13-27777092.59d8c51
+      '@nuxt/kit': /@nuxt/kit-edge/3.0.0-rc.13-27778536.1d795f0
+      '@nuxt/schema': /@nuxt/schema-edge/3.0.0-rc.13-27778536.1d795f0
       consola: 2.15.3
       defu: 6.1.0
       execa: 6.1.0
