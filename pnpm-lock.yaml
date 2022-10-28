@@ -67,7 +67,7 @@ importers:
       '@lautr/initium-nuxt-design': workspace:*
       '@nuxt/test-utils-edge': 3.0.0-rc.13-27781436.1f6b3be
       '@nuxtjs/color-mode': 3.1.8
-      '@nuxtjs/tailwindcss': 6.1.1
+      '@nuxtjs/tailwindcss': 6.1.2
       '@pinia/nuxt': 0.4.3
       '@vueuse/nuxt': 9.4.0
       autoprefixer: 10.4.13
@@ -81,7 +81,7 @@ importers:
       '@lautr/initium-nuxt-design': link:../design
       '@nuxt/test-utils-edge': 3.0.0-rc.13-27781436.1f6b3be
       '@nuxtjs/color-mode': 3.1.8
-      '@nuxtjs/tailwindcss': 6.1.1
+      '@nuxtjs/tailwindcss': 6.1.2
       '@pinia/nuxt': 0.4.3
       '@vueuse/nuxt': 9.4.0_nuxt@3.0.0-rc.12
       autoprefixer: 10.4.13_postcss@8.4.18
@@ -2554,8 +2554,8 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxtjs/tailwindcss/6.1.1:
-    resolution: {integrity: sha512-8yrGk2y7IUAMOW3+b0S/nWQmyZXtLge7pYYDXfiEhU4voL7zMoMdtp+ovmUr5LvTuEn3w5zCDczaBexvy0nmDw==}
+  /@nuxtjs/tailwindcss/6.1.2:
+    resolution: {integrity: sha512-cIyqbyvceZS9DGiDYwwBlUS7vB6gOlBnvQ2QAAvrL2VzK0MA4AH2yaqCLJuHrzvLUp1v3uRw22KLvY6w2t8pCQ==}
     dependencies:
       '@nuxt/kit': 3.0.0-rc.12
       '@nuxt/postcss8': 1.1.3
