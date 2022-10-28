@@ -36,7 +36,7 @@ importers:
       unplugin-vue-components: 0.22.9
       vite: 3.2.1
       vue: 3.2.41
-      vue-loader: 17.0.0
+      vue-loader: 17.0.1
       vue-tsc: 1.0.9
     devDependencies:
       '@babel/core': 7.19.6
@@ -59,7 +59,7 @@ importers:
       unplugin-vue-components: 0.22.9_vue@3.2.41
       vite: 3.2.1
       vue: 3.2.41
-      vue-loader: 17.0.0
+      vue-loader: 17.0.1_vue@3.2.41
       vue-tsc: 1.0.9_typescript@4.8.4
 
   packages/webapp:
@@ -17261,14 +17261,22 @@ packages:
       webpack: 5.74.0
     dev: true
 
-  /vue-loader/17.0.0:
-    resolution: {integrity: sha512-OWSXjrzIvbF2LtOUmxT3HYgwwubbfFelN8PAP9R9dwpIkj48TVioHhWWSx7W7fk+iF5cgg3CBJRxwTdtLU4Ecg==}
+  /vue-loader/17.0.1_vue@3.2.41:
+    resolution: {integrity: sha512-/OOyugJnImKCkAKrAvdsWMuwoCqGxWT5USLsjohzWbMgOwpA5wQmzQiLMzZd7DjhIfunzAGIApTOgIylz/kwcg==}
     peerDependencies:
+      '@vue/compiler-sfc': '*'
+      vue: '*'
       webpack: ^4.1.0 || ^5.0.0-0
+    peerDependenciesMeta:
+      '@vue/compiler-sfc':
+        optional: true
+      vue:
+        optional: true
     dependencies:
       chalk: 4.1.2
       hash-sum: 2.0.0
       loader-utils: 2.0.2
+      vue: 3.2.41
     dev: true
 
   /vue-router/4.1.5_vue@3.2.41:
