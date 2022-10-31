@@ -20,11 +20,7 @@ const path = require('path');
 //   }
 // }
 module.exports = {
-  async viteFinal(config, {
-    configType
-  }) {
-    console.log(config)
-
+  async viteFinal(config) {
     // return the customized config
     return mergeConfig(config, {
       // customize the Vite config here
@@ -53,7 +49,7 @@ module.exports = {
         }]
         // dirs: ['components']
       })]
-    });
+    })
   },
   stories: ["../stories/*.stories.mdx", "../stories/*.stories.js"],
   addons: [

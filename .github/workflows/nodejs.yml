@@ -17,17 +17,12 @@ jobs:
         with:
           node-version: 16
 
-      - uses: pnpm/action-setup@v2.0.1
+      - uses: pnpm/action-setup@v2.2.4
         name: Install pnpm
         with:
           version: 7
 
       - uses: actions/checkout@v3
-        name: fix lockfile and install packages
-        with:
-          ref: ${{ github.event.pull_request.head.ref }}
-      - run: pnpm i --lockfile-only
-      - run: pnpm install
       - name: Get pnpm store directory
         id: pnpm-cache
         run: |
@@ -42,6 +37,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Install Playwright
+        run: pnpm dlx playwright install
+
       - name: Run linter
         run: pnpm lint
 
@@ -53,7 +51,3 @@ jobs:
 
       - name: Run & Test Design System
         run: pnpm design ci:test
-
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Apply dependency update changes

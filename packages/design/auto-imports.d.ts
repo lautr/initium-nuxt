@@ -36,6 +36,7 @@ declare global {
   const readonly: typeof import('vue')['readonly']
   const ref: typeof import('vue')['ref']
   const resolveComponent: typeof import('vue')['resolveComponent']
+  const resolveDirective: typeof import('vue')['resolveDirective']
   const shallowReactive: typeof import('vue')['shallowReactive']
   const shallowReadonly: typeof import('vue')['shallowReadonly']
   const shallowRef: typeof import('vue')['shallowRef']
@@ -55,7 +56,7 @@ declare global {
 }
 // for vue template auto import
 import { UnwrapRef } from 'vue'
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   interface ComponentCustomProperties {
     readonly EffectScope: UnwrapRef<typeof import('vue')['EffectScope']>
     readonly computed: UnwrapRef<typeof import('vue')['computed']>
@@ -92,6 +93,7 @@ declare module '@vue/runtime-core' {
     readonly readonly: UnwrapRef<typeof import('vue')['readonly']>
     readonly ref: UnwrapRef<typeof import('vue')['ref']>
     readonly resolveComponent: UnwrapRef<typeof import('vue')['resolveComponent']>
+    readonly resolveDirective: UnwrapRef<typeof import('vue')['resolveDirective']>
     readonly shallowReactive: UnwrapRef<typeof import('vue')['shallowReactive']>
     readonly shallowReadonly: UnwrapRef<typeof import('vue')['shallowReadonly']>
     readonly shallowRef: UnwrapRef<typeof import('vue')['shallowRef']>
