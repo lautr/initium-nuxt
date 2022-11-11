@@ -30,7 +30,7 @@ importers:
       babel-loader: 9.1.0
       playwright: 1.27.1
       postcss: 8.4.19
-      tailwindcss: 3.2.3
+      tailwindcss: 3.2.4
       typescript: 4.8.4
       unplugin-auto-import: 0.11.4
       unplugin-vue-components: 0.22.9
@@ -53,7 +53,7 @@ importers:
       babel-loader: 9.1.0_@babel+core@7.20.2
       playwright: 1.27.1
       postcss: 8.4.19
-      tailwindcss: 3.2.3_postcss@8.4.19
+      tailwindcss: 3.2.4_postcss@8.4.19
       typescript: 4.8.4
       unplugin-auto-import: 0.11.4
       unplugin-vue-components: 0.22.9_vue@3.2.45
@@ -75,7 +75,7 @@ importers:
       pinia: 2.0.23
       postcss: 8.4.19
       postcss-import: 15.0.0
-      tailwindcss: 3.2.3
+      tailwindcss: 3.2.4
       vitest: 0.25.1
     devDependencies:
       '@lautr/initium-nuxt-design': link:../design
@@ -89,7 +89,7 @@ importers:
       pinia: 2.0.23
       postcss: 8.4.19
       postcss-import: 15.0.0_postcss@8.4.19
-      tailwindcss: 3.2.3_postcss@8.4.19
+      tailwindcss: 3.2.4_postcss@8.4.19
       vitest: 0.25.1
 
 packages:
@@ -2580,8 +2580,8 @@ packages:
       postcss: 8.4.19
       postcss-custom-properties: 12.1.9_postcss@8.4.19
       postcss-nesting: 10.2.0_postcss@8.4.19
-      tailwind-config-viewer: 1.7.2_tailwindcss@3.2.3
-      tailwindcss: 3.2.3_postcss@8.4.19
+      tailwind-config-viewer: 1.7.2_tailwindcss@3.2.4
+      tailwindcss: 3.2.4_postcss@8.4.19
       ufo: 0.8.6
     transitivePeerDependencies:
       - rollup
@@ -16000,7 +16000,7 @@ packages:
     resolution: {integrity: sha512-qImOD23aDfnIDNqlG1NOehdB9IYsn1V9oByPjKY1nakv2MQYCEMyX033/q+aEtYCpmYK1cv2+NTmlH+ra6GA5A==}
     dev: true
 
-  /tailwind-config-viewer/1.7.2_tailwindcss@3.2.3:
+  /tailwind-config-viewer/1.7.2_tailwindcss@3.2.4:
     resolution: {integrity: sha512-3JJCeAAlvG+i/EBj+tQb0x4weo30QjdSAo4hlcnVbtD+CkpzHi/UwU9InbPMcYH+ESActoa2kCyjpLEyjEkn0Q==}
     engines: {node: '>=8'}
     hasBin: true
@@ -16015,13 +16015,13 @@ packages:
       open: 7.4.2
       portfinder: 1.0.32
       replace-in-file: 6.3.5
-      tailwindcss: 3.2.3_postcss@8.4.19
+      tailwindcss: 3.2.4_postcss@8.4.19
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /tailwindcss/3.2.3_postcss@8.4.19:
-    resolution: {integrity: sha512-Xt9D4PK4zuuQCEB8bwK9JUCKmTgUwyac/6b0/42Vqhgl6YJkep+Wf5wq+5uXYfmrupdAD0YY2NY1hyZp1HjRrg==}
+  /tailwindcss/3.2.4_postcss@8.4.19:
+    resolution: {integrity: sha512-AhwtHCKMtR71JgeYDaswmZXhPcW9iuI9Sp2LvZPo9upDZ7231ZJ7eA9RaURbhpXGVlrjX4cFNlB4ieTetEb7hQ==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
