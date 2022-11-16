@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.20.2",
-    "@nuxt/kit": "3.0.0-rc.14",
+    "@nuxt/kit": "3.0.0",
     "@storybook/addon-actions": "6.5.13",
     "@storybook/addon-essentials": "6.5.13",
     "@storybook/addon-links": "6.5.13",
