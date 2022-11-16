@@ -17,7 +17,7 @@ importers:
   packages/design:
     specifiers:
       '@babel/core': 7.20.2
-      '@nuxt/kit': 3.0.0-rc.14
+      '@nuxt/kit': 3.0.0
       '@storybook/addon-actions': 6.5.13
       '@storybook/addon-essentials': 6.5.13
       '@storybook/addon-links': 6.5.13
@@ -40,7 +40,7 @@ importers:
       vue-tsc: 1.0.9
     devDependencies:
       '@babel/core': 7.20.2
-      '@nuxt/kit': 3.0.0-rc.14
+      '@nuxt/kit': 3.0.0
       '@storybook/addon-actions': 6.5.13
       '@storybook/addon-essentials': 6.5.13_4h3lekwzwigv6avags6qovnneq
       '@storybook/addon-links': 6.5.13
@@ -2330,7 +2330,34 @@ packages:
       scule: 1.0.0
       semver: 7.3.8
       unctx: 2.1.0
-      unimport: 1.0.0
+      unimport: 1.0.1
+      untyped: 1.0.0
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: true
+
+  /@nuxt/kit/3.0.0:
+    resolution: {integrity: sha512-7ZsOLt5s9a0ZleAIzmoD70JwkZf5ti6bDdxl6f8ew7Huxz+ni/oRfTPTX9TrORXsgW5CvDt6Q9M7IJNPkAN/Iw==}
+    engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
+    dependencies:
+      '@nuxt/schema': 3.0.0
+      c12: 1.0.1
+      consola: 2.15.3
+      defu: 6.1.1
+      globby: 13.1.2
+      hash-sum: 2.0.0
+      ignore: 5.2.0
+      jiti: 1.16.0
+      knitwork: 1.0.0
+      lodash.template: 4.5.0
+      mlly: 1.0.0
+      pathe: 1.0.0
+      pkg-types: 1.0.1
+      scule: 1.0.0
+      semver: 7.3.8
+      unctx: 2.1.0
+      unimport: 1.0.1
       untyped: 1.0.0
     transitivePeerDependencies:
       - rollup
@@ -2357,7 +2384,7 @@ packages:
       scule: 1.0.0
       semver: 7.3.8
       unctx: 2.1.0
-      unimport: 1.0.0
+      unimport: 1.0.1
       untyped: 1.0.0
     transitivePeerDependencies:
       - rollup
@@ -2384,7 +2411,7 @@ packages:
       scule: 1.0.0
       semver: 7.3.8
       unctx: 2.1.0
-      unimport: 1.0.0_rollup@2.79.1
+      unimport: 1.0.1_rollup@2.79.1
       untyped: 1.0.0
     transitivePeerDependencies:
       - rollup
@@ -2420,7 +2447,28 @@ packages:
       scule: 1.0.0
       std-env: 3.3.1
       ufo: 1.0.0
-      unimport: 1.0.0
+      unimport: 1.0.1
+      untyped: 1.0.0
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: true
+
+  /@nuxt/schema/3.0.0:
+    resolution: {integrity: sha512-5fwsidhs5NjFzR8sIzHMXO0WFGkI3tCH3ViANn2W4N5qCwoYZ0n1sZBkQ9Esn1VoEed6RsIlTpWrPZPVtqNkGQ==}
+    engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
+    dependencies:
+      c12: 1.0.1
+      create-require: 1.1.1
+      defu: 6.1.1
+      jiti: 1.16.0
+      pathe: 1.0.0
+      pkg-types: 1.0.1
+      postcss-import-resolver: 2.0.0
+      scule: 1.0.0
+      std-env: 3.3.1
+      ufo: 1.0.0
+      unimport: 1.0.1
       untyped: 1.0.0
     transitivePeerDependencies:
       - rollup
@@ -2441,7 +2489,7 @@ packages:
       scule: 1.0.0
       std-env: 3.3.1
       ufo: 1.0.0
-      unimport: 1.0.0
+      unimport: 1.0.1
       untyped: 1.0.0
     transitivePeerDependencies:
       - rollup
@@ -2462,7 +2510,7 @@ packages:
       scule: 1.0.0
       std-env: 3.3.1
       ufo: 1.0.0
-      unimport: 1.0.0_rollup@2.79.1
+      unimport: 1.0.1_rollup@2.79.1
       untyped: 1.0.0
     transitivePeerDependencies:
       - rollup
@@ -2473,7 +2521,7 @@ packages:
     resolution: {integrity: sha512-zycxu7A3t2WR2OXOpnYVAyrj2tkv07JpJPDQQCut/PoY/3QLUtusvTr5MhvgctXwP9EW8gNQigcXxm2sD+JAMQ==}
     hasBin: true
     dependencies:
-      '@nuxt/kit': 3.0.0-rc.14
+      '@nuxt/kit': 3.0.0
       chalk: 5.1.2
       ci-info: 3.6.1
       consola: 2.15.3
@@ -2579,7 +2627,7 @@ packages:
   /@nuxtjs/color-mode/3.1.8:
     resolution: {integrity: sha512-ahgjmSzpjTpaxvyyGA/1wD2rNcSFXiqs3/A/GEllB1s4BboJVnBIqkwIQpAguq7IDVZG2tMAvqmnZHSfwrI3IA==}
     dependencies:
-      '@nuxt/kit': 3.0.0-rc.14
+      '@nuxt/kit': 3.0.0
       lodash.template: 4.5.0
       pathe: 0.3.8
     transitivePeerDependencies:
@@ -2590,7 +2638,7 @@ packages:
   /@nuxtjs/tailwindcss/6.1.3:
     resolution: {integrity: sha512-XgoltsFhpX5SCxgUA9cEyLuKyH9xkjlfT+npDQNhSW71/BpeNPmmtjyD+o5ShAvyiZD2AzvZ0/P/eMNDfT33fA==}
     dependencies:
-      '@nuxt/kit': 3.0.0-rc.14
+      '@nuxt/kit': 3.0.0
       '@nuxt/postcss8': 1.1.3
       autoprefixer: 10.4.13_postcss@8.4.19
       chalk: 5.1.2
@@ -2614,7 +2662,7 @@ packages:
   /@pinia/nuxt/0.4.3:
     resolution: {integrity: sha512-pDyThvbOi9ztSPI9RDJG857Knb/mmUdDrDiLXbtLVQ3/l647jKncdP4TiRLnMlObENJjcFPEwHT7OVPq4VhQMw==}
     dependencies:
-      '@nuxt/kit': 3.0.0-rc.14
+      '@nuxt/kit': 3.0.0
       pinia: 2.0.23
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -5215,7 +5263,7 @@ packages:
     peerDependencies:
       nuxt: ^3.0.0-rc.9
     dependencies:
-      '@nuxt/kit': 3.0.0-rc.14
+      '@nuxt/kit': 3.0.0
       '@vueuse/core': 9.5.0
       '@vueuse/metadata': 9.5.0
       local-pkg: 0.4.2
@@ -12980,7 +13028,7 @@ packages:
       std-env: 3.3.1
       ufo: 1.0.0
       unenv: 1.0.0
-      unimport: 1.0.0_rollup@2.79.1
+      unimport: 1.0.1_rollup@2.79.1
       unstorage: 1.0.1
     transitivePeerDependencies:
       - bufferutil
@@ -16993,8 +17041,26 @@ packages:
       - rollup
     dev: true
 
-  /unimport/1.0.0_rollup@2.79.1:
-    resolution: {integrity: sha512-7M2+6uC6Ik3/imN0VhEBJGnnH5SWLPxhPAPKdMMIt2Bh+YW7F42aZFC9APW3h82r4bvS5qQWaMJko2G9m7SDYA==}
+  /unimport/1.0.1:
+    resolution: {integrity: sha512-SEPKl3uyqUvi6c0MnyCmUF9H07CuC9j9p2p33F03LmegU0sxjpnjL0fLKAhh7BTfcKaJKj+1iOiAFtg7P3m5mQ==}
+    dependencies:
+      '@rollup/pluginutils': 5.0.2
+      escape-string-regexp: 5.0.0
+      fast-glob: 3.2.12
+      local-pkg: 0.4.2
+      magic-string: 0.26.7
+      mlly: 1.0.0
+      pathe: 1.0.0
+      pkg-types: 1.0.1
+      scule: 1.0.0
+      strip-literal: 1.0.0
+      unplugin: 1.0.0
+    transitivePeerDependencies:
+      - rollup
+    dev: true
+
+  /unimport/1.0.1_rollup@2.79.1:
+    resolution: {integrity: sha512-SEPKl3uyqUvi6c0MnyCmUF9H07CuC9j9p2p33F03LmegU0sxjpnjL0fLKAhh7BTfcKaJKj+1iOiAFtg7P3m5mQ==}
     dependencies:
       '@rollup/pluginutils': 5.0.2_rollup@2.79.1
       escape-string-regexp: 5.0.0
