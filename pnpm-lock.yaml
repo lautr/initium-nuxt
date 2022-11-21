@@ -68,7 +68,7 @@ importers:
       '@nuxt/test-utils-edge': 3.0.1-rc.0-27817270.4f2bfbe
       '@nuxtjs/color-mode': 3.1.8
       '@nuxtjs/tailwindcss': 6.1.3
-      '@pinia/nuxt': 0.4.4
+      '@pinia/nuxt': 0.4.5
       '@vueuse/nuxt': 9.5.0
       autoprefixer: 10.4.13
       nuxt: 3.0.0
@@ -82,7 +82,7 @@ importers:
       '@nuxt/test-utils-edge': 3.0.1-rc.0-27817270.4f2bfbe
       '@nuxtjs/color-mode': 3.1.8
       '@nuxtjs/tailwindcss': 6.1.3
-      '@pinia/nuxt': 0.4.4
+      '@pinia/nuxt': 0.4.5
       '@vueuse/nuxt': 9.5.0_nuxt@3.0.0
       autoprefixer: 10.4.13_postcss@8.4.19
       nuxt: 3.0.0
@@ -2603,11 +2603,11 @@ packages:
       - webpack
     dev: true
 
-  /@pinia/nuxt/0.4.4:
-    resolution: {integrity: sha512-8C9Vv/Mx+IMZFnWTX0nFGW+pXk6hF4Ibgc0OZqlI6/Ii26/Do+gfEQLC/0J/7gFFe/VFhwLMlrK8WEL6oIRdmA==}
+  /@pinia/nuxt/0.4.5:
+    resolution: {integrity: sha512-lnJdZkpySxBArpiOLTJZtA+QSbODl6xIk4psgGWzrWiEwPjUSup/RmQ7zlWz7dmQTONA/mttR0j4V1Zh0b5NKA==}
     dependencies:
       '@nuxt/kit': 3.0.0
-      pinia: 2.0.24
+      pinia: 2.0.25
     transitivePeerDependencies:
       - '@vue/composition-api'
       - rollup
@@ -13607,6 +13607,22 @@ packages:
 
   /pinia/2.0.24:
     resolution: {integrity: sha512-DDLd4Iphyc+6PYYYbx7jkb6WP9gecgu9bz9huyB5rb7CdJI3DhzYiZI+/Ih8MLewRrP9DSpslF/BgSNrJtZU7A==}
+    peerDependencies:
+      '@vue/composition-api': ^1.4.0
+      typescript: '>=4.4.4'
+      vue: ^2.6.14 || ^3.2.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+      typescript:
+        optional: true
+    dependencies:
+      '@vue/devtools-api': 6.4.5
+      vue-demi: 0.13.4
+    dev: true
+
+  /pinia/2.0.25:
+    resolution: {integrity: sha512-3reAkjJ6bW2D5hZKRMS0c9rUbHVlsVyZd037xO0PJr2AuF/09RRSBnFLlJgmHF4Jx6dEoW/jZBOHTushY7IMlw==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
