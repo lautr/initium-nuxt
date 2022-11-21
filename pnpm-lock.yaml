@@ -5,12 +5,12 @@ importers:
   .:
     specifiers:
       '@antfu/eslint-config': 0.30.1
-      concurrently: 7.5.0
+      concurrently: 7.6.0
       eslint: 8.27.0
       typescript: 4.9.3
     devDependencies:
       '@antfu/eslint-config': 0.30.1_e3uo4sehh4zr4i6m57mkkxxv7y
-      concurrently: 7.5.0
+      concurrently: 7.6.0
       eslint: 8.27.0
       typescript: 4.9.3
 
@@ -7027,8 +7027,8 @@ packages:
       typedarray: 0.0.6
     dev: true
 
-  /concurrently/7.5.0:
-    resolution: {integrity: sha512-5E3mwiS+i2JYBzr5BpXkFxOnleZTMsG+WnE/dCG4/P+oiVXrbmrBwJ2ozn4SxwB2EZDrKR568X+puVohxz3/Mg==}
+  /concurrently/7.6.0:
+    resolution: {integrity: sha512-BKtRgvcJGeZ4XttiDiNcFiRlxoAeZOseqUvyYRUp/Vtd+9p1ULmeoSqGsDA+2ivdeDFpqrJvGvmI+StKfKl5hw==}
     engines: {node: ^12.20.0 || ^14.13.0 || >=16.0.0}
     hasBin: true
     dependencies:
