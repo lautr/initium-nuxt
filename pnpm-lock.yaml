@@ -72,7 +72,7 @@ importers:
       '@vueuse/nuxt': 9.5.0
       autoprefixer: 10.4.13
       nuxt: 3.0.0
-      pinia: 2.0.24
+      pinia: 2.0.25
       postcss: 8.4.19
       postcss-import: 15.0.0
       tailwindcss: 3.2.4
@@ -86,7 +86,7 @@ importers:
       '@vueuse/nuxt': 9.5.0_nuxt@3.0.0
       autoprefixer: 10.4.13_postcss@8.4.19
       nuxt: 3.0.0
-      pinia: 2.0.24
+      pinia: 2.0.25
       postcss: 8.4.19
       postcss-import: 15.0.0_postcss@8.4.19
       tailwindcss: 3.2.4_postcss@8.4.19
@@ -13603,22 +13603,6 @@ packages:
   /pify/4.0.1:
     resolution: {integrity: sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==}
     engines: {node: '>=6'}
-    dev: true
-
-  /pinia/2.0.24:
-    resolution: {integrity: sha512-DDLd4Iphyc+6PYYYbx7jkb6WP9gecgu9bz9huyB5rb7CdJI3DhzYiZI+/Ih8MLewRrP9DSpslF/BgSNrJtZU7A==}
-    peerDependencies:
-      '@vue/composition-api': ^1.4.0
-      typescript: '>=4.4.4'
-      vue: ^2.6.14 || ^3.2.0
-    peerDependenciesMeta:
-      '@vue/composition-api':
-        optional: true
-      typescript:
-        optional: true
-    dependencies:
-      '@vue/devtools-api': 6.4.5
-      vue-demi: 0.13.4
     dev: true
 
   /pinia/2.0.25:
