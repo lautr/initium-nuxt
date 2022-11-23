@@ -28,7 +28,7 @@ importers:
       '@vitejs/plugin-vue': 3.2.0
       autoprefixer: 10.4.13
       babel-loader: 9.1.0
-      playwright: 1.28.0
+      playwright: 1.28.1
       postcss: 8.4.19
       tailwindcss: 3.2.4
       typescript: 4.9.3
@@ -51,7 +51,7 @@ importers:
       '@vitejs/plugin-vue': 3.2.0_vite@3.2.4+vue@3.2.45
       autoprefixer: 10.4.13_postcss@8.4.19
       babel-loader: 9.1.0_@babel+core@7.20.2
-      playwright: 1.28.0
+      playwright: 1.28.1
       postcss: 8.4.19
       tailwindcss: 3.2.4_postcss@8.4.19
       typescript: 4.9.3
@@ -4177,7 +4177,7 @@ packages:
       jest-serializer-html: 7.1.0
       jest-watch-typeahead: 2.2.0_jest@28.1.3
       node-fetch: 2.6.7
-      playwright: 1.28.0
+      playwright: 1.28.1
       read-pkg-up: 7.0.1
       regenerator-runtime: 0.13.9
       semver: 7.3.8
@@ -11308,7 +11308,7 @@ packages:
       jest-process-manager: 0.3.1
       jest-runner: 28.1.3
       nyc: 15.1.0
-      playwright-core: 1.28.0
+      playwright-core: 1.28.1
       rimraf: 3.0.2
       uuid: 8.3.2
     transitivePeerDependencies:
@@ -13671,19 +13671,19 @@ packages:
       pathe: 1.0.0
     dev: true
 
-  /playwright-core/1.28.0:
-    resolution: {integrity: sha512-nJLknd28kPBiCNTbqpu6Wmkrh63OEqJSFw9xOfL9qxfNwody7h6/L3O2dZoWQ6Oxcm0VOHjWmGiCUGkc0X3VZA==}
+  /playwright-core/1.28.1:
+    resolution: {integrity: sha512-3PixLnGPno0E8rSBJjtwqTwJe3Yw72QwBBBxNoukIj3lEeBNXwbNiKrNuB1oyQgTBw5QHUhNO3SteEtHaMK6ag==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
 
-  /playwright/1.28.0:
-    resolution: {integrity: sha512-kyOXGc5y1mgi+hgEcCIyE1P1+JumLrxS09nFHo5sdJNzrucxPRAGwM4A2X3u3SDOfdgJqx61yIoR6Av+5plJPg==}
+  /playwright/1.28.1:
+    resolution: {integrity: sha512-92Sz6XBlfHlb9tK5UCDzIFAuIkHHpemA9zwUaqvo+w7sFMSmVMGmvKcbptof/eJObq63PGnMhM75x7qxhTR78Q==}
     engines: {node: '>=14'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      playwright-core: 1.28.0
+      playwright-core: 1.28.1
     dev: true
 
   /pluralize/8.0.0:
