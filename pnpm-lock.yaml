@@ -65,7 +65,7 @@ importers:
   packages/webapp:
     specifiers:
       '@lautr/initium-nuxt-design': workspace:*
-      '@nuxt/test-utils-edge': 3.0.1-rc.0-27828744.aa9aec1
+      '@nuxt/test-utils-edge': 3.0.1-rc.0-27832913.c26979a
       '@nuxtjs/color-mode': 3.2.0
       '@nuxtjs/tailwindcss': 6.1.3
       '@pinia/nuxt': 0.4.6
@@ -79,7 +79,7 @@ importers:
       vitest: 0.25.3
     devDependencies:
       '@lautr/initium-nuxt-design': link:../design
-      '@nuxt/test-utils-edge': 3.0.1-rc.0-27828744.aa9aec1
+      '@nuxt/test-utils-edge': 3.0.1-rc.0-27832913.c26979a
       '@nuxtjs/color-mode': 3.2.0
       '@nuxtjs/tailwindcss': 6.1.3
       '@pinia/nuxt': 0.4.6
@@ -2330,11 +2330,11 @@ packages:
     resolution: {integrity: sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==}
     dev: true
 
-  /@nuxt/kit-edge/3.0.1-rc.0-27828744.aa9aec1:
-    resolution: {integrity: sha512-3rfeJTugvUAINUEEZWDIeFB6QFuZoqSgrklxqQI2b3QZ30LUxSR8ADRetRjLZHOS2CUSoY260bJWTzGcYLFgOQ==}
+  /@nuxt/kit-edge/3.0.1-rc.0-27832913.c26979a:
+    resolution: {integrity: sha512-4ATnNW+u/51PKZfYHiqsf6yAR298tS/FN76XOrP52Cr4ji3hLJ+FaKCvwtsguyLXtS/zYVhq38hgNjl3GlGu9Q==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     dependencies:
-      '@nuxt/schema': /@nuxt/schema-edge/3.0.1-rc.0-27828744.aa9aec1
+      '@nuxt/schema': /@nuxt/schema-edge/3.0.1-rc.0-27832913.c26979a
       c12: 1.0.1
       consola: 2.15.3
       defu: 6.1.1
@@ -2426,8 +2426,8 @@ packages:
       - webpack
     dev: true
 
-  /@nuxt/schema-edge/3.0.1-rc.0-27828744.aa9aec1:
-    resolution: {integrity: sha512-AnKyMEjwZMPaejlfko4ab3Fcy29V8Rk/7TPmBkbJwV5ecTOLDk6oI8/QZjfZVXvYNAv/WBtHogs/tMzxkxad3g==}
+  /@nuxt/schema-edge/3.0.1-rc.0-27832913.c26979a:
+    resolution: {integrity: sha512-REaRWC0XhS/g68R58GRO7j/3gghxA0MofCKDYS1FVMsjcWlR7ivbUg41ZFbNdTakmN4bWTSP2M8hhDHxB601cg==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     dependencies:
       c12: 1.0.1
@@ -2439,7 +2439,7 @@ packages:
       postcss-import-resolver: 2.0.0
       scule: 1.0.0
       std-env: 3.3.1
-      ufo: 1.0.0
+      ufo: 1.0.1
       unimport: 1.0.1
       untyped: 1.0.0
     transitivePeerDependencies:
@@ -2460,7 +2460,7 @@ packages:
       postcss-import-resolver: 2.0.0
       scule: 1.0.0
       std-env: 3.3.1
-      ufo: 1.0.0
+      ufo: 1.0.1
       unimport: 1.0.1
       untyped: 1.0.0
     transitivePeerDependencies:
@@ -2481,7 +2481,7 @@ packages:
       postcss-import-resolver: 2.0.0
       scule: 1.0.0
       std-env: 3.3.1
-      ufo: 1.0.0
+      ufo: 1.0.1
       unimport: 1.0.1_rollup@2.79.1
       untyped: 1.0.0
     transitivePeerDependencies:
@@ -2518,14 +2518,14 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/test-utils-edge/3.0.1-rc.0-27828744.aa9aec1:
-    resolution: {integrity: sha512-35wa82d0jVzeXzdamfy7S39CDRyK742m/dS6H7epTD6M000IUSTS7Hrd1X+hMP1/oHvaG9Azk1aa1Mf6EQ5YXg==}
+  /@nuxt/test-utils-edge/3.0.1-rc.0-27832913.c26979a:
+    resolution: {integrity: sha512-Prey4RNq3SHY3WzCxq+qyYnyvXNcHK2niVbMZTuQGhHA4PRSTKL3A7e4hhsCcIau9gSItcW4MCGf5lBHZfrNXg==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     peerDependencies:
       vue: ^3.2.45
     dependencies:
-      '@nuxt/kit': /@nuxt/kit-edge/3.0.1-rc.0-27828744.aa9aec1
-      '@nuxt/schema': /@nuxt/schema-edge/3.0.1-rc.0-27828744.aa9aec1
+      '@nuxt/kit': /@nuxt/kit-edge/3.0.1-rc.0-27832913.c26979a
+      '@nuxt/schema': /@nuxt/schema-edge/3.0.1-rc.0-27832913.c26979a
       consola: 2.15.3
       defu: 6.1.1
       execa: 6.1.0
@@ -2575,7 +2575,7 @@ packages:
       postcss-url: 10.1.3_postcss@8.4.19
       rollup: 2.79.1
       rollup-plugin-visualizer: 5.8.3_rollup@2.79.1
-      ufo: 1.0.0
+      ufo: 1.0.1
       unplugin: 1.0.0
       vite: 3.2.4
       vite-node: 0.25.2
@@ -9361,7 +9361,7 @@ packages:
       enhanced-resolve: 5.10.0
       mlly: 1.0.0
       pathe: 1.0.0
-      ufo: 1.0.0
+      ufo: 1.0.1
     dev: true
 
   /extglob/2.0.4:
@@ -10146,7 +10146,7 @@ packages:
       cookie-es: 0.5.0
       destr: 1.2.1
       radix3: 1.0.0
-      ufo: 1.0.0
+      ufo: 1.0.1
     dev: true
 
   /handlebars/4.7.7:
@@ -12209,7 +12209,7 @@ packages:
       http-shutdown: 1.2.2
       ip-regex: 5.0.0
       node-forge: 1.3.1
-      ufo: 1.0.0
+      ufo: 1.0.1
     dev: true
 
   /load-json-file/1.1.0:
@@ -12840,7 +12840,7 @@ packages:
       acorn: 8.8.1
       pathe: 1.0.0
       pkg-types: 1.0.1
-      ufo: 1.0.0
+      ufo: 1.0.1
     dev: true
 
   /move-concurrently/1.0.1:
@@ -13004,7 +13004,7 @@ packages:
       serve-static: 1.15.0
       source-map-support: 0.5.21
       std-env: 3.3.1
-      ufo: 1.0.0
+      ufo: 1.0.1
       unenv: 1.0.0
       unimport: 1.0.1_rollup@2.79.1
       unstorage: 1.0.1
@@ -13402,7 +13402,7 @@ packages:
     dependencies:
       destr: 1.2.1
       node-fetch-native: 1.0.1
-      ufo: 1.0.0
+      ufo: 1.0.1
     dev: true
 
   /ohash/1.0.0:
@@ -16875,6 +16875,10 @@ packages:
     resolution: {integrity: sha512-DRty0ZBNlJ2R59y4mEupJRKLbkLQsc4qtxjpQv78AwEDuBkaUogMc2LkeqW3HddFlw6NwnXYfdThEZOiNgkmmQ==}
     dev: true
 
+  /ufo/1.0.1:
+    resolution: {integrity: sha512-boAm74ubXHY7KJQZLlXrtMz52qFvpsbOxDcZOnw/Wf+LS4Mmyu7JxmzD4tDLtUQtmZECypJ0FrCz4QIe6dvKRA==}
+    dev: true
+
   /uglify-js/3.17.3:
     resolution: {integrity: sha512-JmMFDME3iufZnBpyKL+uS78LRiC+mK55zWfM5f/pWBJfpOttXAqYfdDGRukYhJuyRinvPVAtUhvy7rlDybNtFg==}
     engines: {node: '>=0.8.0'}
@@ -17182,7 +17186,7 @@ packages:
       mkdir: 0.0.2
       mri: 1.2.0
       ofetch: 1.0.0
-      ufo: 1.0.0
+      ufo: 1.0.1
       ws: 8.11.0
     transitivePeerDependencies:
       - bufferutil
@@ -17580,7 +17584,7 @@ packages:
   /vue-bundle-renderer/1.0.0:
     resolution: {integrity: sha512-43vCqTgaMXfHhtR8/VcxxWD1DgtzyvNc4wNyG5NKCIH19O1z5G9ZCRXTGEA2wifVec5PU82CkRLD2sTK9NkTdA==}
     dependencies:
-      ufo: 1.0.0
+      ufo: 1.0.1
     dev: true
 
   /vue-demi/0.13.4:
