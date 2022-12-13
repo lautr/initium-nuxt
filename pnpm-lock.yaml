@@ -25,7 +25,7 @@ importers:
       '@storybook/builder-vite': 0.2.5
       '@storybook/test-runner': 0.9.1
       '@storybook/vue3': 6.5.14
-      '@vitejs/plugin-vue': 3.2.0
+      '@vitejs/plugin-vue': 4.0.0
       autoprefixer: 10.4.13
       babel-loader: 9.1.0
       playwright: 1.28.1
@@ -45,10 +45,10 @@ importers:
       '@storybook/addon-essentials': 6.5.14_rdyiaofzvmrsittieg2rsrajz4
       '@storybook/addon-links': 6.5.14
       '@storybook/addon-postcss': 2.0.0
-      '@storybook/builder-vite': 0.2.5_xnxi5hd3tghqz7m3lgysshmhqa
+      '@storybook/builder-vite': 0.2.5_f3x5ks57vmsczjmzgqgpf4tytm
       '@storybook/test-runner': 0.9.1_typescript@4.9.4
       '@storybook/vue3': 6.5.14_angd52sxfve6iv7wjmvt6pzgdm
-      '@vitejs/plugin-vue': 3.2.0_vite@4.0.1+vue@3.2.45
+      '@vitejs/plugin-vue': 4.0.0_vite@4.0.1+vue@3.2.45
       autoprefixer: 10.4.13_postcss@8.4.20
       babel-loader: 9.1.0_@babel+core@7.20.5
       playwright: 1.28.1
@@ -3485,7 +3485,7 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /@storybook/builder-vite/0.2.5_xnxi5hd3tghqz7m3lgysshmhqa:
+  /@storybook/builder-vite/0.2.5_f3x5ks57vmsczjmzgqgpf4tytm:
     resolution: {integrity: sha512-0PktEaYsbR6gGE/YDkW/tI1VxVnaPNZpHGpiWfDU7c5hjCajWYzdFTgHOwcXT8tiTs+WN/rvoCPT2iAhSCcHIw==}
     peerDependencies:
       '@storybook/mdx2-csf': ^0.0.3
@@ -3510,7 +3510,7 @@ packages:
       '@storybook/semver': 7.3.2
       '@storybook/source-loader': 6.5.13
       '@vitejs/plugin-react': 2.1.0_vite@4.0.1
-      '@vitejs/plugin-vue': 3.2.0_vite@4.0.1+vue@3.2.45
+      '@vitejs/plugin-vue': 4.0.0_vite@4.0.1+vue@3.2.45
       ast-types: 0.14.2
       es-module-lexer: 0.9.3
       glob: 7.2.3
@@ -5231,11 +5231,11 @@ packages:
       vue: 3.2.45
     dev: true
 
-  /@vitejs/plugin-vue/3.2.0_vite@4.0.1+vue@3.2.45:
-    resolution: {integrity: sha512-E0tnaL4fr+qkdCNxJ+Xd0yM31UwMkQje76fsDVBBUCoGOUPexu2VDUYHL8P4CwV+zMvWw6nlRw19OnRKmYAJpw==}
+  /@vitejs/plugin-vue/4.0.0_vite@4.0.1+vue@3.2.45:
+    resolution: {integrity: sha512-e0X4jErIxAB5oLtDqbHvHpJe/uWNkdpYV83AOG2xo2tEVSzCzewgJMtREZM30wXnM5ls90hxiOtAuVU6H5JgbA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
-      vite: ^3.0.0
+      vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
       vite: 4.0.1

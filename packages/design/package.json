@@ -18,7 +18,7 @@
     "@storybook/builder-vite": "0.2.5",
     "@storybook/test-runner": "0.9.1",
     "@storybook/vue3": "6.5.14",
-    "@vitejs/plugin-vue": "3.2.0",
+    "@vitejs/plugin-vue": "4.0.0",
     "autoprefixer": "10.4.13",
     "babel-loader": "9.1.0",
     "playwright": "1.28.1",
