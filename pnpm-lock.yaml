@@ -69,7 +69,7 @@ importers:
       '@nuxtjs/color-mode': 3.2.0
       '@nuxtjs/tailwindcss': 6.2.0
       '@pinia/nuxt': 0.4.6
-      '@vueuse/nuxt': 9.6.0
+      '@vueuse/nuxt': 9.7.0
       autoprefixer: 10.4.13
       nuxt: 3.0.0
       pinia: 2.0.28
@@ -83,7 +83,7 @@ importers:
       '@nuxtjs/color-mode': 3.2.0
       '@nuxtjs/tailwindcss': 6.2.0
       '@pinia/nuxt': 0.4.6
-      '@vueuse/nuxt': 9.6.0_nuxt@3.0.0
+      '@vueuse/nuxt': 9.7.0_nuxt@3.0.0
       autoprefixer: 10.4.13_postcss@8.4.20
       nuxt: 3.0.0
       pinia: 2.0.28
@@ -5371,12 +5371,12 @@ packages:
     resolution: {integrity: sha512-Ewzq5Yhimg7pSztDV+RH1UDKBzmtqieXQlpTVm2AwraoRL/Rks96mvd8Vgi7Lj+h+TH8dv7mXD3FRZR3TUvbSg==}
     dev: true
 
-  /@vueuse/core/9.6.0:
-    resolution: {integrity: sha512-qGUcjKQXHgN+jqXEgpeZGoxdCbIDCdVPz3QiF1uyecVGbMuM63o96I1GjYx5zskKgRI0FKSNsVWM7rwrRMTf6A==}
+  /@vueuse/core/9.7.0:
+    resolution: {integrity: sha512-/AGY/t7jJPxCyRoVTygNKoroTiCvRaaZIW+yeSlBCnI7QRpQ9cvXNTdNaSl3GvSyFbn83+XwZwEZvI1OpQfeGw==}
     dependencies:
       '@types/web-bluetooth': 0.0.16
-      '@vueuse/metadata': 9.6.0
-      '@vueuse/shared': 9.6.0
+      '@vueuse/metadata': 9.7.0
+      '@vueuse/shared': 9.7.0
       vue-demi: 0.13.4
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -5395,18 +5395,18 @@ packages:
       vue: 3.2.45
     dev: true
 
-  /@vueuse/metadata/9.6.0:
-    resolution: {integrity: sha512-sIC8R+kWkIdpi5X2z2Gk8TRYzmczDwHRhEFfCu2P+XW2JdPoXrziqsGpDDsN7ykBx4ilwieS7JUIweVGhvZ93w==}
+  /@vueuse/metadata/9.7.0:
+    resolution: {integrity: sha512-M7WsAgw28FNtTH0bzsGuHEtJOPJqPpyeHS6PHq+8UesLgNjZ9waMAntiUrgUQlxt09M4i2lH7y9sRi0jkfeXGA==}
     dev: true
 
-  /@vueuse/nuxt/9.6.0_nuxt@3.0.0:
-    resolution: {integrity: sha512-r+ngzHijvrfn89KnwlFCSe/xzFCiuskwmxbDdzFtpcZ57RHqLPdUS34YYrDxt7XasM0vlD3dmLIKEH//btf7sw==}
+  /@vueuse/nuxt/9.7.0_nuxt@3.0.0:
+    resolution: {integrity: sha512-wXwg3h4AJNLB0EJzB5O7yPyDH3bCNl0dGzBVP1i2pS569TJnnUc6USZ6htbH3XXEflD3Lr0fM/0vkulOxQHHNw==}
     peerDependencies:
-      nuxt: ^3.0.0-rc.9
+      nuxt: ^3.0.0
     dependencies:
       '@nuxt/kit': 3.0.0
-      '@vueuse/core': 9.6.0
-      '@vueuse/metadata': 9.6.0
+      '@vueuse/core': 9.7.0
+      '@vueuse/metadata': 9.7.0
       local-pkg: 0.4.2
       nuxt: 3.0.0
       vue-demi: 0.13.4
@@ -5417,8 +5417,8 @@ packages:
       - vue
     dev: true
 
-  /@vueuse/shared/9.6.0:
-    resolution: {integrity: sha512-/eDchxYYhkHnFyrb00t90UfjCx94kRHxc7J1GtBCqCG4HyPMX+krV9XJgVtWIsAMaxKVU4fC8NSUviG1JkwhUQ==}
+  /@vueuse/shared/9.7.0:
+    resolution: {integrity: sha512-pwmt1y3TJ2s5KqWmkv9ZKEV59GwuZQZk8XLiU+hGswz0jej318ozbea9E4A/A50ksyM26swSFr7sZ9llNPsZHg==}
     dependencies:
       vue-demi: 0.13.4
     transitivePeerDependencies:
