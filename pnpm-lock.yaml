@@ -65,7 +65,7 @@ importers:
   packages/webapp:
     specifiers:
       '@lautr/initium-nuxt-design': workspace:*
-      '@nuxt/test-utils-edge': 3.0.1-rc.0-27878066.7f4f10a
+      '@nuxt/test-utils-edge': 3.0.1-rc.0-27880943.da38c62
       '@nuxtjs/color-mode': 3.2.0
       '@nuxtjs/tailwindcss': 6.2.0
       '@pinia/nuxt': 0.4.6
@@ -79,7 +79,7 @@ importers:
       vitest: 0.25.8
     devDependencies:
       '@lautr/initium-nuxt-design': link:../design
-      '@nuxt/test-utils-edge': 3.0.1-rc.0-27878066.7f4f10a
+      '@nuxt/test-utils-edge': 3.0.1-rc.0-27880943.da38c62
       '@nuxtjs/color-mode': 3.2.0
       '@nuxtjs/tailwindcss': 6.2.0
       '@pinia/nuxt': 0.4.6
@@ -1634,8 +1634,8 @@ packages:
       regenerator-runtime: 0.13.9
     dev: true
 
-  /@babel/standalone/7.20.6:
-    resolution: {integrity: sha512-u5at/CbBLETf7kx2LOY4XdhseD79Y099WZKAOMXeT8qvd9OSR515my2UNBBLY4qIht/Qi9KySeQHQwQwxJN4Sw==}
+  /@babel/standalone/7.20.12:
+    resolution: {integrity: sha512-hK/X+m1il3w1tYS4H8LDaGCEdiT47SVqEXY8RiEAgou26BystipSU8ZL6EvBR6t5l7lTv0ilBiChXWblKJ5iUA==}
     engines: {node: '>=6.9.0'}
     dev: true
 
@@ -2520,18 +2520,18 @@ packages:
     resolution: {integrity: sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==}
     dev: true
 
-  /@nuxt/kit-edge/3.0.1-rc.0-27878066.7f4f10a:
-    resolution: {integrity: sha512-/g7CbAtzB9/9NmIO82G/Ut5qzSCl9P2Bh9WuWSYDM2er7LQDToYCYcJ9Yep8wyMwmUcC0wIfA+1EEZ/AXU6Q+g==}
+  /@nuxt/kit-edge/3.0.1-rc.0-27880943.da38c62:
+    resolution: {integrity: sha512-39IQxpIWV8rzHd+MeteZXm8z6s6sl2I84nUW1/gehxBuoHmZYVct1stwKDYOsZ2f2ilS9KHrOtzZL+k0dHF/tg==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     dependencies:
-      '@nuxt/schema': /@nuxt/schema-edge/3.0.1-rc.0-27878066.7f4f10a
+      '@nuxt/schema': /@nuxt/schema-edge/3.0.1-rc.0-27880943.da38c62
       c12: 1.1.0
       consola: 2.15.3
       defu: 6.1.1
       globby: 13.1.3
       hash-sum: 2.0.0
       ignore: 5.2.4
-      jiti: 1.16.0
+      jiti: 1.16.1
       knitwork: 1.0.0
       lodash.template: 4.5.0
       mlly: 1.0.0
@@ -2541,7 +2541,7 @@ packages:
       semver: 7.3.8
       unctx: 2.1.1
       unimport: 1.1.0
-      untyped: 1.2.0
+      untyped: 1.2.1
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -2616,15 +2616,15 @@ packages:
       - webpack
     dev: true
 
-  /@nuxt/schema-edge/3.0.1-rc.0-27878066.7f4f10a:
-    resolution: {integrity: sha512-dQcOOy5sDpaIqbDtAByUEkzEl8FH4mMKnHzY8kmBw7TY6O9cxYcv0XOaQPcw0QwvIzI4vQb9XCNtufjdi5h7IA==}
+  /@nuxt/schema-edge/3.0.1-rc.0-27880943.da38c62:
+    resolution: {integrity: sha512-uwf9RvPXh2zEY1l/ZWsC9gvV+c6/GZVY7QaknPCiK4WMyl1IvAJV9B80NHFn/6J5DjeqPOCiPTQwIREzkpgs3w==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     dependencies:
       c12: 1.1.0
       create-require: 1.1.1
       defu: 6.1.1
       hookable: 5.4.2
-      jiti: 1.16.0
+      jiti: 1.16.1
       pathe: 1.0.0
       pkg-types: 1.0.1
       postcss-import-resolver: 2.0.0
@@ -2632,7 +2632,7 @@ packages:
       std-env: 3.3.1
       ufo: 1.0.1
       unimport: 1.1.0
-      untyped: 1.2.0
+      untyped: 1.2.1
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -2645,7 +2645,7 @@ packages:
       c12: 1.1.0
       create-require: 1.1.1
       defu: 6.1.1
-      jiti: 1.16.0
+      jiti: 1.16.1
       pathe: 1.0.0
       pkg-types: 1.0.1
       postcss-import-resolver: 2.0.0
@@ -2653,7 +2653,7 @@ packages:
       std-env: 3.3.1
       ufo: 1.0.1
       unimport: 1.1.0
-      untyped: 1.2.0
+      untyped: 1.2.1
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -2666,7 +2666,7 @@ packages:
       c12: 1.1.0
       create-require: 1.1.1
       defu: 6.1.1
-      jiti: 1.16.0
+      jiti: 1.16.1
       pathe: 1.0.0
       pkg-types: 1.0.1
       postcss-import-resolver: 2.0.0
@@ -2674,7 +2674,7 @@ packages:
       std-env: 3.3.1
       ufo: 1.0.1
       unimport: 1.1.0_rollup@2.79.1
-      untyped: 1.2.0
+      untyped: 1.2.1
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -2696,7 +2696,7 @@ packages:
       git-url-parse: 13.1.0
       inquirer: 9.1.4
       is-docker: 3.0.0
-      jiti: 1.16.0
+      jiti: 1.16.1
       mri: 1.2.0
       nanoid: 4.0.0
       node-fetch: 3.3.0
@@ -2709,19 +2709,19 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/test-utils-edge/3.0.1-rc.0-27878066.7f4f10a:
-    resolution: {integrity: sha512-vdGDyw4mUCR84X8u/m+EIIA1JtXZo/foLWIWxDdsIEIuydOc+A9y82vfPeFrGBOQq6PLe14j0GLS04CppkZk+g==}
+  /@nuxt/test-utils-edge/3.0.1-rc.0-27880943.da38c62:
+    resolution: {integrity: sha512-Bw+UueuWfTU32kpP0cSvVjocXqhhyl8BsrEWMuHLgu/gH/o4YHJAM5DoPw9J/eL8xZKJnjPAAn248P6TXwd1Kw==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     peerDependencies:
       vue: ^3.2.45
     dependencies:
-      '@nuxt/kit': /@nuxt/kit-edge/3.0.1-rc.0-27878066.7f4f10a
-      '@nuxt/schema': /@nuxt/schema-edge/3.0.1-rc.0-27878066.7f4f10a
+      '@nuxt/kit': /@nuxt/kit-edge/3.0.1-rc.0-27880943.da38c62
+      '@nuxt/schema': /@nuxt/schema-edge/3.0.1-rc.0-27880943.da38c62
       consola: 2.15.3
       defu: 6.1.1
       execa: 6.1.0
-      get-port-please: 2.6.1
-      jiti: 1.16.0
+      get-port-please: 3.0.1
+      jiti: 1.16.1
       ofetch: 1.0.0
       pathe: 1.0.0
     transitivePeerDependencies:
@@ -6792,7 +6792,7 @@ packages:
       defu: 6.1.1
       dotenv: 16.0.3
       gittar: 0.1.1
-      jiti: 1.16.0
+      jiti: 1.16.1
       mlly: 1.0.0
       pathe: 1.0.0
       pkg-types: 1.0.1
@@ -6805,7 +6805,7 @@ packages:
       defu: 6.1.1
       dotenv: 16.0.3
       giget: 1.0.0
-      jiti: 1.16.0
+      jiti: 1.16.1
       mlly: 1.0.0
       pathe: 1.0.0
       pkg-types: 1.0.1
@@ -9932,6 +9932,10 @@ packages:
       fs-memo: 1.2.0
     dev: true
 
+  /get-port-please/3.0.1:
+    resolution: {integrity: sha512-R5pcVO8Z1+pVDu8Ml3xaJCEkBiiy1VQN9za0YqH8GIi1nIqD4IzQhzY6dDzMRtdS1lyiGlucRzm8IN8wtLIXng==}
+    dev: true
+
   /get-stdin/4.0.1:
     resolution: {integrity: sha512-F5aQMywwJ2n85s4hJPTT9RPxGmubonuB10MNYo17/xph174n2MIR33HRguhzVag10O/npM7SPk73LMZNP+FaWw==}
     engines: {node: '>=0.10.0'}
@@ -11948,6 +11952,11 @@ packages:
     hasBin: true
     dev: true
 
+  /jiti/1.16.1:
+    resolution: {integrity: sha512-kJUp4Bj44uTaZAwG6R2/GjbodOWHULn8Swue0B7tY8v5BpTkUvDR+zBM5tsbC4x/jCeYDZ+mAdrUIScwIo4oPw==}
+    hasBin: true
+    dev: true
+
   /joi/17.6.2:
     resolution: {integrity: sha512-+gqqdh1xc1wb+Lor0J9toqgeReyDOCqOdG8QSdRcEvwrcRiFQZneUCGKjFjuyBWUb3uaFOgY56yMaZ5FIc+H4w==}
     dependencies:
@@ -13047,7 +13056,7 @@ packages:
       hookable: 5.4.2
       http-proxy: 1.18.1
       is-primitive: 3.0.1
-      jiti: 1.16.0
+      jiti: 1.16.1
       klona: 2.0.5
       knitwork: 1.0.0
       listhen: 1.0.0
@@ -17335,18 +17344,18 @@ packages:
     resolution: {integrity: sha512-aBeR3Z51038d7zVzsNShYEdO7u/VCp5R17fxpPXlD2QvG9g6uVJ+JM+zMJ7KFPIt1BNf3I6bU6PhAlsAFkIfdA==}
     dependencies:
       '@babel/core': 7.20.12
-      '@babel/standalone': 7.20.6
+      '@babel/standalone': 7.20.12
       '@babel/types': 7.20.7
       scule: 1.0.0
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /untyped/1.2.0:
-    resolution: {integrity: sha512-nG0A55YEhUU5UCEM+nhIhCVkA8a4L1spIVtzO0937WDjEA6jrKpu184O2K9iv5UuJNHnwhu+Q3TXiSJh/JrjlQ==}
+  /untyped/1.2.1:
+    resolution: {integrity: sha512-hEtBC6MvqXLEEpx5ItPhnpgHIf3hRP310IYHj7N3D5zjdLJnmJNsGRDFbovk6DM2dekF/OBWuxDr0b6479eUkA==}
     dependencies:
       '@babel/core': 7.20.12
-      '@babel/standalone': 7.20.6
+      '@babel/standalone': 7.20.12
       '@babel/types': 7.20.7
       scule: 1.0.0
     transitivePeerDependencies:
