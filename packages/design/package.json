@@ -9,7 +9,7 @@
     "ci:test": "concurrently -k -s first -n \"SB,TEST\" -c \"magenta,blue\" \"pnpm build-storybook --quiet && npx http-server storybook-static --port 6006 --silent\" \"wait-on tcp:6006 && pnpm test-storybook --ci\""
   },
   "devDependencies": {
-    "@babel/core": "7.20.7",
+    "@babel/core": "7.20.12",
     "@nuxt/kit": "3.0.0",
     "@storybook/addon-actions": "6.5.15",
     "@storybook/addon-essentials": "6.5.15",
