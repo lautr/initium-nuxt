@@ -22,7 +22,7 @@ importers:
       '@storybook/addon-essentials': 6.5.15
       '@storybook/addon-links': 6.5.15
       '@storybook/addon-postcss': 2.0.0
-      '@storybook/builder-vite': 0.2.6
+      '@storybook/builder-vite': 0.2.7
       '@storybook/test-runner': 0.9.2
       '@storybook/vue3': 6.5.15
       '@vitejs/plugin-vue': 4.0.0
@@ -45,7 +45,7 @@ importers:
       '@storybook/addon-essentials': 6.5.15_sev3luvogwmpw3mffxqdlhd52y
       '@storybook/addon-links': 6.5.15
       '@storybook/addon-postcss': 2.0.0
-      '@storybook/builder-vite': 0.2.6_fqy64tgvkqknkrtdobqbtvhbpy
+      '@storybook/builder-vite': 0.2.7_fqy64tgvkqknkrtdobqbtvhbpy
       '@storybook/test-runner': 0.9.2_typescript@4.9.4
       '@storybook/vue3': 6.5.15_liy456nd5hirgtfvghe2ejko7a
       '@vitejs/plugin-vue': 4.0.0_vite@4.0.4+vue@3.2.45
@@ -3494,8 +3494,8 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /@storybook/builder-vite/0.2.6_fqy64tgvkqknkrtdobqbtvhbpy:
-    resolution: {integrity: sha512-TwlqJykq5KfM8SmDXWQtUHrYg4XySxwOe3RKud4iGZDYmqPc/ayB9XSF6DR50WgC7gKK7WIVIN+ZcGPphy5zWg==}
+  /@storybook/builder-vite/0.2.7_fqy64tgvkqknkrtdobqbtvhbpy:
+    resolution: {integrity: sha512-IvgInn1dsL4amHn8IDHWv2KaoWyRWxGQvHvctfHl7ayN8fke6Tzg8lBUxVoGBfqeoO3glo/zsVUUO+aNeUUlxQ==}
     peerDependencies:
       '@storybook/mdx2-csf': ^0.0.3
       '@sveltejs/vite-plugin-svelte': ^1.0.0
@@ -3513,11 +3513,11 @@ packages:
         optional: true
     dependencies:
       '@joshwooding/vite-plugin-react-docgen-typescript': 0.0.5_gl4qsmwzp7wy5uclz4tx77gbli
-      '@storybook/core-common': 6.5.14_typescript@4.9.4
+      '@storybook/core-common': 6.5.15_typescript@4.9.4
       '@storybook/mdx1-csf': 0.0.4_@babel+core@7.20.12
-      '@storybook/node-logger': 6.5.14
+      '@storybook/node-logger': 6.5.15
       '@storybook/semver': 7.3.2
-      '@storybook/source-loader': 6.5.14
+      '@storybook/source-loader': 6.5.15
       '@vitejs/plugin-react': 2.1.0_vite@4.0.4
       '@vitejs/plugin-vue': 4.0.0_vite@4.0.4+vue@3.2.45
       ast-types: 0.14.2
@@ -4456,24 +4456,6 @@ packages:
     dependencies:
       core-js: 3.25.5
       find-up: 4.1.0
-    dev: true
-
-  /@storybook/source-loader/6.5.14:
-    resolution: {integrity: sha512-0GKMZ6IMVGxfQn/RYdRdnzxCe4+zZsxHBY9SQB2bbYWyfjJQ5rCJvmYQuMAuuuUmXBv9gk50iJLwai+lb4tbFg==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
-      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-    dependencies:
-      '@storybook/addons': 6.5.14
-      '@storybook/client-logger': 6.5.14
-      '@storybook/csf': 0.0.2--canary.4566f4d.1
-      core-js: 3.25.5
-      estraverse: 5.3.0
-      global: 4.4.0
-      loader-utils: 2.0.4
-      lodash: 4.17.21
-      prettier: 2.3.0
-      regenerator-runtime: 0.13.9
     dev: true
 
   /@storybook/source-loader/6.5.15:
