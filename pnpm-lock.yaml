@@ -65,7 +65,7 @@ importers:
   packages/webapp:
     specifiers:
       '@lautr/initium-nuxt-design': workspace:*
-      '@nuxt/test-utils-edge': 3.0.1-rc.0-27887744.586df1a
+      '@nuxt/test-utils-edge': 3.0.1-rc.0-27889360.9de94c2
       '@nuxtjs/color-mode': 3.2.0
       '@nuxtjs/tailwindcss': 6.2.0
       '@pinia/nuxt': 0.4.6
@@ -79,7 +79,7 @@ importers:
       vitest: 0.25.8
     devDependencies:
       '@lautr/initium-nuxt-design': link:../design
-      '@nuxt/test-utils-edge': 3.0.1-rc.0-27887744.586df1a
+      '@nuxt/test-utils-edge': 3.0.1-rc.0-27889360.9de94c2
       '@nuxtjs/color-mode': 3.2.0
       '@nuxtjs/tailwindcss': 6.2.0
       '@pinia/nuxt': 0.4.6
@@ -2524,11 +2524,11 @@ packages:
     resolution: {integrity: sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==}
     dev: true
 
-  /@nuxt/kit-edge/3.0.1-rc.0-27887744.586df1a:
-    resolution: {integrity: sha512-Imz13Wo+QNKI3E5EDa/ts4hT4kzQQT0Lnd4mzcVQ8BS7XBJ6gEZrq6jr6NRxNlID7pOLUQPuX8nnw/eZ2gbICQ==}
+  /@nuxt/kit-edge/3.0.1-rc.0-27889360.9de94c2:
+    resolution: {integrity: sha512-adSS6t/m2dSfD0yuFe1n9el2oqdBIEFv2y+6btPs5VDHajjCXrLXdmwjNKXXO3qy3glJdUAwMmf1Tac2k4tumw==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     dependencies:
-      '@nuxt/schema': /@nuxt/schema-edge/3.0.1-rc.0-27887744.586df1a
+      '@nuxt/schema': /@nuxt/schema-edge/3.0.1-rc.0-27889360.9de94c2
       c12: 1.1.0
       consola: 2.15.3
       defu: 6.1.1
@@ -2538,7 +2538,7 @@ packages:
       jiti: 1.16.1
       knitwork: 1.0.0
       lodash.template: 4.5.0
-      mlly: 1.0.0
+      mlly: 1.1.0
       pathe: 1.0.0
       pkg-types: 1.0.1
       scule: 1.0.0
@@ -2620,8 +2620,8 @@ packages:
       - webpack
     dev: true
 
-  /@nuxt/schema-edge/3.0.1-rc.0-27887744.586df1a:
-    resolution: {integrity: sha512-XjJT0tVu8/VI3gVJQJLAIiadKHqa9GVphlnlGe4FtbZuQ6ojXeHPw1Ui/k7VnJqeiNcs9m4A7o/o9tl7N9tj1w==}
+  /@nuxt/schema-edge/3.0.1-rc.0-27889360.9de94c2:
+    resolution: {integrity: sha512-JDtKoJCZTDqey3lhigfXQb5vt7R1/2Naej8tQIvBgXbXXonMHYk8lLw/tDib+cNPsjszI59Fh1XeDYmY1fA0ag==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     dependencies:
       c12: 1.1.0
@@ -2713,14 +2713,14 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/test-utils-edge/3.0.1-rc.0-27887744.586df1a:
-    resolution: {integrity: sha512-fCxIVe0dJHBI2tPiMImR0a3u3kukwnalZgk7hG9HC+nVcH6xdhJbp9kfwr/Z9tTtMGOImYNSSQX5GeVSkOPWrA==}
+  /@nuxt/test-utils-edge/3.0.1-rc.0-27889360.9de94c2:
+    resolution: {integrity: sha512-0j6C+nEkB1YNdQONKzO3dnLWvtfFe/Du4HJ338nK8WpzOHyKu7t+TWDFfDR9sRIQqKOrjWO2BblKlKZSovTTCg==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     peerDependencies:
       vue: ^3.2.45
     dependencies:
-      '@nuxt/kit': /@nuxt/kit-edge/3.0.1-rc.0-27887744.586df1a
-      '@nuxt/schema': /@nuxt/schema-edge/3.0.1-rc.0-27887744.586df1a
+      '@nuxt/kit': /@nuxt/kit-edge/3.0.1-rc.0-27889360.9de94c2
+      '@nuxt/schema': /@nuxt/schema-edge/3.0.1-rc.0-27889360.9de94c2
       consola: 2.15.3
       defu: 6.1.1
       execa: 6.1.0
@@ -2760,7 +2760,7 @@ packages:
       h3: 1.0.1
       knitwork: 1.0.0
       magic-string: 0.26.7
-      mlly: 1.0.0
+      mlly: 1.1.0
       ohash: 1.0.0
       pathe: 1.0.0
       perfect-debounce: 0.1.3
@@ -6779,7 +6779,7 @@ packages:
       dotenv: 16.0.3
       gittar: 0.1.1
       jiti: 1.16.1
-      mlly: 1.0.0
+      mlly: 1.1.0
       pathe: 1.0.0
       pkg-types: 1.0.1
       rc9: 2.0.0
@@ -6792,7 +6792,7 @@ packages:
       dotenv: 16.0.3
       giget: 1.0.0
       jiti: 1.16.1
-      mlly: 1.0.0
+      mlly: 1.1.0
       pathe: 1.0.0
       pkg-types: 1.0.1
       rc9: 2.0.0
@@ -9397,7 +9397,7 @@ packages:
     resolution: {integrity: sha512-MAU9ci3XdpqOX1aoIoyL2DMzW97P8LYeJxIUkfXhOfsrkH4KLHFaYDwKN0B2l6tqedVJWiTIJtWmxmZfa05vOQ==}
     dependencies:
       enhanced-resolve: 5.10.0
-      mlly: 1.0.0
+      mlly: 1.1.0
       pathe: 1.0.0
       ufo: 1.0.1
     dev: true
@@ -12926,6 +12926,15 @@ packages:
       ufo: 1.0.1
     dev: true
 
+  /mlly/1.1.0:
+    resolution: {integrity: sha512-cwzBrBfwGC1gYJyfcy8TcZU1f+dbH/T+TuOhtYP2wLv/Fb51/uV7HJQfBPtEupZ2ORLRU1EKFS/QfS3eo9+kBQ==}
+    dependencies:
+      acorn: 8.8.1
+      pathe: 1.0.0
+      pkg-types: 1.0.1
+      ufo: 1.0.1
+    dev: true
+
   /move-concurrently/1.0.1:
     resolution: {integrity: sha512-hdrFxZOycD/g6A6SoI2bB5NA/5NEqD0569+S47WZhPvm46sD50ZHdYaFmnua5lndde9rCHGjmfK7Z8BuCt/PcQ==}
     dependencies:
@@ -13068,7 +13077,7 @@ packages:
       knitwork: 1.0.0
       listhen: 1.0.0
       mime: 3.0.0
-      mlly: 1.0.0
+      mlly: 1.1.0
       mri: 1.2.0
       node-fetch-native: 1.0.1
       ofetch: 1.0.0
@@ -14022,7 +14031,7 @@ packages:
     resolution: {integrity: sha512-jHv9HB+Ho7dj6ItwppRDDl0iZRYBD0jsakHXtFgoLr+cHSF6xC+QL54sJmWxyGxOLYSHm0afhXhXcQDQqH9z8g==}
     dependencies:
       jsonc-parser: 3.2.0
-      mlly: 1.0.0
+      mlly: 1.1.0
       pathe: 1.0.0
     dev: true
 
@@ -17078,7 +17087,7 @@ packages:
       fast-glob: 3.2.12
       local-pkg: 0.4.2
       magic-string: 0.26.7
-      mlly: 1.0.0
+      mlly: 1.1.0
       pathe: 1.0.0
       pkg-types: 1.0.1
       scule: 1.0.0
@@ -17096,7 +17105,7 @@ packages:
       fast-glob: 3.2.12
       local-pkg: 0.4.2
       magic-string: 0.26.7
-      mlly: 1.0.0
+      mlly: 1.1.0
       pathe: 1.0.0
       pkg-types: 1.0.1
       scule: 1.0.0
@@ -17132,7 +17141,7 @@ packages:
       fast-glob: 3.2.12
       local-pkg: 0.4.2
       magic-string: 0.27.0
-      mlly: 1.0.0
+      mlly: 1.1.0
       pathe: 1.0.0
       pkg-types: 1.0.1
       scule: 1.0.0
@@ -17150,7 +17159,7 @@ packages:
       fast-glob: 3.2.12
       local-pkg: 0.4.2
       magic-string: 0.27.0
-      mlly: 1.0.0
+      mlly: 1.1.0
       pathe: 1.0.0
       pkg-types: 1.0.1
       scule: 1.0.0
