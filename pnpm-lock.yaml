@@ -65,7 +65,7 @@ importers:
   packages/webapp:
     specifiers:
       '@lautr/initium-nuxt-design': workspace:*
-      '@nuxt/test-utils-edge': 3.0.1-rc.0-27891178.698a310
+      '@nuxt/test-utils-edge': 3.0.1-rc.0-27894335.0db3c63
       '@nuxtjs/color-mode': 3.2.0
       '@nuxtjs/tailwindcss': 6.2.0
       '@pinia/nuxt': 0.4.6
@@ -79,7 +79,7 @@ importers:
       vitest: 0.25.8
     devDependencies:
       '@lautr/initium-nuxt-design': link:../design
-      '@nuxt/test-utils-edge': 3.0.1-rc.0-27891178.698a310
+      '@nuxt/test-utils-edge': 3.0.1-rc.0-27894335.0db3c63
       '@nuxtjs/color-mode': 3.2.0
       '@nuxtjs/tailwindcss': 6.2.0
       '@pinia/nuxt': 0.4.6
@@ -2524,11 +2524,11 @@ packages:
     resolution: {integrity: sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==}
     dev: true
 
-  /@nuxt/kit-edge/3.0.1-rc.0-27891178.698a310:
-    resolution: {integrity: sha512-sLCRgLP2wLaIq5yuCy6lhf/61mdQUs6AAT8a+q8K1VAFKKgOANMk6kTTqg0sow6wAZVk12cK9MxGLSqS55VK1g==}
+  /@nuxt/kit-edge/3.0.1-rc.0-27894335.0db3c63:
+    resolution: {integrity: sha512-sjPAucWtIvDLVmshSClGQ5NSI5nPk+EAMrGWee2qVL1UdDa+BYIc2VRnWLYnM7p3QBUvKYeB0PZ41XcWmf+HfA==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     dependencies:
-      '@nuxt/schema': /@nuxt/schema-edge/3.0.1-rc.0-27891178.698a310
+      '@nuxt/schema': /@nuxt/schema-edge/3.0.1-rc.0-27894335.0db3c63
       c12: 1.1.0
       consola: 2.15.3
       defu: 6.1.1
@@ -2545,7 +2545,7 @@ packages:
       semver: 7.3.8
       unctx: 2.1.1
       unimport: 1.2.0
-      untyped: 1.2.1
+      untyped: 1.2.2
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -2620,8 +2620,8 @@ packages:
       - webpack
     dev: true
 
-  /@nuxt/schema-edge/3.0.1-rc.0-27891178.698a310:
-    resolution: {integrity: sha512-Xuo86LYrHa392zrz5+Ems01e3Ko+ULoMCgJMRhqqXipeUwo31cf8zg1EyI2XuBFqsrDaSC3IxeCisnYkIZ6rRw==}
+  /@nuxt/schema-edge/3.0.1-rc.0-27894335.0db3c63:
+    resolution: {integrity: sha512-tXZjeo/W5a7UR1KqeGchX3dedp20py54iaaWQW/Ex0JEX6feG963OfSHS/8fsm2jZNAGTSj11rioQKZ656ghnQ==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     dependencies:
       c12: 1.1.0
@@ -2636,7 +2636,7 @@ packages:
       std-env: 3.3.1
       ufo: 1.0.1
       unimport: 1.2.0
-      untyped: 1.2.1
+      untyped: 1.2.2
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -2657,7 +2657,7 @@ packages:
       std-env: 3.3.1
       ufo: 1.0.1
       unimport: 1.2.0
-      untyped: 1.2.1
+      untyped: 1.2.2
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -2678,7 +2678,7 @@ packages:
       std-env: 3.3.1
       ufo: 1.0.1
       unimport: 1.2.0_rollup@2.79.1
-      untyped: 1.2.1
+      untyped: 1.2.2
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -2713,14 +2713,14 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/test-utils-edge/3.0.1-rc.0-27891178.698a310:
-    resolution: {integrity: sha512-U+a03WRhNd7ZDv7a9LgkuJwEf8lI0YMKAN6+PameFd3w08hDuXEmJxcUyAnVXHd3y5Y8fbXbKwZzp1tZZidbyw==}
+  /@nuxt/test-utils-edge/3.0.1-rc.0-27894335.0db3c63:
+    resolution: {integrity: sha512-DMSr3kUEH3y0+lEPlO9sb5g8VDPZoBIPTMmZ3Wwm/LuP2kG038zMJx0beMlcA61DFg8ocIkK9KZPjOEPZF9u+Q==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     peerDependencies:
       vue: ^3.2.45
     dependencies:
-      '@nuxt/kit': /@nuxt/kit-edge/3.0.1-rc.0-27891178.698a310
-      '@nuxt/schema': /@nuxt/schema-edge/3.0.1-rc.0-27891178.698a310
+      '@nuxt/kit': /@nuxt/kit-edge/3.0.1-rc.0-27894335.0db3c63
+      '@nuxt/schema': /@nuxt/schema-edge/3.0.1-rc.0-27894335.0db3c63
       consola: 2.15.3
       defu: 6.1.1
       execa: 6.1.0
@@ -17367,8 +17367,8 @@ packages:
       - supports-color
     dev: true
 
-  /untyped/1.2.1:
-    resolution: {integrity: sha512-hEtBC6MvqXLEEpx5ItPhnpgHIf3hRP310IYHj7N3D5zjdLJnmJNsGRDFbovk6DM2dekF/OBWuxDr0b6479eUkA==}
+  /untyped/1.2.2:
+    resolution: {integrity: sha512-EANYd5L6AdpgfldlgMcmvOOnj092nWhy0ybhc7uhEH12ipytDYz89EOegBQKj8qWL3u1wgYnmFjADhsuCJs5Aw==}
     dependencies:
       '@babel/core': 7.20.12
       '@babel/standalone': 7.20.12
