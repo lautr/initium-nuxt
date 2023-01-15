@@ -72,7 +72,7 @@ importers:
       '@vueuse/nuxt': 9.7.0
       autoprefixer: 10.4.13
       nuxt: 3.0.0
-      pinia: 2.0.28
+      pinia: 2.0.29
       postcss: 8.4.21
       postcss-import: 15.1.0
       tailwindcss: 3.2.4
@@ -86,7 +86,7 @@ importers:
       '@vueuse/nuxt': 9.7.0_nuxt@3.0.0
       autoprefixer: 10.4.13_postcss@8.4.21
       nuxt: 3.0.0
-      pinia: 2.0.28
+      pinia: 2.0.29
       postcss: 8.4.21
       postcss-import: 15.1.0_postcss@8.4.21
       tailwindcss: 3.2.4_postcss@8.4.21
@@ -2829,7 +2829,7 @@ packages:
     resolution: {integrity: sha512-HjrYEfLdFpmsjhicPJgL36jVhzHWukIQPFFHGTSF84Cplu+f2nY2XHKqe9ToHzE9rLee2RjLOwAzOnXa/I/u6A==}
     dependencies:
       '@nuxt/kit': 3.0.0
-      pinia: 2.0.28
+      pinia: 2.0.29
     transitivePeerDependencies:
       - '@vue/composition-api'
       - rollup
@@ -13963,8 +13963,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /pinia/2.0.28:
-    resolution: {integrity: sha512-YClq9DkqCblq9rlyUual7ezMu/iICWdBtfJrDt4oWU9Zxpijyz7xB2xTwx57DaBQ96UGvvTMORzALr+iO5PVMw==}
+  /pinia/2.0.29:
+    resolution: {integrity: sha512-5z/KpFecq/cIgfeTnulJXldiLcTITRkTe3N58RKYSj0Pc1EdR6oyCdnf5A9jLoVwBqX5LtHhd0kGlpzWvk9oiQ==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
