@@ -1,3 +1,6 @@
+<script lang="ts" setup>
+</script>
+
 <template>
   <div class="bg-slate-50 dark:bg-slate-600 min-h-screen flex flex-col">
     <UiSheet class="sticky max-h-10 w-full">

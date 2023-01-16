@@ -7,6 +7,8 @@ const foo = () => {
 
 <template>
   <div>
-    <span @click="foo">hello world</span>
+    <UiButton @click="foo">
+      hello world
+    </UiButton>
   </div>
 </template>

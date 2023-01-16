@@ -3,9 +3,9 @@ const emit = defineEmits<{
   (e: 'signIn', identity: string): void
 }>()
 
-const identity = ref(null)
+const identity = ref('')
 const onSignIn = () => {
-  emit('signIn', identity)
+  emit('signIn', identity.value)
 }
 </script>
 
