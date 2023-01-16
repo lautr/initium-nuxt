@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@lautr/initium-nuxt-design": "workspace:*",
-    "@nuxt/test-utils-edge": "3.0.1-rc.0-27894335.0db3c63",
+    "@nuxt/test-utils-edge": "3.0.1-rc.0-27898092.1e8da22",
     "@nuxtjs/color-mode": "3.2.0",
     "@nuxtjs/tailwindcss": "6.2.0",
     "@pinia/nuxt": "0.4.6",
