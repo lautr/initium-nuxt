@@ -22,7 +22,7 @@ importers:
       '@storybook/addon-essentials': 6.5.15
       '@storybook/addon-links': 6.5.15
       '@storybook/addon-postcss': 2.0.0
-      '@storybook/builder-vite': 0.2.7
+      '@storybook/builder-vite': 0.3.0
       '@storybook/test-runner': 0.9.2
       '@storybook/vue3': 6.5.15
       '@vitejs/plugin-vue': 4.0.0
@@ -45,7 +45,7 @@ importers:
       '@storybook/addon-essentials': 6.5.15_sev3luvogwmpw3mffxqdlhd52y
       '@storybook/addon-links': 6.5.15
       '@storybook/addon-postcss': 2.0.0
-      '@storybook/builder-vite': 0.2.7_fqy64tgvkqknkrtdobqbtvhbpy
+      '@storybook/builder-vite': 0.3.0_fqy64tgvkqknkrtdobqbtvhbpy
       '@storybook/test-runner': 0.9.2_typescript@4.9.4
       '@storybook/vue3': 6.5.15_liy456nd5hirgtfvghe2ejko7a
       '@vitejs/plugin-vue': 4.0.0_vite@4.0.4+vue@3.2.45
@@ -2336,16 +2336,18 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@joshwooding/vite-plugin-react-docgen-typescript/0.0.5_gl4qsmwzp7wy5uclz4tx77gbli:
-    resolution: {integrity: sha512-HwAEj/vAP1+hzBfIv9DTCyg+1O0/LG48Up7j1RmJ+pFwjb/wRxzUBco4LqKFKe7SZ0M6IyASNh1oKP3yHnJElA==}
+  /@joshwooding/vite-plugin-react-docgen-typescript/0.2.1_gl4qsmwzp7wy5uclz4tx77gbli:
+    resolution: {integrity: sha512-ou4ZJSXMMWHqGS4g8uNRbC5TiTWxAgQZiVucoUrOCWuPrTbkpJbmVyIi9jU72SBry7gQtuMEDp4YR8EEXAg7VQ==}
     peerDependencies:
       typescript: '>= 4.3.x'
-      vite: '>2.0.0-0'
+      vite: ^3.0.0 || ^4.0.0
+    peerDependenciesMeta:
+      typescript:
+        optional: true
     dependencies:
-      '@rollup/pluginutils': 4.2.1
       glob: 7.2.3
       glob-promise: 4.2.2_glob@7.2.3
-      magic-string: 0.26.7
+      magic-string: 0.27.0
       react-docgen-typescript: 2.2.2_typescript@4.9.4
       typescript: 4.9.4
       vite: 4.0.4
@@ -2941,14 +2943,6 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rollup/pluginutils/4.2.1:
-    resolution: {integrity: sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==}
-    engines: {node: '>= 8.0.0'}
-    dependencies:
-      estree-walker: 2.0.2
-      picomatch: 2.3.1
-    dev: true
-
   /@rollup/pluginutils/5.0.2:
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
     engines: {node: '>=14.0.0'}
@@ -3498,13 +3492,13 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /@storybook/builder-vite/0.2.7_fqy64tgvkqknkrtdobqbtvhbpy:
-    resolution: {integrity: sha512-IvgInn1dsL4amHn8IDHWv2KaoWyRWxGQvHvctfHl7ayN8fke6Tzg8lBUxVoGBfqeoO3glo/zsVUUO+aNeUUlxQ==}
+  /@storybook/builder-vite/0.3.0_fqy64tgvkqknkrtdobqbtvhbpy:
+    resolution: {integrity: sha512-sTnk4P0kkIMjYpQzTij5Ehy4w9rs6hAI1x8qUQt3280E7PLbtmbvKtxNa2dQ+g9BEV3UeYCPOS3puxH3fGwSWA==}
     peerDependencies:
       '@storybook/mdx2-csf': ^0.0.3
-      '@sveltejs/vite-plugin-svelte': ^1.0.0
-      '@vitejs/plugin-vue': ^3.0.0
-      vite: '>= 3.0.0'
+      '@sveltejs/vite-plugin-svelte': ^2.0.0
+      '@vitejs/plugin-vue': ^4.0.0
+      vite: '>= 4.0.0'
       vue-docgen-api: ^4.40.0
     peerDependenciesMeta:
       '@storybook/mdx2-csf':
@@ -3516,7 +3510,7 @@ packages:
       vue-docgen-api:
         optional: true
     dependencies:
-      '@joshwooding/vite-plugin-react-docgen-typescript': 0.0.5_gl4qsmwzp7wy5uclz4tx77gbli
+      '@joshwooding/vite-plugin-react-docgen-typescript': 0.2.1_gl4qsmwzp7wy5uclz4tx77gbli
       '@storybook/core-common': 6.5.15_typescript@4.9.4
       '@storybook/mdx1-csf': 0.0.4_@babel+core@7.20.12
       '@storybook/node-logger': 6.5.15

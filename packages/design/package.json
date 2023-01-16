@@ -15,7 +15,7 @@
     "@storybook/addon-essentials": "6.5.15",
     "@storybook/addon-links": "6.5.15",
     "@storybook/addon-postcss": "2.0.0",
-    "@storybook/builder-vite": "0.2.7",
+    "@storybook/builder-vite": "0.3.0",
     "@storybook/test-runner": "0.9.2",
     "@storybook/vue3": "6.5.15",
     "@vitejs/plugin-vue": "4.0.0",
