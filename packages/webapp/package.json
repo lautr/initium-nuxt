@@ -10,6 +10,9 @@
     "test": "vitest run",
     "ci": "test"
   },
+  "dependencies": {
+    "@lautr/initium-nuxt-design": "workspace:*"
+  },
   "devDependencies": {
     "@nuxt/test-utils-edge": "3.0.1-rc.0-27848798.0cb9a4c",
     "@nuxtjs/color-mode": "3.2.0",
@@ -22,8 +25,5 @@
     "postcss-import": "15.1.0",
     "tailwindcss": "3.2.4",
     "vitest": "0.25.8"
-  },
-  "dependencies": {
-    "@lautr/initium-nuxt-design": "workspace:*"
   }
 }
