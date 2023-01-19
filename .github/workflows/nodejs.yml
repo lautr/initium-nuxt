@@ -47,7 +47,7 @@ jobs:
         run: pnpm webapp build
 
       - name: Run webapp tests
-        run: pnpm webapp ci:test
+        run: pnpm webapp ci
 
       - name: Run & Test Design System
-        run: pnpm design ci:test
+        run: pnpm design ci

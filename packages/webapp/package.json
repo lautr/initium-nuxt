@@ -7,7 +7,8 @@
     "start": "nuxi start",
     "coverage": "vitest run --coverage",
     "postinstall": "nuxi prepare",
-    "ci:test": "vitest run"
+    "test": "vitest run",
+    "ci": "test"
   },
   "devDependencies": {
     "@nuxt/test-utils-edge": "3.0.1-rc.0-27848798.0cb9a4c",
