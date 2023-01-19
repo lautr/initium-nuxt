@@ -6,7 +6,7 @@
     <UiSheet class="sticky max-h-10 w-full">
       <slot name="header" />
     </UiSheet>
-    <UiSheet class="container mx-auto max-w-6xl mt-2">
+    <UiSheet class="container mx-auto min-h-screen md:max-w-6xl md:mt-2">
       <slot />
     </UiSheet>
   </div>

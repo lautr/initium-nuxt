@@ -16,7 +16,8 @@ const onSignIn = () => {
   >
     <UiInput
       v-model="identity"
-      placeholder="Username"
+      placeholder="Identity"
+      data-testid="identity"
     />
     <UiButton>
       Authenticate
