@@ -8,7 +8,7 @@
     "coverage": "vitest run --coverage",
     "postinstall": "nuxi prepare",
     "test": "vitest run",
-    "ci": "test"
+    "ci": "vitest run"
   },
   "dependencies": {
     "@lautr/initium-nuxt-design": "workspace:*"
