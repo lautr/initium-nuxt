@@ -6,7 +6,7 @@
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
     "test": "test-storybook",
-    "ci": "concurrently -k -s first -n \"SB,TEST\" -c \"magenta,blue\" \"pnpm build --quiet && pnpm http-server storybook-static --port 6006 --silent\" \"wait-on tcp:6006 && pnpm test --ci\""
+    "ci": "concurrently -k -s first -n \"SB,TEST\" -c \"magenta,blue\" \"pnpm build --quiet && pnpm http-server storybook-static --port 6006 --silent\" \"wait-on tcp:6006 && pnpm test\""
   },
   "dependencies": {
     "concurrently": "7.6.0",
