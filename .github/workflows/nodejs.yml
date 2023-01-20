@@ -53,7 +53,9 @@ jobs:
       - name: Webapp Build
         run: pnpm webapp build
       - name: Webapp Tests
-        run: pnpm webapp ci
+        run: pnpm webapp ci:test
+      - name: Webapp Development Smoke Test
+        run: pnpm webapp ci:smoke
 
   design:
     runs-on: ubuntu-latest

@@ -8,7 +8,9 @@
     "coverage": "vitest run --coverage",
     "postinstall": "nuxi prepare",
     "test": "vitest run",
-    "ci": "vitest run"
+    "ci:test": "vitest run",
+    "ci:smoke": "pnpm dlx concurrently -k -s first -n \"SB,TEST\" -c \"magenta,blue\" \"pnpm dev\" \"pnpm dlx wait-on tcp:3000 && pnpm echo \"pass\" \""
+
   },
   "dependencies": {
     "@lautr/initium-nuxt-design": "workspace:*"
