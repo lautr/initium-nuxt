@@ -34,17 +34,21 @@ jobs:
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
+l
       - name: Install dependencies
         run: pnpm install
 
-      - name: Run linter
+      - name: All lining
         run: pnpm lint
 
-      - name: Build Webapp
+      - name: Webapp Build
         run: pnpm webapp build
 
-      - name: Run webapp tests
+      - name: Webapp Tests
         run: pnpm webapp ci
 
-      - name: Run & Test Design System
+      - name: Design System Build & Tests
         run: pnpm design ci
+
+      - name: Design System Development Smoke Test
+        run: pnpm design dev --smoke-test
