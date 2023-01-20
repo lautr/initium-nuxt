@@ -6,13 +6,10 @@
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
     "test": "test-storybook --index-json",
-    "ci": "concurrently -k -s first -n \"SB,TEST\" -c \"magenta,blue\" \"pnpm build --quiet && pnpm http-server storybook-static --port 6006 --silent\" \"wait-on tcp:6006 && pnpm test\""
+    "ci": "pnpm dlx concurrently -k -s first -n \"SB,TEST\" -c \"magenta,blue\" \"pnpm build --quiet && pnpm dlx http-server storybook-static --port 6006 --silent\" \"pnpm dlx wait-on tcp:6006 && pnpm test\""
   },
   "dependencies": {
-    "concurrently": "7.6.0",
-    "http-server": "14.1.1",
-    "vue": "3.2.45",
-    "wait-on": "7.0.1"
+    "vue": "3.2.45"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "7.0.0-beta.24",

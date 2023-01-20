@@ -11,16 +11,13 @@ A button component
   <Story name="Application">
     {args => {
       return {
-        setup() {
-          return { args };
-        },
         components: { LayoutApplication },
         template: `
-          <LayoutApplication v-bind="args">
+         <LayoutApplication v-bind="args">
             <template #header>
               header
             </template>
-            <span>content</content>
+            <span>content</span>
           </LayoutApplication>`
       };
     }}
