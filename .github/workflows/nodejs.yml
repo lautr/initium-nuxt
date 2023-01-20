@@ -5,23 +5,19 @@ permissions:
   contents: write
 
 jobs:
-  cache-and-install:
+  setup:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 16
-
       - uses: pnpm/action-setup@v2.2.4
         name: Install pnpm
         with:
           version: 7
-
       - uses: actions/checkout@v3
       - name: Get pnpm store directory
         id: pnpm-cache
@@ -34,21 +30,30 @@ jobs:
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-pnpm-store-l
-
       - name: Install dependencies
         run: pnpm install
 
+  linting:
+    runs-on: ubuntu-latest
+    needs: [setup]
+    steps:
       - name: All lining
         run: pnpm lint
 
+  webapp:
+    runs-on: ubuntu-latest
+    needs: [setup]
+    steps:
       - name: Webapp Build
         run: pnpm webapp build
-
       - name: Webapp Tests
         run: pnpm webapp ci
 
+  design:
+    runs-on: ubuntu-latest
+    needs: [setup]
+    steps:
       - name: Design System Build & Tests
         run: pnpm design ci
-
       - name: Design System Development Smoke Test
         run: pnpm design dev --smoke-test
