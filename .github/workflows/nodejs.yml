@@ -33,8 +33,8 @@ jobs:
           path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
-            ${{ runner.os }}-pnpm-store-
-l
+            ${{ runner.os }}-pnpm-store-l
+
       - name: Install dependencies
         run: pnpm install
 
