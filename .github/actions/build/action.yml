@@ -15,6 +15,7 @@ runs:
     - uses: actions/checkout@v3
     - name: Get pnpm store directory
       id: pnpm-cache
+      shell: bash
       run: |
         echo "::set-output name=pnpm_cache_dir::$(pnpm store path)"
     - uses: actions/cache@v3
@@ -25,4 +26,5 @@ runs:
         restore-keys: |
           ${{ runner.os }}-pnpm-store-l
     - name: Install dependencies
+      shell: bash
       run: pnpm install
