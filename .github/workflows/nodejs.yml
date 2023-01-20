@@ -37,8 +37,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Install Playwright
-        run: pnpm dlx playwright install
+      # - name: Install Playwright
+        # run: pnpm dlx playwright install
 
       - name: Run linter
         run: pnpm lint
