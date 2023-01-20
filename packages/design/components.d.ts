@@ -7,9 +7,13 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    InteractionSignIn: typeof import('./components/interaction/SignIn.vue')['default']
+    LayoutApplication: typeof import('./components/layout/Application.vue')['default']
+    LayoutSplash: typeof import('./components/layout/Splash.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    UiButton: typeof import('~/components/ui/Button.vue')['default']
-    UiInput: typeof import('~/components/ui/Input.vue')['default']
+    UiButton: typeof import('./components/ui/Button.vue')['default']
+    UiInput: typeof import('./components/ui/Input.vue')['default']
+    UiSheet: typeof import('./components/ui/Sheet.vue')['default']
   }
 }

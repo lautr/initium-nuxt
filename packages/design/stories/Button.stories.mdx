@@ -1,10 +1,10 @@
 import { Canvas, Meta, Story } from "@storybook/addon-docs";
 
-import UiInput from "~/components/ui/Input.vue";
+import UiButton from "~/components/ui/Button.vue";
 
 <Meta
-  title="UI/Input"
-  component={UiInput}
+  title="UI/Button"
+  component={UiButton}
   argTypes={{
     placeholder: {
       name: "placeholder",
@@ -14,20 +14,20 @@ import UiInput from "~/components/ui/Input.vue";
   }}
 />
 
-# Input
+# My Button
 
-A input component
+A button component
 
 <Canvas>
-  <Story name="Input">
+  <Story name="Button">
     {args => {
       return {
         setup() {
           return { args };
         },
-        components: { UiInput },
+        components: { UiButton },
         template: `
-          <UiInput v-bind="args" />`
+          <UiButton v-bind="args">Button</UiButton>`
       };
     }}
   </Story>

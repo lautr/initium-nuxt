@@ -1,8 +1,6 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  colorMode: {
-    classSuffix: '',
-  },
+  css: ['~/assets/main.css'],
   components: {
     dirs: [
       '~/components',
@@ -18,13 +16,20 @@ export default defineNuxtConfig({
         autoImports: ['defineStore', 'acceptHMRUpdate'],
       },
     ],
-    '@nuxtjs/color-mode',
-    '@nuxtjs/tailwindcss',
+    [
+      '@nuxtjs/color-mode',
+      {
+        classSuffix: '',
+      },
+    ],
     '@vueuse/nuxt',
     '@lautr/initium-nuxt-design/nuxt',
   ],
-  tailwindcss: {
-    viewer: false,
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
   },
   typescript: {
     shim: false,

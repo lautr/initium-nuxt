@@ -3,17 +3,21 @@ const emit = defineEmits<{
   (e: 'signIn', identity: string): void
 }>()
 
-const identity = ref(null)
+const identity = ref('')
+const onSignIn = () => {
+  emit('signIn', identity.value)
+}
 </script>
 
 <template>
   <form
     class="flex flex-col space-y-2"
-    @submit.prevent="emit('signIn', identity)"
+    @submit.prevent="onSignIn"
   >
     <UiInput
       v-model="identity"
-      placeholder="Username"
+      placeholder="Identity"
+      data-testid="identity"
     />
     <UiButton>
       Authenticate
