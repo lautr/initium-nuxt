@@ -47,7 +47,6 @@ jobs:
         run: pnpm lint
 
   webapp:
-    uses: ./.github/actions/build
     runs-on: ubuntu-latest
     needs: [setup]
     steps:
@@ -59,7 +58,6 @@ jobs:
         run: pnpm webapp ci
 
   design:
-    uses: ./.github/actions/build
     runs-on: ubuntu-latest
     needs: [setup]
     steps:
