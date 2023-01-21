@@ -72,7 +72,7 @@ importers:
   packages/webapp:
     specifiers:
       '@lautr/initium-nuxt-design': workspace:*
-      '@nuxt/test-utils-edge': 3.0.1-rc.0-27903971.50e23ba
+      '@nuxt/test-utils-edge': 3.0.1-rc.0-27904926.50e23ba
       '@nuxtjs/color-mode': 3.2.0
       '@pinia/nuxt': 0.4.6
       '@vueuse/nuxt': 9.7.0
@@ -86,7 +86,7 @@ importers:
     dependencies:
       '@lautr/initium-nuxt-design': link:../design
     devDependencies:
-      '@nuxt/test-utils-edge': 3.0.1-rc.0-27903971.50e23ba
+      '@nuxt/test-utils-edge': 3.0.1-rc.0-27904926.50e23ba
       '@nuxtjs/color-mode': 3.2.0
       '@pinia/nuxt': 0.4.6
       '@vueuse/nuxt': 9.7.0_nuxt@3.0.0
@@ -3430,11 +3430,11 @@ packages:
     resolution: {integrity: sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==}
     dev: true
 
-  /@nuxt/kit-edge/3.0.1-rc.0-27903971.50e23ba:
-    resolution: {integrity: sha512-77Oa2v4Bd1C9+r7vD1920Z6JTgtGQKLbHr3cghmyzpE+VK/ogK+X43Yzc/fNIZ7s3qOCGZfkjcdcVw2X7roJ0Q==}
+  /@nuxt/kit-edge/3.0.1-rc.0-27904926.50e23ba:
+    resolution: {integrity: sha512-pK83zXkpkcooectXpbd8XvrCKLLoBp+x1O2C/+FrNXUcZLP34GoTSp0n+i7v8SLjq3uzphL0Pkn1CxF4MKMiIg==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     dependencies:
-      '@nuxt/schema': /@nuxt/schema-edge/3.0.1-rc.0-27903971.50e23ba
+      '@nuxt/schema': /@nuxt/schema-edge/3.0.1-rc.0-27904926.50e23ba
       c12: 1.1.0
       consola: 2.15.3
       defu: 6.1.1
@@ -3511,8 +3511,8 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/schema-edge/3.0.1-rc.0-27903971.50e23ba:
-    resolution: {integrity: sha512-QqEH6htJAw3Vc9ldlJJ9MR5SuCWl6fFhmpiQD6AC64N6E4mJD8cXC6gIVkAvvHknDTfHPguUz3DkgzXLbYXCqA==}
+  /@nuxt/schema-edge/3.0.1-rc.0-27904926.50e23ba:
+    resolution: {integrity: sha512-PiJFotuZKi9kqBY7l0qb9FpZQwppUwRe3G7jjo/MD1a4k0BtNzF0ch356NlgGSypNQpJ9svj0jBvwoqD2oG1HQ==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     dependencies:
       c12: 1.1.0
@@ -3604,14 +3604,14 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/test-utils-edge/3.0.1-rc.0-27903971.50e23ba:
-    resolution: {integrity: sha512-DE3X3hByGTkwXdSu+PdPQvdkB0mCZAa5kuUFaaEODRayBRkNWZgcGH6jBFndz2kPs0jxwMcRi47u31m2ELmmfw==}
+  /@nuxt/test-utils-edge/3.0.1-rc.0-27904926.50e23ba:
+    resolution: {integrity: sha512-yMe33ckZXVWIR+r00tQnab7VqwZbn33yWA+VJRft8Wr2iww5KhrVjHVAbE0sriOpiFBcRNUacv2ammjvQB0sOg==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     peerDependencies:
       vue: ^3.2.45
     dependencies:
-      '@nuxt/kit': /@nuxt/kit-edge/3.0.1-rc.0-27903971.50e23ba
-      '@nuxt/schema': /@nuxt/schema-edge/3.0.1-rc.0-27903971.50e23ba
+      '@nuxt/kit': /@nuxt/kit-edge/3.0.1-rc.0-27904926.50e23ba
+      '@nuxt/schema': /@nuxt/schema-edge/3.0.1-rc.0-27904926.50e23ba
       consola: 2.15.3
       defu: 6.1.1
       execa: 6.1.0
@@ -3972,7 +3972,7 @@ packages:
       '@storybook/csf-plugin': 7.0.0-beta.31
       '@storybook/csf-tools': 7.0.0-beta.31
       '@storybook/global': 5.0.0
-      '@storybook/mdx2-csf': 1.0.0-next.4
+      '@storybook/mdx2-csf': 1.0.0-next.5
       '@storybook/node-logger': 7.0.0-beta.31
       '@storybook/postinstall': 7.0.0-beta.31
       '@storybook/preview-api': 7.0.0-beta.31
@@ -4303,7 +4303,7 @@ packages:
       '@storybook/client-logger': 7.0.0-beta.31
       '@storybook/core-common': 7.0.0-beta.31
       '@storybook/csf-plugin': 7.0.0-beta.31
-      '@storybook/mdx2-csf': 1.0.0-next.4
+      '@storybook/mdx2-csf': 1.0.0-next.5
       '@storybook/node-logger': 7.0.0-beta.31
       '@storybook/preview': 7.0.0-beta.31
       '@storybook/preview-api': 7.0.0-beta.31
@@ -4823,8 +4823,8 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/mdx2-csf/1.0.0-next.4:
-    resolution: {integrity: sha512-nvRgYdpYvXsvSgCzKc4LQA1JxtJzmv47IsFAsh1rTz5FoHyK8watLU2WqX9T4w52fpFXBHx7RwGEsCRt0XgZlQ==}
+  /@storybook/mdx2-csf/1.0.0-next.5:
+    resolution: {integrity: sha512-02w0sgGZaK1agT050yCVhJ+o4rLHANWvLKWjQjeAsYbjneLC5ITt+3GDB4jRiWwJboZ8dHW1fGSK1Vg5fA34aQ==}
     dev: true
 
   /@storybook/node-logger/6.5.15:
