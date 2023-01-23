@@ -36,8 +36,6 @@ pnpm webapp build
 pnpm webapp start
 # start dev storybook
 pnpm design dev
-# run tests in webapp
-pnpm webapp test
 ```
 
 ## Plugins
