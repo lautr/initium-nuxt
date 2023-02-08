@@ -34,7 +34,7 @@ importers:
       react-dom: 18.2.0
       storybook: 7.0.0-beta.35
       storybook-dark-mode: 2.0.5
-      tailwindcss: 3.2.4
+      tailwindcss: 3.2.6
       typescript: 4.9.5
       unplugin-auto-import: 0.13.0
       unplugin-vue-components: 0.23.0
@@ -62,7 +62,7 @@ importers:
       react-dom: 18.2.0_react@18.2.0
       storybook: 7.0.0-beta.35
       storybook-dark-mode: 2.0.5_biqbaboplfbrettd7655fr4n2y
-      tailwindcss: 3.2.4_postcss@8.4.21
+      tailwindcss: 3.2.6_postcss@8.4.21
       typescript: 4.9.5
       unplugin-auto-import: 0.13.0
       unplugin-vue-components: 0.23.0_vue@3.2.45
@@ -81,7 +81,7 @@ importers:
       pinia: 2.0.30
       postcss: 8.4.21
       postcss-import: 15.1.0
-      tailwindcss: 3.2.4
+      tailwindcss: 3.2.6
       vitest: 0.28.4
     dependencies:
       '@lautr/initium-nuxt-design': link:../design
@@ -95,7 +95,7 @@ importers:
       pinia: 2.0.30
       postcss: 8.4.21
       postcss-import: 15.1.0_postcss@8.4.21
-      tailwindcss: 3.2.4_postcss@8.4.21
+      tailwindcss: 3.2.6_postcss@8.4.21
       vitest: 0.28.4
 
 packages:
@@ -8078,7 +8078,7 @@ packages:
       eslint-utils: 3.0.0_eslint@8.33.0
       natural-compare: 1.4.0
       nth-check: 2.1.1
-      postcss-selector-parser: 6.0.10
+      postcss-selector-parser: 6.0.11
       semver: 7.3.8
       vue-eslint-parser: 9.1.0_eslint@8.33.0
       xml-name-validator: 4.0.0
@@ -12521,7 +12521,7 @@ packages:
       postcss: ^8.2.2
     dependencies:
       postcss: 8.4.21
-      postcss-selector-parser: 6.0.10
+      postcss-selector-parser: 6.0.11
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -12663,7 +12663,7 @@ packages:
       caniuse-api: 3.0.0
       cssnano-utils: 3.1.0_postcss@8.4.21
       postcss: 8.4.21
-      postcss-selector-parser: 6.0.10
+      postcss-selector-parser: 6.0.11
     dev: true
 
   /postcss-minify-font-values/5.1.0_postcss@8.4.21:
@@ -12707,7 +12707,7 @@ packages:
       postcss: ^8.2.15
     dependencies:
       postcss: 8.4.21
-      postcss-selector-parser: 6.0.10
+      postcss-selector-parser: 6.0.11
     dev: true
 
   /postcss-nested/6.0.0_postcss@8.4.21:
@@ -12717,7 +12717,7 @@ packages:
       postcss: ^8.2.14
     dependencies:
       postcss: 8.4.21
-      postcss-selector-parser: 6.0.10
+      postcss-selector-parser: 6.0.11
     dev: true
 
   /postcss-normalize-charset/5.1.0_postcss@8.4.21:
@@ -12843,8 +12843,8 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
-  /postcss-selector-parser/6.0.10:
-    resolution: {integrity: sha512-IQ7TZdoaqbT+LCpShg46jnZVlhWD2w6iQYAcYXfHARZ7X1t/UGhhceQDs5X0cGqKvYlHNOuv7Oa1xmb0oQuA3w==}
+  /postcss-selector-parser/6.0.11:
+    resolution: {integrity: sha512-zbARubNdogI9j7WY4nQJBiNqQf3sLS3wCP4WfOidu+p28LofJqDH1tcXypGrcmMHhDk2t9wGhCsYe/+szLTy1g==}
     engines: {node: '>=4'}
     dependencies:
       cssesc: 3.0.0
@@ -12869,7 +12869,7 @@ packages:
       postcss: ^8.2.15
     dependencies:
       postcss: 8.4.21
-      postcss-selector-parser: 6.0.10
+      postcss-selector-parser: 6.0.11
     dev: true
 
   /postcss-url/10.1.3_postcss@8.4.21:
@@ -14432,7 +14432,7 @@ packages:
     dependencies:
       browserslist: 4.21.4
       postcss: 8.4.21
-      postcss-selector-parser: 6.0.10
+      postcss-selector-parser: 6.0.11
     dev: true
 
   /supports-color/5.5.0:
@@ -14491,8 +14491,8 @@ packages:
     resolution: {integrity: sha512-qImOD23aDfnIDNqlG1NOehdB9IYsn1V9oByPjKY1nakv2MQYCEMyX033/q+aEtYCpmYK1cv2+NTmlH+ra6GA5A==}
     dev: true
 
-  /tailwindcss/3.2.4_postcss@8.4.21:
-    resolution: {integrity: sha512-AhwtHCKMtR71JgeYDaswmZXhPcW9iuI9Sp2LvZPo9upDZ7231ZJ7eA9RaURbhpXGVlrjX4cFNlB4ieTetEb7hQ==}
+  /tailwindcss/3.2.6_postcss@8.4.21:
+    resolution: {integrity: sha512-BfgQWZrtqowOQMC2bwaSNe7xcIjdDEgixWGYOd6AL0CbKHJlvhfdbINeAW76l1sO+1ov/MJ93ODJ9yluRituIw==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
@@ -14517,7 +14517,7 @@ packages:
       postcss-js: 4.0.0_postcss@8.4.21
       postcss-load-config: 3.1.4_postcss@8.4.21
       postcss-nested: 6.0.0_postcss@8.4.21
-      postcss-selector-parser: 6.0.10
+      postcss-selector-parser: 6.0.11
       postcss-value-parser: 4.2.0
       quick-lru: 5.1.1
       resolve: 1.22.1
