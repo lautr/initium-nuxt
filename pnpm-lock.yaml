@@ -74,7 +74,7 @@ importers:
       '@lautr/initium-nuxt-design': workspace:*
       '@nuxt/test-utils-edge': 3.0.1-rc.0-27909581.f711046
       '@nuxtjs/color-mode': 3.2.0
-      '@pinia/nuxt': 0.4.6
+      '@pinia/nuxt': 0.4.7
       '@vueuse/nuxt': 9.12.0
       autoprefixer: 10.4.13
       nuxt: 3.1.1
@@ -88,7 +88,7 @@ importers:
     devDependencies:
       '@nuxt/test-utils-edge': 3.0.1-rc.0-27909581.f711046
       '@nuxtjs/color-mode': 3.2.0
-      '@pinia/nuxt': 0.4.6
+      '@pinia/nuxt': 0.4.7
       '@vueuse/nuxt': 9.12.0_nuxt@3.1.1
       autoprefixer: 10.4.13_postcss@8.4.21
       nuxt: 3.1.1
@@ -2969,11 +2969,11 @@ packages:
       - supports-color
     dev: true
 
-  /@pinia/nuxt/0.4.6:
-    resolution: {integrity: sha512-HjrYEfLdFpmsjhicPJgL36jVhzHWukIQPFFHGTSF84Cplu+f2nY2XHKqe9ToHzE9rLee2RjLOwAzOnXa/I/u6A==}
+  /@pinia/nuxt/0.4.7:
+    resolution: {integrity: sha512-ifgA9PO/jmPlK1e/HtkrZa7OMSL8EUOpo8Z1O5vNLRr/OZ42kKGEaY1NbIoCz6dIf/pbkATTNHJmcrlPCo3zSA==}
     dependencies:
-      '@nuxt/kit': 3.0.0
-      pinia: 2.0.30
+      '@nuxt/kit': 3.2.0
+      pinia: 2.0.31
     transitivePeerDependencies:
       - '@vue/composition-api'
       - rollup
@@ -5132,6 +5132,10 @@ packages:
 
   /@vue/devtools-api/6.4.5:
     resolution: {integrity: sha512-JD5fcdIuFxU4fQyXUu3w2KpAJHzTVdN+p4iOX2lMWSHMOoQdMAcpFLZzm9Z/2nmsoZ1a96QEhZ26e50xLBsgOQ==}
+    dev: true
+
+  /@vue/devtools-api/6.5.0:
+    resolution: {integrity: sha512-o9KfBeaBmCKl10usN4crU53fYtC1r7jJwdGKjPT24t348rHxgfpZ0xL3Xm/gLUYnc0oTp8LAmrxOeLyu6tbk2Q==}
     dev: true
 
   /@vue/reactivity-transform/3.2.45:
@@ -12579,6 +12583,22 @@ packages:
       vue-demi: 0.13.4
     dev: true
 
+  /pinia/2.0.31:
+    resolution: {integrity: sha512-6OOKZGX79jm3q0xAu+X/PaRjfyOcFnPXcHFAA8HHa+wbJeSi5xc/nYqO8Ff7XLvwV8mKGYXcUfZUHbqUmw6P0w==}
+    peerDependencies:
+      '@vue/composition-api': ^1.4.0
+      typescript: '>=4.4.4'
+      vue: ^2.6.14 || ^3.2.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+      typescript:
+        optional: true
+    dependencies:
+      '@vue/devtools-api': 6.5.0
+      vue-demi: 0.13.4
+    dev: true
+
   /pirates/4.0.5:
     resolution: {integrity: sha512-8V9+HQPupnaXMA23c5hvl69zXvTwTzyAYasnkb0Tts4XvO4CliqONMOnvlq26rkhLC3nWDFBJf73LU1e1VZLaQ==}
     engines: {node: '>= 6'}
@@ -15903,7 +15923,7 @@ packages:
     peerDependencies:
       vue: ^3.2.0
     dependencies:
-      '@vue/devtools-api': 6.4.5
+      '@vue/devtools-api': 6.5.0
       vue: 3.2.45
     dev: true
 
