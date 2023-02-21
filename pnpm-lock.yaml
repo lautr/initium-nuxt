@@ -33,7 +33,7 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0
       storybook: 7.0.0-beta.35
-      storybook-dark-mode: 2.0.6
+      storybook-dark-mode: 2.1.1
       tailwindcss: 3.2.7
       typescript: 4.9.5
       unplugin-auto-import: 0.14.4
@@ -61,7 +61,7 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       storybook: 7.0.0-beta.35
-      storybook-dark-mode: 2.0.6_biqbaboplfbrettd7655fr4n2y
+      storybook-dark-mode: 2.1.1_biqbaboplfbrettd7655fr4n2y
       tailwindcss: 3.2.7_postcss@8.4.21
       typescript: 4.9.5
       unplugin-auto-import: 0.14.4
@@ -14479,8 +14479,8 @@ packages:
     resolution: {integrity: sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==}
     dev: true
 
-  /storybook-dark-mode/2.0.6_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-uQYTL6U8VSa26n8ekEImc2+UHURIIgdiwQCO4PtRpVOxoqFUj26i7EsTsQQwIDhDgyC8okEaxYGDIf29Vlb9yA==}
+  /storybook-dark-mode/2.1.1_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-Ops6u/htODxIUXnAYASttqcbd2PRN723o0uIKpoYQn1+so2g6gYalpAhuysxnRhCG8yHsm6NJuX5drzzI+uFvQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
