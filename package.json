@@ -16,7 +16,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "0.35.3",
     "concurrently": "7.6.0",
-    "eslint": "8.34.0",
+    "eslint": "8.36.0",
     "typescript": "4.9.5"
   },
   "volta": {
