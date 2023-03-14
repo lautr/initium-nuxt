@@ -37,7 +37,7 @@ importers:
       tailwindcss: 3.2.7
       typescript: 4.9.5
       unplugin-auto-import: 0.15.1
-      unplugin-vue-components: 0.24.0
+      unplugin-vue-components: 0.24.1
       vite: 4.1.4
       vue: 3.2.45
       vue-tsc: 1.2.0
@@ -65,7 +65,7 @@ importers:
       tailwindcss: 3.2.7_postcss@8.4.21
       typescript: 4.9.5
       unplugin-auto-import: 0.15.1
-      unplugin-vue-components: 0.24.0_vue@3.2.45
+      unplugin-vue-components: 0.24.1_vue@3.2.45
       vite: 4.1.4_@types+node@18.11.18
       vue-tsc: 1.2.0_typescript@4.9.5
 
@@ -11377,13 +11377,6 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /magic-string/0.29.0:
-    resolution: {integrity: sha512-WcfidHrDjMY+eLjlU+8OvwREqHwpgCeKVBUpQ3OhYYuvfaYCUgcbuBzappNzZvg/v8onU3oQj+BYpkOJe9Iw4Q==}
-    engines: {node: '>=12'}
-    dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.14
-    dev: true
-
   /magic-string/0.30.0:
     resolution: {integrity: sha512-LA+31JYDJLs82r2ScLrlz1GjSgu66ZV518eyWT+S8VhyQn/JL0u9MeBOvQMGYiPk1DBiSN9DDMOcXvigJZaViQ==}
     engines: {node: '>=12'}
@@ -15421,25 +15414,27 @@ packages:
       - rollup
     dev: true
 
-  /unplugin-vue-components/0.24.0_vue@3.2.45:
-    resolution: {integrity: sha512-U+Pr5StEhlD1LzsJC63f3FoTje3IbqRuSIui9RBnOokowzMM2uK2jZkc1ccLWmhLa8P9qJwEdj93LE/NG83eiw==}
+  /unplugin-vue-components/0.24.1_vue@3.2.45:
+    resolution: {integrity: sha512-T3A8HkZoIE1Cja95xNqolwza0yD5IVlgZZ1PVAGvVCx8xthmjsv38xWRCtHtwl+rvZyL9uif42SRkDGw9aCfMA==}
     engines: {node: '>=14'}
     peerDependencies:
       '@babel/parser': ^7.15.8
+      '@nuxt/kit': ^3.2.2
       vue: 2 || 3
     peerDependenciesMeta:
       '@babel/parser':
         optional: true
+      '@nuxt/kit':
+        optional: true
     dependencies:
       '@antfu/utils': 0.7.2
-      '@nuxt/kit': 3.2.0
       '@rollup/pluginutils': 5.0.2
       chokidar: 3.5.3
       debug: 4.3.4
       fast-glob: 3.2.12
       local-pkg: 0.4.3
-      magic-string: 0.29.0
-      minimatch: 6.2.0
+      magic-string: 0.30.0
+      minimatch: 7.4.2
       resolve: 1.22.1
       unplugin: 1.1.0
       vue: 3.2.45
