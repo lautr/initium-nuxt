@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "0.37.0",
-    "concurrently": "7.6.0",
+    "concurrently": "8.0.1",
     "eslint": "8.37.0",
     "typescript": "5.0.2"
   },
