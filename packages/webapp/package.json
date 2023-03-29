@@ -16,16 +16,16 @@
     "@lautr/initium-nuxt-design": "workspace:*"
   },
   "devDependencies": {
-    "@nuxt/test-utils-edge": "3.0.1-rc.0-27909581.f711046",
+    "@nuxt/test-utils-edge": "3.3.3-27999905.6f614080",
     "@nuxtjs/color-mode": "3.2.0",
-    "@pinia/nuxt": "0.4.6",
-    "@vueuse/nuxt": "9.12.0",
-    "autoprefixer": "10.4.13",
-    "nuxt": "3.1.1",
-    "pinia": "2.0.29",
+    "@pinia/nuxt": "0.4.7",
+    "@vueuse/nuxt": "9.13.0",
+    "autoprefixer": "10.4.14",
+    "nuxt": "3.3.2",
+    "pinia": "2.0.33",
     "postcss": "8.4.21",
     "postcss-import": "15.1.0",
-    "tailwindcss": "3.2.4",
-    "vitest": "0.28.3"
+    "tailwindcss": "3.3.0",
+    "vitest": "0.29.8"
   }
 }
