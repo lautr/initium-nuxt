@@ -35,7 +35,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: ./.github/actions/build
       - name: Install Playwright
-        run: pnpm dlx playwright install
+        run: npx playwright install
       - name: Design System Build & Tests
         run: pnpm design ci
       - name: Design System Development Smoke Test
