@@ -31,6 +31,13 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  routeRules: {
+    '/**': {
+      headers: {
+        'cache-control': 's-maxage=300, maxage=300, type=public, stale-while-revalidate=90000, stale-if-error=90000',
+      },
+    },
+  },
   typescript: {
     shim: false,
   },
