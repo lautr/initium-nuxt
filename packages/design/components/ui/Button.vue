@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 const newThing = ref(10)
 
-const echoOutput = () => {
+function echoOutput() {
   newThing.value++
   window.console.log(newThing.value)
 }

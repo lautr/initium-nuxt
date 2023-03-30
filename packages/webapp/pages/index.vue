@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const foo = () => {
+function foo() {
   // eslint-disable-next-line no-console
   console.log('gelo')
 }

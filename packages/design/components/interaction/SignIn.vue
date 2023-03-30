@@ -4,7 +4,7 @@ const emit = defineEmits<{
 }>()
 
 const identity = ref('')
-const onSignIn = () => {
+function onSignIn() {
   emit('signIn', identity.value)
 }
 </script>
