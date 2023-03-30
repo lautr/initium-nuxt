@@ -81,8 +81,8 @@ importers:
         specifier: 2.1.1
         version: 2.1.1(react-dom@18.2.0)(react@18.2.0)
       tailwindcss:
-        specifier: 3.3.0
-        version: 3.3.0(postcss@8.4.21)
+        specifier: 3.3.1
+        version: 3.3.1(postcss@8.4.21)
       typescript:
         specifier: 5.0.2
         version: 5.0.2
@@ -133,8 +133,8 @@ importers:
         specifier: 15.1.0
         version: 15.1.0(postcss@8.4.21)
       tailwindcss:
-        specifier: 3.3.0
-        version: 3.3.0(postcss@8.4.21)
+        specifier: 3.3.1
+        version: 3.3.1(postcss@8.4.21)
       vitest:
         specifier: 0.29.8
         version: 0.29.8
@@ -12634,8 +12634,8 @@ packages:
     resolution: {integrity: sha512-AsS729u2RHUfEra9xJrE39peJcc2stq2+poBXX8bcM08Y6g9j/i/PUzwNQqkaJde7Ntg1TO7bSREbR5sdosQ+g==}
     dev: true
 
-  /tailwindcss@3.3.0(postcss@8.4.21):
-    resolution: {integrity: sha512-hOXlFx+YcklJ8kXiCAfk/FMyr4Pm9ck477G0m/us2344Vuj355IpoEDB5UmGAsSpTBmr+4ZhjzW04JuFXkb/fw==}
+  /tailwindcss@3.3.1(postcss@8.4.21):
+    resolution: {integrity: sha512-Vkiouc41d4CEq0ujXl6oiGFQ7bA3WEhUZdTgXAhtKxSy49OmKs8rEfQmupsfF0IGW8fv2iQkp1EVUuapCFrZ9g==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
