@@ -42,8 +42,8 @@ importers:
         specifier: 0.0.11-next.2
         version: 0.0.11-next.2
       '@storybook/test-runner':
-        specifier: 0.10.0-next.11
-        version: 0.10.0-next.11(@types/node@18.15.11)
+        specifier: 0.10.0-next.12
+        version: 0.10.0-next.12(@types/node@18.15.11)
       '@storybook/testing-library':
         specifier: 0.0.14-next.1
         version: 0.0.14-next.1
@@ -3761,8 +3761,8 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/test-runner@0.10.0-next.11(@types/node@18.15.11):
-    resolution: {integrity: sha512-5HiN5z/p9QFWGfs9B7Sq+9sDvhRJMeK1rdFj2OhvPrGMDrYqXKJiMvAYpbfDe3MrQv811DZWicpx0TLdwrA4Mw==}
+  /@storybook/test-runner@0.10.0-next.12(@types/node@18.15.11):
+    resolution: {integrity: sha512-TFEAgHVzsN076Yzzg6Pt8NRCKvQ7BDOXZ1Qd8Y61Ydd2O3TnaH+QfEQnb2TyZYKNfdivzYOkLOwdflW84e7UtQ==}
     hasBin: true
     dependencies:
       '@babel/core': 7.21.3
