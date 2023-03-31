@@ -45,8 +45,8 @@ importers:
         specifier: 0.10.0-next.12
         version: 0.10.0-next.12(@types/node@18.15.11)
       '@storybook/testing-library':
-        specifier: 0.0.14-next.1
-        version: 0.0.14-next.1
+        specifier: 0.0.14-next.2
+        version: 0.0.14-next.2
       '@storybook/vue3':
         specifier: 7.0.0-rc.10
         version: 7.0.0-rc.10(vue@3.2.47)
@@ -3804,8 +3804,8 @@ packages:
       - ts-node
     dev: true
 
-  /@storybook/testing-library@0.0.14-next.1:
-    resolution: {integrity: sha512-1CAl40IKIhcPaCC4pYCG0b9IiYNymktfV/jTrX7ctquRY3akaN7f4A1SippVHosksft0M+rQTFE0ccfWW581fw==}
+  /@storybook/testing-library@0.0.14-next.2:
+    resolution: {integrity: sha512-i/SLSGm0o978ELok/SB4Qg1sZ3zr+KuuCkzyFqcCD0r/yf+bG35aQGkFqqxfSAdDxuQom0NO02FE+qys5Eapdg==}
     dependencies:
       '@storybook/client-logger': 7.0.0
       '@storybook/instrumenter': 7.0.0
