@@ -17,7 +17,7 @@
     "@storybook/addon-links": "7.0.0-rc.10",
     "@storybook/addon-mdx-gfm": "7.0.0-rc.10",
     "@storybook/blocks": "7.0.0-rc.10",
-    "@storybook/jest": "0.0.11-next.1",
+    "@storybook/jest": "0.0.11-next.2",
     "@storybook/test-runner": "0.10.0-next.11",
     "@storybook/testing-library": "0.0.14-next.1",
     "@storybook/vue3": "7.0.0-rc.10",
