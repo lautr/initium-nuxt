@@ -20,7 +20,7 @@
 - [🍍 State Management via Pinia](https://pinia.esm.dev), see [./stores/AuthStore.ts](./stores/AuthStore.ts)
 - [📑 Layout system](./layouts) - switch between layouts
 - 📥 APIs auto importing - for Composition API, VueUse, Components (localy & from design) and custom composables
-- [🦾 TypeScript](https://www.typescriptlang.org/) - JavaScript, but trongly typed and better
+- [🦾 TypeScript](https://www.typescriptlang.org/) - JavaScript, but strongly typed and better
 
 ## Commands
 ```
