@@ -39,8 +39,8 @@ importers:
         specifier: 7.0.2
         version: 7.0.2(react-dom@18.2.0)(react@18.2.0)
       '@storybook/jest':
-        specifier: 0.0.11-next.2
-        version: 0.0.11-next.2
+        specifier: 0.1.0
+        version: 0.1.0
       '@storybook/test-runner':
         specifier: 0.10.0
         version: 0.10.0(@types/node@18.15.11)
@@ -3858,11 +3858,11 @@ packages:
       '@storybook/preview-api': 7.0.2
     dev: true
 
-  /@storybook/jest@0.0.11-next.2:
-    resolution: {integrity: sha512-D0cKu+vMXvggYrJFyTGu0WnFFSGcauJFgTmm2/bx4rSY29duvJkTyOJjNmNAtahLek6Ip1SjxZy+E+/vfTfLBg==}
+  /@storybook/jest@0.1.0:
+    resolution: {integrity: sha512-TmybnEXlv5Fu2/Hq4nRj7alS9mw4CasLR0RDwaAzS+Vpvu1TC4+j9rh+b1BHtmWebbJh0JMT6mgzPqOyJdgtQA==}
     dependencies:
       '@storybook/expect': 27.5.2-0
-      '@storybook/instrumenter': 7.0.0
+      '@storybook/instrumenter': 7.0.2
       '@testing-library/jest-dom': 5.16.5
       jest-mock: 27.5.1
     dev: true
