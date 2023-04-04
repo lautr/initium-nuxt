@@ -1,0 +1,20 @@
+{
+  "name": "@lautr/initium-nuxt-variant-a",
+  "private": true,
+  "scripts": {
+    "build": "NITRO_PRESET=vercel-edge nuxt build",
+    "dev": "nuxi dev",
+    "start": "nuxi start",
+    "coverage": "vitest run --coverage",
+    "postinstall": "nuxi prepare",
+    "test": "vitest run",
+    "ci:test": "vitest run",
+    "ci:smoke": "pnpm dlx concurrently -k -s first -n \"NUXT,TEST\" -c \"magenta,blue\" \"pnpm dev\" \"pnpm dlx wait-on tcp:3000 && pnpm echo \"pass\" \""
+  },
+  "dependencies": {
+    "@lautr/initium-nuxt-design": "workspace:*"
+  },
+  "devDependencies": {
+    "nuxt": "3.3.2"
+  }
+}
