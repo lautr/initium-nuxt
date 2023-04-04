@@ -10,6 +10,7 @@
   "scripts": {
     "lint": "pnpm eslint .",
     "webapp": "pnpm --filter @lautr/initium-nuxt-webapp",
+    "variant-a": "pnpm --filter @lautr/initium-nuxt-variant-a",
     "design": "pnpm --filter @lautr/initium-nuxt-design",
     "dev": "concurrently \"pnpm design dev\" \"pnpm webapp dev\""
   },

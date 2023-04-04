@@ -17,5 +17,6 @@ declare module '@vue/runtime-core' {
     UiButton: typeof import('./components/ui/Button.vue')['default']
     UiInput: typeof import('./components/ui/Input.vue')['default']
     UiSheet: typeof import('./components/ui/Sheet.vue')['default']
+    UiSwHeader: typeof import('./components/ui/SwHeader.vue')['default']
   }
 }
