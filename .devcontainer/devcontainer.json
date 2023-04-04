@@ -4,11 +4,9 @@
     "cpus": 4
   },
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "npm install && npm run build",
+  "updateContentCommand": "pnpm install",
   "postCreateCommand": "",
-  "postAttachCommand": {
-    "server": "npm run dev"
-  },
+  "postAttachCommand": {},
   "customizations": {
     "codespaces": {
       "openFiles": [
