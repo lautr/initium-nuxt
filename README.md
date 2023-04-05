@@ -20,7 +20,16 @@
 - [🍍 State Management via Pinia](https://pinia.esm.dev), see [./stores/AuthStore.ts](./stores/AuthStore.ts)
 - [📑 Layout system](./layouts) - switch between layouts
 - 📥 APIs auto importing - for Composition API, VueUse, Components (localy & from design) and custom composables
-- [🦾 TypeScript](https://www.typescriptlang.org/) - JavaScript, but trongly typed and better
+- [🦾 TypeScript](https://www.typescriptlang.org/) - JavaScript, but strongly typed and better
+
+## Plugins
+
+### Nuxt Modules
+
+- [VueUse](https://github.com/vueuse/vueuse) - collection of useful composition APIs.
+- [ColorMode](https://github.com/nuxt-community/color-mode-module) - dark and Light mode with auto detection made easy with Nuxt.
+- [Pinia](https://pinia.esm.dev/) - intuitive, type safe, light and flexible Store for Vue.
+- [Nuxt Devools](https://devtools.nuxtjs.org/) - Unleash Nuxt Developer Experience.
 
 ## Commands
 ```
@@ -38,17 +47,11 @@ pnpm webapp start
 pnpm design dev
 ```
 
-## Plugins
-
-### Nuxt Modules
-
-- [VueUse](https://github.com/vueuse/vueuse) - collection of useful composition APIs.
-- [ColorMode](https://github.com/nuxt-community/color-mode-module) - dark and Light mode with auto detection made easy with Nuxt.
-- [Pinia](https://pinia.esm.dev/) - intuitive, type safe, light and flexible Store for Vue.
-
 ## IDE
 
 This Template is designed to provide great DX with [VS Code](https://code.visualstudio.com/) and [Volar](https://github.com/johnsoncodehk/volar).
+
+## Usage
 
 ### GitHub Template
 

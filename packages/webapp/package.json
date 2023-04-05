@@ -16,14 +16,14 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "0.3.1",
-    "@nuxt/test-utils-edge": "3.3.3-28001470.ae82d708",
+    "@nuxt/test-utils-edge": "3.3.3-28007403.1fd491f1",
     "@nuxtjs/color-mode": "3.2.0",
     "@nuxtjs/tailwindcss": "6.6.5",
     "@pinia/nuxt": "0.4.7",
     "@vueuse/nuxt": "9.13.0",
-    "nuxt": "3.3.2",
+    "nuxt": "3.3.3",
     "pinia": "2.0.33",
-    "tailwindcss": "3.3.0",
+    "tailwindcss": "3.3.1",
     "vitest": "0.29.8"
   }
 }
