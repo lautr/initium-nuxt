@@ -16,6 +16,7 @@ export default defineNuxtConfig({
         autoImports: ['defineStore', 'acceptHMRUpdate'],
       },
     ],
+    '@nuxt/devtools',
     [
       '@nuxtjs/color-mode',
       {

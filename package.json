@@ -14,10 +14,10 @@
     "dev": "concurrently \"pnpm design dev\" \"pnpm webapp dev\""
   },
   "devDependencies": {
-    "@antfu/eslint-config": "0.38.2",
+    "@antfu/eslint-config": "0.38.4",
     "concurrently": "8.0.1",
     "eslint": "8.37.0",
-    "typescript": "5.0.2"
+    "typescript": "5.0.3"
   },
   "volta": {
     "node": "18.15.0"
