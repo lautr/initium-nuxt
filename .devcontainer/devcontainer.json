@@ -10,7 +10,7 @@
   "customizations": {
     "codespaces": {
       "openFiles": [
-        "pages/index.js"
+        "package.json"
       ]
     }
   },
@@ -20,5 +20,5 @@
       "onAutoForward": "openPreview"
     }
   },
-  "forwardPorts": [3000, 9001]
+  "forwardPorts": [3000]
 }
