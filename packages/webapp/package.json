@@ -19,7 +19,7 @@
     "@nuxt/test-utils-edge": "3.3.3-28007403.1fd491f1",
     "@nuxtjs/color-mode": "3.2.0",
     "@pinia/nuxt": "0.4.9",
-    "@vueuse/nuxt": "10.0.2",
+    "@vueuse/nuxt": "10.1.0",
     "autoprefixer": "10.4.14",
     "nuxt": "3.4.2",
     "pinia": "2.0.35",
