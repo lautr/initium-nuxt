@@ -60,8 +60,8 @@ importers:
         specifier: 4.2.1
         version: 4.2.1(vite@4.3.3)(vue@3.2.47)
       '@vue/tsconfig':
-        specifier: 0.1.3
-        version: 0.1.3(@types/node@18.16.2)
+        specifier: 0.3.2
+        version: 0.3.2
       autoprefixer:
         specifier: 10.4.14
         version: 10.4.14(postcss@8.4.23)
@@ -5001,15 +5001,8 @@ packages:
   /@vue/shared@3.2.47:
     resolution: {integrity: sha512-BHGyyGN3Q97EZx0taMQ+OLNuZcW3d37ZEVmEAyeoA9ERdGvm9Irc/0Fua8SNyOtV1w6BS4q25wbMzJujO9HIfQ==}
 
-  /@vue/tsconfig@0.1.3(@types/node@18.16.2):
-    resolution: {integrity: sha512-kQVsh8yyWPvHpb8gIc9l/HIDiiVUy1amynLNpCy8p+FoCiZXCo6fQos5/097MmnNZc9AtseDsCrfkhqCrJ8Olg==}
-    peerDependencies:
-      '@types/node': '*'
-    peerDependenciesMeta:
-      '@types/node':
-        optional: true
-    dependencies:
-      '@types/node': 18.16.2
+  /@vue/tsconfig@0.3.2:
+    resolution: {integrity: sha512-jWzZbGyrZAEbHYGn0kPzJ+MMtIkIxb0+hL5+RghBowyOxMRs9jMdp5XvpXz3wgCzjRZiUucy29042HBe9cxoYA==}
     dev: true
 
   /@vueuse/core@10.1.0:
