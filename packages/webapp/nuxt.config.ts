@@ -23,21 +23,35 @@ export default defineNuxtConfig({
         classSuffix: '',
       },
     ],
+    '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',
     '@lautr/initium-nuxt-design/nuxt',
   ],
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
   routeRules: {
     '/**': {
       headers: {
         'cache-control': 's-maxage=300, maxage=300, type=public, stale-while-revalidate=90000, stale-if-error=90000',
       },
     },
+  },
+  tailwindcss: {
+    config: {
+      content: [
+        './node_modules/@lautr/initium-nuxt-design/**/*.vue',
+        './components/**/*.{js,vue,ts}',
+        './layouts/**/*.vue',
+        './pages/**/*.vue',
+        './plugins/**/*.{js,ts}',
+        './nuxt.config.{js,ts}',
+        './app.vue',
+      ],
+      darkMode: 'class',
+      theme: {
+        extend: {},
+      },
+      plugins: [],
+    },
+    viewer: false,
   },
   typescript: {
     shim: false,

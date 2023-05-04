@@ -1,16 +1,12 @@
 {
   "extends": "@vue/tsconfig/tsconfig.json",
-  "include": ["env.d.ts", "./**/*"],
+  "include": ["env.d.ts", "./**/*", "vite.config.*"],
   "compilerOptions": {
+    "composite": true,
+    "types": ["node"],
     "baseUrl": ".",
     "paths": {
       "~/*": ["./*"]
     }
-  },
-
-  "references": [
-    {
-      "path": "./tsconfig.config.json"
-    }
-  ]
+  }
 }

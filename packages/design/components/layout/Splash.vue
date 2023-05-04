@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="bg-slate-50 dark:bg-slate-600 min-h-screen flex flex-col">
+  <div class="bg-stone-200 dark:bg-stone-800 min-h-screen flex flex-col">
     <main class="flex justify-center items-center flex-grow">
       <slot />
     </main>

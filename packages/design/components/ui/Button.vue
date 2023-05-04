@@ -12,7 +12,7 @@ onMounted(() => {
 
 <template>
   <button
-    class="bg-white rounded-sm py-2 px-1 font-bold border-2 border-purple-500 text-purple-700 hover:text-purple-900 hover:border-purple-700 dark:bg-slate-800 dark:text-purple-500 transition-all"
+    class="bg-stone-900 text-stone-50 border-stone-900 hover:text-stone-900 hover:bg-stone-50 dark:hover:bg-stone-900 dark:hover:text-stone-50 dark:border-stone-50 dark:text-stone-900 dark:bg-stone-50 transition-colors border rounded px-3 h-10"
     @click="echoOutput"
   >
     <!-- @slot button content -->

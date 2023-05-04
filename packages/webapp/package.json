@@ -12,7 +12,8 @@
     "ci:smoke": "pnpm dlx concurrently -k -s first -n \"NUXT,TEST\" -c \"magenta,blue\" \"pnpm dev\" \"pnpm dlx wait-on tcp:3000 && pnpm echo \"pass\" \""
   },
   "dependencies": {
-    "@lautr/initium-nuxt-design": "workspace:*"
+    "@lautr/initium-nuxt-design": "workspace:*",
+    "@nuxtjs/tailwindcss": "6.6.7"
   },
   "devDependencies": {
     "@nuxt/devtools": "0.4.5",
@@ -23,9 +24,6 @@
     "autoprefixer": "10.4.14",
     "nuxt": "3.4.3",
     "pinia": "2.0.35",
-    "postcss": "8.4.23",
-    "postcss-import": "15.1.0",
-    "tailwindcss": "3.3.2",
     "vitest": "0.30.1"
   }
 }
