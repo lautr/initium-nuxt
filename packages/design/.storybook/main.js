@@ -1,6 +1,6 @@
 module.exports = {
-  stories: ['../stories/**/*.mdx', '../stories/**/*.js'],
-  addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@storybook/addon-interactions', 'storybook-dark-mode', '@storybook/addon-mdx-gfm'],
+  stories: ['../stories/**/*.mdx', '../stories/**/*.ts'],
+  addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@storybook/addon-interactions', 'storybook-dark-mode'],
   core: {
     disableTelemetry: true
   },

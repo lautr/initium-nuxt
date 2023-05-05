@@ -3,7 +3,10 @@
   "include": ["env.d.ts", "./**/*", "vite.config.*"],
   "compilerOptions": {
     "composite": true,
-    "types": ["node"],
+    "types": [
+      "node",
+      "unplugin-vue-macros/macros-global"
+    ],
     "baseUrl": ".",
     "paths": {
       "~/*": ["./*"]

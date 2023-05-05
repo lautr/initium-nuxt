@@ -4,6 +4,7 @@ const emit = defineEmits<{
 }>()
 
 const identity = ref('')
+
 function onSignIn() {
   emit('signIn', identity.value)
 }

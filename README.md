@@ -18,7 +18,7 @@
 - [🌓 Color Mode](https://github.com/nuxt-community/color-mode-module) - dark, light & custom mode integrated in Tailwind and Nuxt
 - 🔥 The `<script setup>` syntax
 - [🍍 State Management via Pinia](https://pinia.esm.dev), see [./stores/AuthStore.ts](./stores/AuthStore.ts)
-- [📑 Layout system](./layouts) - switch between layouts
+- [🧹 Vue Macros](https://vue-macros.sxzz.moe/) Explore and extend more macros and syntax sugar to Vue.
 - 📥 APIs auto importing - for Composition API, VueUse, Components (localy & from design) and custom composables
 - [🦾 TypeScript](https://www.typescriptlang.org/) - JavaScript, but strongly typed and better
 
