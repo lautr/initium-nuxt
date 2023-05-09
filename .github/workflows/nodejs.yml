@@ -39,7 +39,7 @@ jobs:
       - name: Design System Build
         run: pnpm design ci:build
       - name: Design System Tests
-        run: pnpm design test
+        run: pmpm design ci:test
       - name: Design System Development Smoke Test
         run: pnpm design dev --smoke-test
 
