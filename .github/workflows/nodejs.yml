@@ -36,8 +36,8 @@ jobs:
       - uses: ./.github/actions/build
       - name: Install Playwright
         run: npx playwright install
-      - name: Design System Build
-        run: pnpm design citest
+      - name: Design System Build & Test
+        run: pnpm design ci
       - name: Design System Development Smoke Test
         run: pnpm design dev --smoke-test
 
