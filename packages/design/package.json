@@ -6,6 +6,8 @@
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
     "test": "test-storybook --index-json",
+    "ci:build": "storybook build --quiet && pnpm dlx http-server storybook-static --port 6006 --silent",
+    "ci:test": "pnpm dlx wait-on tcp:6006 && pnpm test",
     "citest": "pnpm dlx concurrently -k -s first -n \"SB,TEST\" -c \"magenta,blue\" \"pnpm build --quiet && pnpm dlx http-server storybook-static --port 6006 --silent\" \"pnpm dlx wait-on tcp:6006 && pnpm test\""
   },
   "dependencies": {
