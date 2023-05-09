@@ -37,7 +37,7 @@ jobs:
       - name: Install Playwright
         run: npx playwright install
       - name: Design System Build & Tests
-        run: cd ./packages/design && pnpm ci
+        run: cd ./packages/design && pnpm run ci
       - name: Design System Development Smoke Test
         run: pnpm design dev --smoke-test
 
