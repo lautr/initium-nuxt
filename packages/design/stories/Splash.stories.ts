@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/vue3'
-import LayoutSplash from "~/components/layout/Splash.vue"
-import UiSheet from "~/components/ui/Sheet.vue"
+import LayoutSplash from '~/components/layout/Splash.vue'
+import UiSheet from '~/components/ui/Sheet.vue'
 
 const meta: Meta<typeof LayoutSplash> = {
   title: 'Layout/Splash',
@@ -29,4 +29,3 @@ export const Splash: Story = {
     content: 'Splash Content',
   },
 }
-

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/vue3'
-import LayoutApplication from "~/components/layout/Application.vue"
-import UiSheet from "~/components/ui/Sheet.vue"
+import LayoutApplication from '~/components/layout/Application.vue'
+import UiSheet from '~/components/ui/Sheet.vue'
 
 const meta: Meta<typeof LayoutApplication> = {
   title: 'Layout/Application',
@@ -29,4 +29,3 @@ export const Application: Story = {
     content: 'Application Content',
   },
 }
-
