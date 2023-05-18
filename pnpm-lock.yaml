@@ -130,8 +130,8 @@ importers:
         specifier: 3.5.0
         version: 3.5.0(eslint@8.39.0)(typescript@5.0.4)
       pinia:
-        specifier: 2.1.2
-        version: 2.1.2(typescript@5.0.4)
+        specifier: 2.1.3
+        version: 2.1.3(typescript@5.0.4)
       vitest:
         specifier: 0.31.1
         version: 0.31.1
@@ -2970,7 +2970,7 @@ packages:
     resolution: {integrity: sha512-bhuNFngJpmBCdAqWguezNJ/oJFR7wvKieqiZrmmdmPR07XjsidAw8RLXHMZE9kUm32M9E6T057OBbG/22jERTg==}
     dependencies:
       '@nuxt/kit': 3.5.0
-      pinia: 2.1.2(typescript@5.0.4)
+      pinia: 2.1.3(typescript@5.0.4)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - rollup
@@ -3871,7 +3871,7 @@ packages:
       pretty-hrtime: 1.0.3
       prompts: 2.4.2
       read-pkg-up: 7.0.1
-      semver: 7.5.0
+      semver: 7.5.1
       serve-favicon: 2.5.0
       telejson: 7.0.4
       ts-dedent: 2.2.0
@@ -12249,8 +12249,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /pinia@2.1.2(typescript@5.0.4):
-    resolution: {integrity: sha512-GNnd8V2NnSn5zZLb1xokH3nEMm8Tl/rvJduj/IMwWkUGsYPhnVyN92WIIxD59ZvnM+7EV28lXt5+NnYn1d81cg==}
+  /pinia@2.1.3(typescript@5.0.4):
+    resolution: {integrity: sha512-XNA/z/ye4P5rU1pieVmh0g/hSuDO98/a5UC8oSP0DNdvt6YtetJNHTrXwpwsQuflkGT34qKxAEcp7lSxXNjf/A==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
