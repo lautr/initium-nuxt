@@ -1,11 +1,8 @@
 import { fileURLToPath } from 'node:url'
 import { defineNuxtModule } from '@nuxt/kit'
+import '@nuxt/schema'
 
-export interface ModuleOptions {
-  disabled: boolean
-}
-
-export default defineNuxtModule<ModuleOptions>({
+export default defineNuxtModule({
   meta: {
     configKey: 'initiumDesign',
     name: 'nuxt-initium-design',

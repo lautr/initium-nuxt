@@ -26,7 +26,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',
     '@vue-macros/nuxt',
-    '@lautr/initium-nuxt-design/nuxt',
+    '@lautr/initium-nuxt-design/nuxt.ts',
   ],
   routeRules: {
     '/**': {
