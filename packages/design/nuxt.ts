@@ -1,7 +1,15 @@
 import { fileURLToPath } from 'node:url'
 import { defineNuxtModule } from '@nuxt/kit'
 
-export default defineNuxtModule({
+export interface ModuleOptions {
+  disabled: boolean
+}
+
+export default defineNuxtModule<ModuleOptions>({
+  meta: {
+    configKey: 'initiumDesign',
+    name: 'nuxt-initium-design',
+  },
   hooks: {
     'components:dirs': (dirs) => {
       // Add ./components dir to the list
