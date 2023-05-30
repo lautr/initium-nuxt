@@ -87,8 +87,8 @@ importers:
         specifier: 3.3.2
         version: 3.3.2
       unplugin-auto-import:
-        specifier: 0.16.2
-        version: 0.16.2(@nuxt/kit@3.5.2)
+        specifier: 0.16.4
+        version: 0.16.4(@nuxt/kit@3.5.2)
       unplugin-vue-components:
         specifier: 0.24.1
         version: 0.24.1(@nuxt/kit@3.5.2)(vue@3.3.4)
@@ -14804,8 +14804,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /unplugin-auto-import@0.16.2(@nuxt/kit@3.5.2):
-    resolution: {integrity: sha512-t5f+xArJZRsfgF8Zftc2JFTJJTo7BPkPSeLQUXt6xxambnwWBer8vpEgwaCYrR50MIm5mjmhjebt33OZXIW0uQ==}
+  /unplugin-auto-import@0.16.4(@nuxt/kit@3.5.2):
+    resolution: {integrity: sha512-xdgBa9NAS3JG8HjkAZHSbGSMlrjKpaWKXGUzaF6RzEtr980RCl1t0Zsu0skUInNYrEQfqaHc7aGWPv41DLTK/w==}
     engines: {node: '>=14'}
     peerDependencies:
       '@nuxt/kit': ^3.2.2
