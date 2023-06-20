@@ -112,8 +112,8 @@ importers:
         specifier: workspace:*
         version: link:../design
       '@nuxtjs/tailwindcss':
-        specifier: 6.7.2
-        version: 6.7.2
+        specifier: 6.8.0
+        version: 6.8.0
     devDependencies:
       '@nuxt/devtools':
         specifier: 0.6.1
@@ -2872,8 +2872,8 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxtjs/tailwindcss@6.7.2:
-    resolution: {integrity: sha512-Zd4fm+o8bXcu+kc4JtegWAHXVms8pud8fhkJDZjKUa9CpawaWdnIf0fSzYyXdm2dWpDlH4YUdjN0HDaFRFQMDw==}
+  /@nuxtjs/tailwindcss@6.8.0:
+    resolution: {integrity: sha512-jzuvD1nfA2BPnSbHtKK0aiI51ndMa7lNGL1iDEFuEPsltzilZ9ED7zOP6niGTrImg0n5Yt4GEJpixi6yWwp9Hw==}
     dependencies:
       '@nuxt/kit': 3.5.3
       '@nuxt/postcss8': 1.1.3
@@ -2890,7 +2890,7 @@ packages:
       pathe: 1.1.1
       postcss: 8.4.24
       postcss-custom-properties: 13.2.0(postcss@8.4.24)
-      postcss-nesting: 11.2.2(postcss@8.4.24)
+      postcss-nesting: 11.3.0(postcss@8.4.24)
       radix3: 1.0.1
       tailwind-config-viewer: 1.7.2(tailwindcss@3.3.2)
       tailwindcss: 3.3.2
@@ -4293,7 +4293,7 @@ packages:
       ts-dedent: 2.2.0
       type-fest: 2.19.0
       vue: 3.3.4
-      vue-component-type-helpers: 1.8.0
+      vue-component-type-helpers: 1.8.1
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -12593,8 +12593,8 @@ packages:
       postcss: 8.4.24
       postcss-selector-parser: 6.0.11
 
-  /postcss-nesting@11.2.2(postcss@8.4.24):
-    resolution: {integrity: sha512-aOTiUniAB1bcPE6GGiynWRa6PZFPhOTAm5q3q5cem6QeSijIHHkWr6gs65ukCZMXeak8yXeZVbBJET3VM+HlhA==}
+  /postcss-nesting@11.3.0(postcss@8.4.24):
+    resolution: {integrity: sha512-JlS10AQm/RzyrUGgl5irVkAlZYTJ99mNueUl+Qab+TcHhVedLiylWVkKBhRale+rS9yWIJK48JVzQlq3LcSdeA==}
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       postcss: ^8.4
@@ -15450,8 +15450,8 @@ packages:
       ufo: 1.1.2
     dev: true
 
-  /vue-component-type-helpers@1.8.0:
-    resolution: {integrity: sha512-plWHfRKOPZzLaxGe6gf7AroG9uw6wfhvjZq0qZBGbRaZPrmT04lojAm3DOwvoL/Lgw7rPIqveHJ9p/yaVnRxhQ==}
+  /vue-component-type-helpers@1.8.1:
+    resolution: {integrity: sha512-+pNNtPARczRWVgoQCBXSgJdpnZic7rSmnvEV3IWQLwZcf1RSVjniQ+JnmYGm+9BFWX0MN0hqrIWVyC7HDhoXhA==}
     dev: true
 
   /vue-demi@0.14.5:
