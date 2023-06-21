@@ -116,8 +116,8 @@ importers:
         version: 6.8.0
     devDependencies:
       '@nuxt/devtools':
-        specifier: 0.6.1
-        version: 0.6.1(nuxt@3.5.3)
+        specifier: 0.6.2
+        version: 0.6.2(nuxt@3.5.3)
       '@nuxt/test-utils-edge':
         specifier: 3.3.3-28007403.1fd491f1
         version: 3.3.3-28007403.1fd491f1
@@ -2543,7 +2543,7 @@ packages:
       nopt: 5.0.0
       npmlog: 5.0.1
       rimraf: 3.0.2
-      semver: 7.5.1
+      semver: 7.5.2
       tar: 6.1.13
     transitivePeerDependencies:
       - encoding
@@ -2598,14 +2598,14 @@ packages:
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
     dependencies:
       '@gar/promisify': 1.1.3
-      semver: 7.5.1
+      semver: 7.5.2
     dev: true
 
   /@npmcli/fs@3.1.0:
     resolution: {integrity: sha512-7kZUAaLscfgbwBQRbvdMYaZOWyMEcPTH/tJjnyAWJ/dvvs9Ef+CERx/qJb9GExJpl1qipaDGn7KqHnFGGixd0w==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
-      semver: 7.5.1
+      semver: 7.5.2
     dev: true
 
   /@npmcli/git@4.0.4:
@@ -2618,7 +2618,7 @@ packages:
       proc-log: 3.0.0
       promise-inflight: 1.0.1
       promise-retry: 2.0.1
-      semver: 7.5.1
+      semver: 7.5.2
       which: 3.0.1
     transitivePeerDependencies:
       - bluebird
@@ -2672,8 +2672,8 @@ packages:
     resolution: {integrity: sha512-GBzP8zOc7CGWyFQS6dv1lQz8VVpz5C2yRszbXufwG/9zhStTIH50EtD87NmWbTMwXDvZLNg8GIpb1UFdH93JCA==}
     dev: true
 
-  /@nuxt/devtools-kit@0.6.1(nuxt@3.5.3):
-    resolution: {integrity: sha512-4x4f9MynFGRajUx91sh5GuDQGoZlmDxF4JOhTN/s90x5wkjRLN4hIb988E7NZ2ak3iH4+DTh7VQWZTBfLaBqlA==}
+  /@nuxt/devtools-kit@0.6.2(nuxt@3.5.3):
+    resolution: {integrity: sha512-nHysPrkl4oJELqs+MmmSSFfVufE13I8UpufgdLIcEKR3PW27gX199N5SpE9qrd/2EvMxaiH83TUjzilrF2jnUw==}
     peerDependencies:
       nuxt: ^3.5.1
       vite: '*'
@@ -2687,8 +2687,8 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/devtools-wizard@0.6.1:
-    resolution: {integrity: sha512-eQVYNZHw8wrVyZXeQpTAv4jc08VVNV7Db2D2KmMO08DipkrCqzCf7c6sFtcSmNIlGArm6lcObszTOpdZPhWTHw==}
+  /@nuxt/devtools-wizard@0.6.2:
+    resolution: {integrity: sha512-/irigr6v8sbN6D4BQ0n9MLmja4u2QhuMBgSnC57yObaplzm7dV5vSWY2nZCep4GMGy1ZH+M4HmThHhG9APk+8w==}
     hasBin: true
     dependencies:
       consola: 3.1.0
@@ -2700,19 +2700,19 @@ packages:
       picocolors: 1.0.0
       pkg-types: 1.0.3
       prompts: 2.4.2
-      rc9: 2.1.0
-      semver: 7.5.1
+      rc9: 2.1.1
+      semver: 7.5.2
     dev: true
 
-  /@nuxt/devtools@0.6.1(nuxt@3.5.3):
-    resolution: {integrity: sha512-nz1FCJ2WViQWKUG9dTjwib/XZ7/dzeaP/r+++Y7W6a70y3ME5q58YldSNhNKJZXcbYWAU5UFzsoaslB5SWrlhw==}
+  /@nuxt/devtools@0.6.2(nuxt@3.5.3):
+    resolution: {integrity: sha512-GRKsOMKbyxnRRgeBLjnVT0essaqt0O4iZedzCmHLKmg3HPbGmy9fN3J9gPNN+/TQ86plXwq2lZ7Utz1cL2hWBQ==}
     hasBin: true
     peerDependencies:
       nuxt: ^3.5.1
       vite: '*'
     dependencies:
-      '@nuxt/devtools-kit': 0.6.1(nuxt@3.5.3)
-      '@nuxt/devtools-wizard': 0.6.1
+      '@nuxt/devtools-kit': 0.6.2(nuxt@3.5.3)
+      '@nuxt/devtools-wizard': 0.6.2
       '@nuxt/kit': 3.5.3
       birpc: 0.2.12
       boxen: 7.1.0
@@ -2722,7 +2722,7 @@ packages:
       fast-glob: 3.2.12
       get-port-please: 3.0.1
       global-dirs: 3.0.1
-      h3: 1.6.6
+      h3: 1.7.0
       hookable: 5.5.3
       image-meta: 0.1.1
       is-installed-globally: 0.4.0
@@ -2736,8 +2736,8 @@ packages:
       perfect-debounce: 1.0.0
       picocolors: 1.0.0
       pkg-types: 1.0.3
-      rc9: 2.1.0
-      semver: 7.5.1
+      rc9: 2.1.1
+      semver: 7.5.2
       sirv: 2.0.3
       unimport: 3.0.8(rollup@3.24.0)
       vite-plugin-inspect: 0.7.28
@@ -2772,7 +2772,7 @@ packages:
       pathe: 1.1.1
       pkg-types: 1.0.3
       scule: 1.0.0
-      semver: 7.5.1
+      semver: 7.5.2
       unctx: 2.3.1
       unimport: 3.0.8(rollup@3.24.0)
       untyped: 1.3.2
@@ -2816,7 +2816,7 @@ packages:
       postcss-import: 13.0.0(postcss@8.4.24)
       postcss-loader: 4.3.0(postcss@8.4.24)
       postcss-url: 10.1.3(postcss@8.4.24)
-      semver: 7.5.1
+      semver: 7.5.2
     transitivePeerDependencies:
       - webpack
     dev: false
@@ -2882,7 +2882,7 @@ packages:
       node-fetch: 3.3.1
       ofetch: 1.0.1
       parse-git-config: 3.0.0
-      rc9: 2.1.0
+      rc9: 2.1.1
       std-env: 3.3.3
     transitivePeerDependencies:
       - rollup
@@ -2934,7 +2934,7 @@ packages:
       externality: 1.0.0
       fs-extra: 11.1.1
       get-port-please: 3.0.1
-      h3: 1.6.6
+      h3: 1.7.0
       knitwork: 1.0.0
       magic-string: 0.30.0
       mlly: 1.3.0
@@ -4039,7 +4039,7 @@ packages:
       memoizerific: 1.11.3
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      semver: 7.5.1
+      semver: 7.5.2
       store2: 2.14.2
       telejson: 7.0.4
       ts-dedent: 2.2.0
@@ -4920,7 +4920,7 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.5.1
+      semver: 7.5.2
       tsutils: 3.21.0(typescript@5.1.3)
       typescript: 5.1.3
     transitivePeerDependencies:
@@ -4941,7 +4941,7 @@ packages:
       '@typescript-eslint/typescript-estree': 5.59.7(typescript@5.1.3)
       eslint: 8.43.0
       eslint-scope: 5.1.1
-      semver: 7.5.1
+      semver: 7.5.2
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -6471,7 +6471,7 @@ packages:
       pathe: 1.1.1
       perfect-debounce: 0.1.3
       pkg-types: 1.0.3
-      rc9: 2.1.0
+      rc9: 2.1.1
     transitivePeerDependencies:
       - supports-color
 
@@ -6949,7 +6949,7 @@ packages:
       js-string-escape: 1.0.1
       lodash: 4.17.21
       md5-hex: 3.0.1
-      semver: 7.5.1
+      semver: 7.5.2
       well-known-symbols: 2.0.0
     dev: true
 
@@ -7100,7 +7100,7 @@ packages:
       postcss-modules-values: 4.0.0(postcss@8.4.24)
       postcss-value-parser: 4.2.0
       schema-utils: 3.1.2
-      semver: 7.5.1
+      semver: 7.5.2
     dev: false
 
   /css-select@5.1.0:
@@ -7483,7 +7483,6 @@ packages:
 
   /destr@2.0.0:
     resolution: {integrity: sha512-FJ9RDpf3GicEBvzI3jxc2XhHzbqD8p4ANw/1kPsFBfTvP1b7Gn/Lg1vO7R9J4IVgoMbyUmFrFGZafJ1hPZpvlg==}
-    dev: false
 
   /destroy@1.2.0:
     resolution: {integrity: sha512-2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg==}
@@ -9162,6 +9161,18 @@ packages:
       ufo: 1.1.2
       uncrypto: 0.1.3
 
+  /h3@1.7.0:
+    resolution: {integrity: sha512-iJJz2Pn2rC0j8CB3rkFMs0K269W7hDVOC7eL3qne5Joy4JZX1W7id7PBFV593GboHDOx0PzgO6ocqsynrIvdxw==}
+    dependencies:
+      cookie-es: 1.0.0
+      defu: 6.1.2
+      destr: 2.0.0
+      iron-webcrypto: 0.7.0
+      radix3: 1.0.1
+      ufo: 1.1.2
+      uncrypto: 0.1.3
+    dev: true
+
   /handlebars@4.7.7:
     resolution: {integrity: sha512-aAcXm5OAfE/8IXkcZvCepKU3VzW1/39Fb5ZuqMtgI/hT8X2YgoMvBY5dLhq/cpOvw7Lk1nK/UF71aLG/ZnVYRA==}
     engines: {node: '>=0.4.7'}
@@ -10492,7 +10503,7 @@ packages:
       jest-util: 28.1.3
       natural-compare: 1.4.0
       pretty-format: 28.1.3
-      semver: 7.5.1
+      semver: 7.5.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -11575,7 +11586,7 @@ packages:
       fs-extra: 11.1.1
       globby: 13.1.4
       gzip-size: 7.0.0
-      h3: 1.6.6
+      h3: 1.7.0
       hookable: 5.5.3
       http-proxy: 1.18.1
       is-primitive: 3.0.1
@@ -11598,7 +11609,7 @@ packages:
       rollup: 3.24.0
       rollup-plugin-visualizer: 5.9.0(rollup@3.24.0)
       scule: 1.0.0
-      semver: 7.5.1
+      semver: 7.5.2
       serve-placeholder: 2.0.1
       serve-static: 1.15.0
       source-map-support: 0.5.21
@@ -11680,7 +11691,7 @@ packages:
       nopt: 6.0.0
       npmlog: 6.0.2
       rimraf: 3.0.2
-      semver: 7.5.1
+      semver: 7.5.2
       tar: 6.1.13
       which: 2.0.2
     transitivePeerDependencies:
@@ -11733,7 +11744,7 @@ packages:
     dependencies:
       hosted-git-info: 6.1.1
       is-core-module: 2.12.1
-      semver: 7.5.1
+      semver: 7.5.2
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -11756,7 +11767,7 @@ packages:
     resolution: {integrity: sha512-udSGENih/5xKh3Ex+L0PtZcOt0Pa+6ppDLnpG5D49/EhMja3LupaY9E/DtJTxyFBwE09ot7Fc+H4DywnZNWTVA==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
-      semver: 7.5.1
+      semver: 7.5.2
     dev: true
 
   /npm-normalize-package-bin@3.0.0:
@@ -11770,7 +11781,7 @@ packages:
     dependencies:
       hosted-git-info: 6.1.1
       proc-log: 3.0.0
-      semver: 7.5.1
+      semver: 7.5.2
       validate-npm-package-name: 5.0.0
     dev: true
 
@@ -11788,7 +11799,7 @@ packages:
       npm-install-checks: 6.1.0
       npm-normalize-package-bin: 3.0.0
       npm-package-arg: 10.1.0
-      semver: 7.5.1
+      semver: 7.5.2
     dev: true
 
   /npm-registry-fetch@14.0.3:
@@ -12684,7 +12695,7 @@ packages:
       loader-utils: 2.0.4
       postcss: 8.4.24
       schema-utils: 3.1.2
-      semver: 7.5.1
+      semver: 7.5.2
     dev: false
 
   /postcss-merge-longhand@6.0.0(postcss@8.4.24):
@@ -13303,11 +13314,11 @@ packages:
       unpipe: 1.0.0
     dev: true
 
-  /rc9@2.1.0:
-    resolution: {integrity: sha512-ROO9bv8PPqngWKoiUZU3JDQ4sugpdRs9DfwHnzDSxK25XtQn6BEHL6EOd/OtKuDT2qodrtNR+0WkPT6l0jxH5Q==}
+  /rc9@2.1.1:
+    resolution: {integrity: sha512-lNeOl38Ws0eNxpO3+wD1I9rkHGQyj1NU1jlzv4go2CtEnEQEUfqnIvZG7W+bC/aXdJ27n5x/yUjb6RoT9tko+Q==}
     dependencies:
       defu: 6.1.2
-      destr: 1.2.2
+      destr: 2.0.0
       flat: 5.0.2
 
   /react-colorful@5.6.1(react-dom@18.2.0)(react@18.2.0):
@@ -13819,6 +13830,13 @@ packages:
 
   /semver@7.5.1:
     resolution: {integrity: sha512-Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      lru-cache: 6.0.0
+
+  /semver@7.5.2:
+    resolution: {integrity: sha512-SoftuTROv/cRjCze/scjGyiDtcUyxw1rgYQSZY7XTmtR5hX+dm76iDbTH8TkLPHCQmlbQVSSbNZCPM2hb0knnQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -15267,7 +15285,7 @@ packages:
       anymatch: 3.1.3
       chokidar: 3.5.3
       destr: 1.2.2
-      h3: 1.6.6
+      h3: 1.7.0
       ioredis: 5.3.2
       listhen: 1.0.4
       lru-cache: 9.1.1
@@ -15463,7 +15481,7 @@ packages:
       lodash.debounce: 4.0.8
       lodash.pick: 4.4.0
       npm-run-path: 4.0.1
-      semver: 7.5.1
+      semver: 7.5.2
       strip-ansi: 6.0.1
       tiny-invariant: 1.3.1
       typescript: 5.1.3
@@ -15623,7 +15641,7 @@ packages:
     engines: {vscode: ^1.52.0}
     dependencies:
       minimatch: 3.1.2
-      semver: 7.5.1
+      semver: 7.5.2
       vscode-languageserver-protocol: 3.16.0
     dev: true
 
