@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@nuxt/kit": "3.6.1",
-    "@nuxt/schema": "3.6.0",
+    "@nuxt/schema": "3.6.1",
     "@storybook/addon-essentials": "7.0.23",
     "@storybook/addon-interactions": "7.0.23",
     "@storybook/addon-links": "7.0.23",
