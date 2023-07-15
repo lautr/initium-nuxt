@@ -31,8 +31,8 @@ importers:
         specifier: 3.6.3
         version: 3.6.3
       '@nuxt/schema':
-        specifier: 3.6.2
-        version: 3.6.2
+        specifier: 3.6.3
+        version: 3.6.3
       '@storybook/addon-essentials':
         specifier: 7.0.27
         version: 7.0.27(react-dom@18.2.0)(react@18.2.0)
@@ -3588,7 +3588,7 @@ packages:
       vite: '*'
     dependencies:
       '@nuxt/kit': 3.6.3
-      '@nuxt/schema': 3.6.2
+      '@nuxt/schema': 3.6.3
       execa: 7.1.1
       nuxt: 3.6.2(eslint@8.45.0)(typescript@5.1.6)
     transitivePeerDependencies:
@@ -3600,7 +3600,7 @@ packages:
     resolution: {integrity: sha512-dN+3UVxsGk3Vx0T6tN+UQ1b7FjWHk3N4WWmnKOACa4pHt77RYHFzndk60KDlKq9I/bn905pghsqwvXmPfbSpJA==}
     hasBin: true
     dependencies:
-      consola: 3.2.2
+      consola: 3.2.3
       diff: 5.1.0
       execa: 7.1.1
       global-dirs: 3.0.1
@@ -3696,7 +3696,7 @@ packages:
     dependencies:
       '@nuxt/schema': 3.6.2
       c12: 1.4.2
-      consola: 3.2.2
+      consola: 3.2.3
       defu: 6.1.2
       globby: 13.2.2
       hash-sum: 2.0.0
@@ -3820,7 +3820,7 @@ packages:
       '@nuxt/kit': 3.6.3
       chalk: 5.3.0
       ci-info: 3.8.0
-      consola: 3.2.2
+      consola: 3.2.3
       create-require: 1.1.1
       defu: 6.1.2
       destr: 2.0.0
@@ -3877,7 +3877,7 @@ packages:
       '@vitejs/plugin-vue-jsx': 3.0.1(vite@4.3.9)(vue@3.3.4)
       autoprefixer: 10.4.14(postcss@8.4.26)
       clear: 0.1.0
-      consola: 3.2.2
+      consola: 3.2.3
       cssnano: 6.0.1(postcss@8.4.26)
       defu: 6.1.2
       esbuild: 0.18.11
@@ -12677,7 +12677,7 @@ packages:
       chalk: 5.3.0
       chokidar: 3.5.3
       citty: 0.1.1
-      consola: 3.2.2
+      consola: 3.2.3
       cookie-es: 1.0.0
       defu: 6.1.2
       destr: 2.0.0
@@ -15927,7 +15927,7 @@ packages:
   /unenv@1.5.1:
     resolution: {integrity: sha512-tQHlmQUPyIoyGc2bF8phugmQd6wVatkVe5FqxxhM1vHfmPKWTiogSVTHA0mO8gNztDKZLpBEJx3M3CJrTZyExg==}
     dependencies:
-      consola: 3.2.2
+      consola: 3.2.3
       defu: 6.1.2
       mime: 3.0.0
       node-fetch-native: 1.2.0
