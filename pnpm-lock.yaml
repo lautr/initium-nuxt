@@ -31,8 +31,8 @@ importers:
         specifier: 3.6.5
         version: 3.6.5
       '@nuxt/schema':
-        specifier: 3.6.3
-        version: 3.6.3
+        specifier: 3.6.5
+        version: 3.6.5
       '@storybook/addon-essentials':
         specifier: 7.1.0
         version: 7.1.0(react-dom@18.2.0)(react@18.2.0)
@@ -2865,7 +2865,7 @@ packages:
       vite: '*'
     dependencies:
       '@nuxt/kit': 3.6.5
-      '@nuxt/schema': 3.6.3
+      '@nuxt/schema': 3.6.5
       execa: 7.1.1
       nuxt: 3.6.3(eslint@8.45.0)(typescript@5.1.6)
     transitivePeerDependencies:
