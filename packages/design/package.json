@@ -35,7 +35,7 @@
     "tailwindcss": "3.3.3",
     "unplugin-auto-import": "0.16.6",
     "unplugin-vue-components": "0.25.1",
-    "unplugin-vue-macros": "2.4.0",
+    "unplugin-vue-macros": "2.4.2",
     "vite": "4.4.8",
     "vue-tsc": "1.8.8"
   }
