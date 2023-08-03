@@ -97,8 +97,8 @@ importers:
         specifier: 0.25.1
         version: 0.25.1(@nuxt/kit@3.6.5)(vue@3.3.4)
       unplugin-vue-macros:
-        specifier: 2.4.2
-        version: 2.4.2(vite@4.4.8)(vue@3.3.4)
+        specifier: 2.4.3
+        version: 2.4.3(vite@4.4.8)(vue@3.3.4)
       vite:
         specifier: 4.4.8
         version: 4.4.8(@types/node@18.17.1)
@@ -6117,8 +6117,19 @@ packages:
       - vue
     dev: true
 
-  /@vue-macros/jsx-directive@0.2.1(vue@3.3.4):
+  /@vue-macros/jsx-directive@0.2.1:
     resolution: {integrity: sha512-p7hQ3PyrID6R3hCx2wnpRfUy6m1iBdVGnTH3kLIFpN1uzQGtiWFVDCS/Awcx8v0WEittAdJL2M6WMUFG6BUoKg==}
+    engines: {node: '>=16.14.0'}
+    dependencies:
+      '@vue-macros/common': 1.6.2(vue@3.3.4)
+      unplugin: 1.4.0
+    transitivePeerDependencies:
+      - rollup
+      - vue
+    dev: true
+
+  /@vue-macros/jsx-directive@0.2.2(vue@3.3.4):
+    resolution: {integrity: sha512-cEg8kTOZJor7Z5eHp1EyDzJ8JOgAjTx02Gw8z0XnKsRM5LyS4RDkRYulUIEoA920r1XgfAu84BHWkAxiXMsjYQ==}
     engines: {node: '>=16.14.0'}
     dependencies:
       '@vue-macros/common': 1.6.2(vue@3.3.4)
@@ -16108,7 +16119,7 @@ packages:
       '@vue-macros/export-expose': 0.0.9(vue@3.3.4)
       '@vue-macros/export-props': 0.3.14(vue@3.3.4)
       '@vue-macros/hoist-static': 1.4.8(vue@3.3.4)
-      '@vue-macros/jsx-directive': 0.2.1(vue@3.3.4)
+      '@vue-macros/jsx-directive': 0.2.1
       '@vue-macros/named-template': 0.3.15(vue@3.3.4)
       '@vue-macros/reactivity-transform': 0.3.18(vue@3.3.4)
       '@vue-macros/setup-block': 0.2.14(vue@3.3.4)
@@ -16126,8 +16137,8 @@ packages:
       - webpack
     dev: true
 
-  /unplugin-vue-macros@2.4.2(vite@4.4.8)(vue@3.3.4):
-    resolution: {integrity: sha512-KFLEFc/njZcYciEeoqE2qYiyDF+a+dMTSY/4nNml7wXIAPsuxJez55kl0yD++IFLV6OyFicbJT40FLe3EqCymw==}
+  /unplugin-vue-macros@2.4.3(vite@4.4.8)(vue@3.3.4):
+    resolution: {integrity: sha512-5B+btQVs9vzX+zipjcpUWHKue2X62lsVTnRFb9ceGBdW5GfR2M/KG+N+ipu7b2+7JwwsKRG6WqweveKP65BEIQ==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       vue: ^2.7.0 || ^3.2.25
@@ -16146,7 +16157,7 @@ packages:
       '@vue-macros/export-expose': 0.0.9(vue@3.3.4)
       '@vue-macros/export-props': 0.3.14(vue@3.3.4)
       '@vue-macros/hoist-static': 1.4.8(vue@3.3.4)
-      '@vue-macros/jsx-directive': 0.2.1(vue@3.3.4)
+      '@vue-macros/jsx-directive': 0.2.2(vue@3.3.4)
       '@vue-macros/named-template': 0.3.15(vue@3.3.4)
       '@vue-macros/reactivity-transform': 0.3.18(vue@3.3.4)
       '@vue-macros/setup-block': 0.2.14(vue@3.3.4)
