@@ -128,8 +128,8 @@ importers:
         specifier: 0.4.11
         version: 0.4.11(typescript@5.1.6)
       '@vue-macros/nuxt':
-        specifier: 1.5.0
-        version: 1.5.0(nuxt@3.6.5)(typescript@5.1.6)
+        specifier: 1.5.1
+        version: 1.5.1(nuxt@3.6.5)(typescript@5.1.6)
       '@vueuse/nuxt':
         specifier: 10.3.0
         version: 10.3.0(nuxt@3.6.5)
@@ -6074,8 +6074,8 @@ packages:
       - vue
     dev: true
 
-  /@vue-macros/nuxt@1.5.0(nuxt@3.6.5)(typescript@5.1.6):
-    resolution: {integrity: sha512-g+ZXMnT99dt+BhcsdxwVGXXQ7KoxS1ZMXAfCSKTZGJ3D35ROXiQdo4Ok6B8b2QXJaCYPX9FdtDt5kCqoFERg9w==}
+  /@vue-macros/nuxt@1.5.1(nuxt@3.6.5)(typescript@5.1.6):
+    resolution: {integrity: sha512-IUw48AMKZ20lImnvNJPwFkgmDJ18CRU7zb5u2FTtNhPTS9fNZK9sPatMGXMgPISlpYKj5RzaLFkbpHCaCKskjQ==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       nuxt: ^3.0.0
