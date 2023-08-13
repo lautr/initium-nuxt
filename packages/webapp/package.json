@@ -22,7 +22,7 @@
     "@pinia/nuxt": "0.4.11",
     "@vue-macros/nuxt": "1.7.2",
     "@vueuse/nuxt": "10.3.0",
-    "autoprefixer": "10.4.14",
+    "autoprefixer": "10.4.15",
     "nuxt": "3.6.5",
     "pinia": "2.1.6",
     "vitest": "0.34.1"
