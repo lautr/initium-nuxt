@@ -1,7 +1,7 @@
 {
   "name": "@lautr/initium-nuxt",
   "version": "1.0.0",
-  "packageManager": "pnpm@8.6",
+  "packageManager": "pnpm@8.7",
   "description": "",
   "author": "",
   "license": "ISC",
@@ -15,10 +15,10 @@
     "dev": "concurrently \"pnpm design dev\" \"pnpm webapp dev\" \"pnpm webapp-alpha dev\""
   },
   "devDependencies": {
-    "@antfu/eslint-config": "0.40.2",
-    "concurrently": "8.2.0",
-    "eslint": "8.47.0",
-    "typescript": "5.1.6"
+    "@antfu/eslint-config": "0.41.0",
+    "concurrently": "8.2.1",
+    "eslint": "8.48.0",
+    "typescript": "5.2.2"
   },
   "volta": {
     "node": "18.17.1"

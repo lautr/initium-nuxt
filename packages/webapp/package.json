@@ -16,16 +16,20 @@
     "@nuxtjs/tailwindcss": "6.8.0"
   },
   "devDependencies": {
-    "@nuxt/devtools": "0.8.0",
+    "@nuxt/devtools": "0.8.2",
     "@nuxt/test-utils-edge": "3.3.3-28007403.1fd491f1",
     "@nuxtjs/color-mode": "3.3.0",
     "@pinia/nuxt": "0.4.11",
-    "@vue-macros/nuxt": "1.7.5",
-    "@vueuse/nuxt": "10.3.0",
+    "@vue-macros/nuxt": "1.7.12",
+    "@vueuse/nuxt": "10.4.1",
     "autoprefixer": "10.4.15",
-    "nuxt": "3.6.5",
+    "nuxt": "3.7.0",
     "pinia": "2.1.6",
+<<<<<<< HEAD
     "unplugin-fonts": "1.0.3",
     "vitest": "0.34.2"
+=======
+    "vitest": "0.34.3"
+>>>>>>> f3d418a3bb39be5e148e4e62a720300ad121e407
   }
 }
