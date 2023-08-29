@@ -1,6 +1,17 @@
+import { createResolver } from '@nuxt/kit'
+import { useUnfontConfiguration } from '@lautr/initium-nuxt-design/utils/fonts'
+import Unfonts from 'unplugin-fonts/vite'
+
+const { resolve } = createResolver(import.meta.url)
+
+const { tailwind, unfonts } = useUnfontConfiguration({ fonts: ['Poppins'] })
+
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  css: ['~/assets/main.css'],
+  alias: {
+    '@lautr/initium-nuxt-webapp': resolve('./'),
+  },
+  css: ['@lautr/initium-nuxt-webapp/assets/main.css'],
   components: {
     dirs: [
       '~/components',
@@ -27,6 +38,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@vue-macros/nuxt',
     '@lautr/initium-nuxt-design/nuxt.ts',
+    '',
   ],
   routeRules: {
     '/**': {
@@ -43,12 +55,12 @@ export default defineNuxtConfig({
         './layouts/**/*.vue',
         './pages/**/*.vue',
         './plugins/**/*.{js,ts}',
-        './nuxt.config.{js,ts}',
         './app.vue',
       ],
       darkMode: 'class',
       theme: {
         extend: {},
+        fontFamily: tailwind,
       },
       plugins: [],
     },
@@ -61,5 +73,10 @@ export default defineNuxtConfig({
     resolve: {
       preserveSymlinks: true,
     },
+    plugins: [
+      Unfonts({
+        custom: unfonts,
+      }),
+    ],
   },
 })

@@ -10,8 +10,9 @@
   "scripts": {
     "lint": "pnpm eslint .",
     "webapp": "pnpm --filter @lautr/initium-nuxt-webapp",
+    "webapp-alpha": "pnpm --filter @lautr/initium-nuxt-webapp-alpha",
     "design": "pnpm --filter @lautr/initium-nuxt-design",
-    "dev": "concurrently \"pnpm design dev\" \"pnpm webapp dev\""
+    "dev": "concurrently \"pnpm design dev\" \"pnpm webapp dev\" \"pnpm webapp-alpha dev\""
   },
   "devDependencies": {
     "@antfu/eslint-config": "0.40.2",

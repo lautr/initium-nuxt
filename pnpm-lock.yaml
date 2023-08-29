@@ -93,6 +93,9 @@ importers:
       unplugin-auto-import:
         specifier: 0.16.6
         version: 0.16.6(@nuxt/kit@3.6.5)
+      unplugin-fonts:
+        specifier: 1.0.3
+        version: 1.0.3(@nuxt/kit@3.6.5)(vite@4.4.9)
       unplugin-vue-components:
         specifier: 0.25.1
         version: 0.25.1(@nuxt/kit@3.6.5)(vue@3.3.4)
@@ -107,6 +110,49 @@ importers:
         version: 1.8.8(typescript@5.1.6)
 
   packages/webapp:
+    dependencies:
+      '@lautr/initium-nuxt-design':
+        specifier: workspace:*
+        version: link:../design
+      '@nuxtjs/tailwindcss':
+        specifier: 6.8.0
+        version: 6.8.0
+    devDependencies:
+      '@nuxt/devtools':
+        specifier: 0.8.0
+        version: 0.8.0(nuxt@3.6.5)
+      '@nuxt/test-utils-edge':
+        specifier: 3.3.3-28007403.1fd491f1
+        version: 3.3.3-28007403.1fd491f1
+      '@nuxtjs/color-mode':
+        specifier: 3.3.0
+        version: 3.3.0
+      '@pinia/nuxt':
+        specifier: 0.4.11
+        version: 0.4.11(typescript@5.1.6)
+      '@vue-macros/nuxt':
+        specifier: 1.7.5
+        version: 1.7.5(nuxt@3.6.5)(typescript@5.1.6)
+      '@vueuse/nuxt':
+        specifier: 10.3.0
+        version: 10.3.0(nuxt@3.6.5)
+      autoprefixer:
+        specifier: 10.4.15
+        version: 10.4.15(postcss@8.4.28)
+      nuxt:
+        specifier: 3.6.5
+        version: 3.6.5(eslint@8.47.0)(typescript@5.1.6)
+      pinia:
+        specifier: 2.1.6
+        version: 2.1.6(typescript@5.1.6)
+      unplugin-fonts:
+        specifier: 1.0.3
+        version: 1.0.3(@nuxt/kit@3.6.5)(vite@4.4.9)
+      vitest:
+        specifier: 0.34.2
+        version: 0.34.2
+
+  packages/webapp-alpha:
     dependencies:
       '@lautr/initium-nuxt-design':
         specifier: workspace:*
@@ -2916,11 +2962,11 @@ packages:
       '@nuxt/schema': /@nuxt/schema-edge@3.3.3-28007403.1fd491f1
       consola: 2.15.3
       defu: 6.1.2
-      execa: 7.1.1
+      execa: 7.2.0
       get-port-please: 3.0.1
-      jiti: 1.18.2
-      ofetch: 1.0.1
-      pathe: 1.1.0
+      jiti: 1.19.1
+      ofetch: 1.1.1
+      pathe: 1.1.1
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -6282,7 +6328,7 @@ packages:
       '@vue/reactivity-transform': 3.3.4
       '@vue/shared': 3.3.4
       estree-walker: 2.0.2
-      magic-string: 0.30.1
+      magic-string: 0.30.2
       postcss: 8.4.28
       source-map-js: 1.0.2
 
@@ -7623,7 +7669,7 @@ packages:
     dev: true
 
   /concat-map@0.0.1:
-    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
+    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
 
   /concat-stream@1.6.2:
     resolution: {integrity: sha512-27HBghJxjiZtIk3Ycvn/4kbJk/1uZuJFfuPEns6LaEvpvG1f0hTea8lilrouyo9mVc2GWdcEZ8OLoGmSADlrCw==}
@@ -8156,6 +8202,7 @@ packages:
 
   /destr@1.2.2:
     resolution: {integrity: sha512-lrbCJwD9saUQrqUfXvl6qoM+QN3W7tLV5pAOs+OqOmopCCz/JkE05MHedJR1xfk4IAnZuJXPVuN5+7jNA2ZCiA==}
+    dev: false
 
   /destr@2.0.0:
     resolution: {integrity: sha512-FJ9RDpf3GicEBvzI3jxc2XhHzbqD8p4ANw/1kPsFBfTvP1b7Gn/Lg1vO7R9J4IVgoMbyUmFrFGZafJ1hPZpvlg==}
@@ -8988,21 +9035,6 @@ packages:
       onetime: 5.1.2
       signal-exit: 3.0.7
       strip-final-newline: 2.0.0
-    dev: true
-
-  /execa@7.1.1:
-    resolution: {integrity: sha512-wH0eMf/UXckdUYnO21+HDztteVv05rq2GXksxT4fCGeHkBhw1DROXh40wcjMcRqDOWE7iPJ4n3M7e2+YFP+76Q==}
-    engines: {node: ^14.18.0 || ^16.14.0 || >=18.0.0}
-    dependencies:
-      cross-spawn: 7.0.3
-      get-stream: 6.0.1
-      human-signals: 4.3.1
-      is-stream: 3.0.0
-      merge-stream: 2.0.0
-      npm-run-path: 5.1.0
-      onetime: 6.0.0
-      signal-exit: 3.0.7
-      strip-final-newline: 3.0.0
     dev: true
 
   /execa@7.2.0:
@@ -11218,11 +11250,6 @@ packages:
       - ts-node
     dev: true
 
-  /jiti@1.18.2:
-    resolution: {integrity: sha512-QAdOptna2NYiSSpv0O/BwoHBSmz4YhpzJHyi+fnMRTXFjp7B8i/YG5Z8IfusxB1ufjcD2Sre1F3R+nX3fvy7gg==}
-    hasBin: true
-    dev: true
-
   /jiti@1.19.1:
     resolution: {integrity: sha512-oVhqoRDaBXf7sjkll95LHVS6Myyyb1zaunVwk4Z0+WPSW4gjS0pl01zYKHScTuyEhQsFxV5L4DR5r+YqSyqyyg==}
     hasBin: true
@@ -11691,6 +11718,7 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
+    dev: true
 
   /magic-string@0.30.2:
     resolution: {integrity: sha512-lNZdu7pewtq/ZvWUp9Wpf/x7WzMTsR26TWV03BRZrXFsv+BI6dy8RAiKgm1uM/kyR0rCfUcqvOlXKG66KhIGug==}
@@ -12624,14 +12652,6 @@ packages:
       object-keys: 1.1.1
     dev: true
 
-  /ofetch@1.0.1:
-    resolution: {integrity: sha512-icBz2JYfEpt+wZz1FRoGcrMigjNKjzvufE26m9+yUiacRQRHwnNlGRPiDnW4op7WX/MR6aniwS8xw8jyVelF2g==}
-    dependencies:
-      destr: 1.2.2
-      node-fetch-native: 1.2.0
-      ufo: 1.1.2
-    dev: true
-
   /ofetch@1.1.1:
     resolution: {integrity: sha512-SSMoktrp9SNLi20BWfB/BnnKcL0RDigXThD/mZBeQxkIRv1xrd9183MtLdsqRYLYSqW0eTr5t8w8MqjNhvoOQQ==}
     dependencies:
@@ -12959,10 +12979,6 @@ packages:
   /path-type@4.0.0:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
-
-  /pathe@1.1.0:
-    resolution: {integrity: sha512-ODbEPR0KKHqECXW1GoxdDb+AZvULmXjVPy4rt+pGo2+TnjJTIPJQSVS6N63n8T2Ip+syHhbn52OewKicV0373w==}
-    dev: true
 
   /pathe@1.1.1:
     resolution: {integrity: sha512-d+RQGp0MAYTIaDBIMmOfMwz3E+LOZnxx1HZd5R18mmCZY0QBlK0LDZfPc8FW8Ed2DlvsuE6PRjroDY+wg4+j/Q==}
@@ -15591,6 +15607,21 @@ packages:
         optional: true
     dependencies:
       '@antfu/utils': 0.7.5
+      unplugin: 1.4.0
+      vite: 4.4.9(@types/node@18.17.6)
+    dev: true
+
+  /unplugin-fonts@1.0.3(@nuxt/kit@3.6.5)(vite@4.4.9):
+    resolution: {integrity: sha512-6Wq0SMhMznUx7DTkqr/ogCvWg2vFSCApHmhUcUISxqfnuME2B/KRLa6+bWyX3sbPNhYsW4zI7jvUkkmIumwenw==}
+    peerDependencies:
+      '@nuxt/kit': ^3.0.0
+      vite: ^2.0.0 || ^3.0.0 || ^4.0.0
+    peerDependenciesMeta:
+      '@nuxt/kit':
+        optional: true
+    dependencies:
+      '@nuxt/kit': 3.6.5
+      fast-glob: 3.3.1
       unplugin: 1.4.0
       vite: 4.4.9(@types/node@18.17.6)
     dev: true

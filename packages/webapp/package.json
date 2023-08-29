@@ -2,7 +2,7 @@
   "name": "@lautr/initium-nuxt-webapp",
   "private": true,
   "scripts": {
-    "build": "NITRO_PRESET=vercel-edge nuxt build",
+    "build": "nuxt build",
     "dev": "nuxi dev",
     "start": "nuxi start",
     "coverage": "vitest run --coverage",
@@ -25,6 +25,7 @@
     "autoprefixer": "10.4.15",
     "nuxt": "3.6.5",
     "pinia": "2.1.6",
+    "unplugin-fonts": "1.0.3",
     "vitest": "0.34.2"
   }
 }

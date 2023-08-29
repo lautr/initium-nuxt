@@ -1,3 +1,129 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @font-face {
+  font-family: 'Poppins';
+  src: url('@lautr/initium-nuxt-design/assets/fonts/poppins/Poppins-Black.ttf') format('truetype'),local('Poppins');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('@lautr/initium-nuxt-design/assets/fonts/poppins/Poppins-BlackItalic.ttf') format('truetype'),local('Poppins');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('@lautr/initium-nuxt-design/assets/fonts/poppins/Poppins-Bold.ttf') format('truetype'),local('Poppins');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('@lautr/initium-nuxt-design/assets/fonts/poppins/Poppins-BoldItalic.ttf') format('truetype'),local('Poppins');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('@lautr/initium-nuxt-design/assets/fonts/poppins/Poppins-ExtraBold.ttf') format('truetype'),local('Poppins');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('@lautr/initium-nuxt-design/assets/fonts/poppins/Poppins-ExtraBoldItalic.ttf') format('truetype'),local('Poppins');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('@lautr/initium-nuxt-design/assets/fonts/poppins/Poppins-ExtraLight.ttf') format('truetype'),local('Poppins');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('@lautr/initium-nuxt-design/assets/fonts/poppins/Poppins-ExtraLightItalic.ttf') format('truetype'),local('Poppins');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('@lautr/initium-nuxt-design/assets/fonts/poppins/Poppins-Italic.ttf') format('truetype'),local('Poppins');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('@lautr/initium-nuxt-design/assets/fonts/poppins/Poppins-Light.ttf') format('truetype'),local('Poppins');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('@lautr/initium-nuxt-design/assets/fonts/poppins/Poppins-LightItalic.ttf') format('truetype'),local('Poppins');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('@lautr/initium-nuxt-design/assets/fonts/poppins/Poppins-Medium.ttf') format('truetype'),local('Poppins');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('@lautr/initium-nuxt-design/assets/fonts/poppins/Poppins-MediumItalic.ttf') format('truetype'),local('Poppins');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('@lautr/initium-nuxt-design/assets/fonts/poppins/Poppins-Regular.ttf') format('truetype'),local('Poppins');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('@lautr/initium-nuxt-design/assets/fonts/poppins/Poppins-SemiBold.ttf') format('truetype'),local('Poppins');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('@lautr/initium-nuxt-design/assets/fonts/poppins/Poppins-SemiBoldItalic.ttf') format('truetype'),local('Poppins');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('@lautr/initium-nuxt-design/assets/fonts/poppins/Poppins-Thin.ttf') format('truetype'),local('Poppins');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('@lautr/initium-nuxt-design/assets/fonts/poppins/Poppins-ThinItalic.ttf') format('truetype'),local('Poppins');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+} */

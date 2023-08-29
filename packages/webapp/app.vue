@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import 'unfonts.css'
+
 const auth = useAuthStore()
 const colorMode = useColorMode()
 </script>
