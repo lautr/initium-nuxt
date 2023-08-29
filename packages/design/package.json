@@ -18,7 +18,7 @@
     "@storybook/addon-interactions": "7.4.0",
     "@storybook/addon-links": "7.4.0",
     "@storybook/blocks": "7.4.0",
-    "@storybook/jest": "0.2.1",
+    "@storybook/jest": "0.2.2",
     "@storybook/test-runner": "0.13.0",
     "@storybook/testing-library": "0.2.0",
     "@storybook/vue3": "7.4.0",
