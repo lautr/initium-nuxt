@@ -4,10 +4,7 @@ import vue from '@vitejs/plugin-vue'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import VueMacros from 'unplugin-vue-macros/vite'
-import Unfonts from 'unplugin-fonts/vite'
-import { useUnfontConfiguration } from './utils/fonts'
-
-const { unfonts } = useUnfontConfiguration({ fonts: ['Poppins'] })
+import fontLoader from './utils/font-loader'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -24,9 +21,7 @@ export default defineConfig({
     }),
     vue(),
     VueMacros(),
-    Unfonts({
-      custom: unfonts,
-    }),
+    fontLoader.fontVitePlugin,
   ],
   resolve: {
     alias: {

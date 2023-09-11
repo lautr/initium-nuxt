@@ -1,10 +1,10 @@
 {
-  "name": "@lautr/initium-nuxt-webapp-alpha",
+  "name": "@lautr/initium-nuxt-webapp",
   "private": true,
   "scripts": {
-    "build": "NITRO_PRESET=vercel-edge nuxt build",
+    "build": "nuxt build",
     "dev": "nuxi dev",
-    "start": "nuxi start",
+    "preview": "nuxi preview",
     "coverage": "vitest run --coverage",
     "postinstall": "nuxi prepare",
     "test": "vitest run",
@@ -13,18 +13,21 @@
   },
   "dependencies": {
     "@lautr/initium-nuxt-design": "workspace:*",
+    "@lautr/initium-nuxt-modules": "workspace:*",
     "@nuxtjs/tailwindcss": "6.8.0"
   },
   "devDependencies": {
-    "@nuxt/devtools": "0.8.0",
+    "@nuxt/devtools": "0.8.2",
     "@nuxt/test-utils-edge": "3.3.3-28007403.1fd491f1",
     "@nuxtjs/color-mode": "3.3.0",
     "@pinia/nuxt": "0.4.11",
-    "@vue-macros/nuxt": "1.7.5",
-    "@vueuse/nuxt": "10.3.0",
+    "@vue-macros/nuxt": "1.7.12",
+    "@vueuse/nuxt": "10.4.1",
     "autoprefixer": "10.4.15",
-    "nuxt": "3.6.5",
+    "nuxt": "3.7.0",
     "pinia": "2.1.6",
-    "vitest": "0.34.2"
+    "unplugin-fonts": "1.0.3",
+    "vite": "4.4.9",
+    "vitest": "0.34.3"
   }
 }

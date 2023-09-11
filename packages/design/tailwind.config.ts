@@ -1,7 +1,5 @@
 import type { Config } from 'tailwindcss'
-import { useUnfontConfiguration } from './utils/fonts'
-
-const { tailwind } = useUnfontConfiguration({ fonts: ['Poppins'] })
+import fontLoader from './utils/font-loader'
 
 export default {
   content: [
@@ -10,7 +8,7 @@ export default {
   ],
   darkMode: 'class',
   theme: {
-    fontFamily: tailwind,
+    fontFamily: fontLoader.fontTailwindConfig,
     extend: {},
   },
   plugins: [],
