@@ -1,8 +1,8 @@
 {
   "name": "@lautr/initium-nuxt-modules",
   "version": "1.0.0",
+  "private": "true",
   "description": "",
-  "keywords": [],
   "author": "",
-  "private":"true"
+  "keywords": []
 }
