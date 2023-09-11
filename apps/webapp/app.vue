@@ -13,7 +13,7 @@ const colorMode = useColorMode()
       <InteractionSignIn @sign-in="(identity: string) => auth.signIn(identity)" />
     </UiSheet>
     <ClientOnly>
-      <UiSheet class="fixed bottom-5 right-5">
+      <UiSheet class="fixed bottom-5 right-5 font-serif">
         <div>
           color mode:
           <span class="font-bold">{{ colorMode.preference }}</span>

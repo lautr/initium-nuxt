@@ -1,4 +1,5 @@
 import '../index.css'
+import 'virtual:virtual-fontface-css/font-face.css'
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },

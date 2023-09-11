@@ -1,5 +1,5 @@
 export const useAuthStore = defineStore('AuthStore', () => {
-  const identity = ref(null)
+  const identity = ref('')
 
   function signIn(identityInput: string) {
     identity.value = identityInput

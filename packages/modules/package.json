@@ -1,0 +1,12 @@
+{
+  "name": "@lautr/initium-nuxt-modules",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@nuxt/kit": "3.7.0",
+    "fast-glob": "3.3.1",
+    "pathe": "1.1.1"
+  }
+}

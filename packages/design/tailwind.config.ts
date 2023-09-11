@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+import fontLoader from './utils/font-loader'
 
 export default {
   content: [
@@ -7,6 +8,7 @@ export default {
   ],
   darkMode: 'class',
   theme: {
+    fontFamily: fontLoader.fontTailwindConfig,
     extend: {},
   },
   plugins: [],
