@@ -14,7 +14,7 @@
     "dev": "concurrently \"pnpm design dev\" \"pnpm webapp dev\""
   },
   "devDependencies": {
-    "@antfu/eslint-config": "0.41.0",
+    "@antfu/eslint-config": "0.41.2",
     "concurrently": "8.2.1",
     "eslint": "8.49.0",
     "typescript": "5.2.2"
