@@ -12,17 +12,17 @@
     "vue": "3.3.4"
   },
   "devDependencies": {
-    "@nuxt/kit": "3.7.1",
-    "@nuxt/schema": "3.7.1",
-    "@storybook/addon-essentials": "7.4.0",
-    "@storybook/addon-interactions": "7.4.0",
-    "@storybook/addon-links": "7.4.0",
-    "@storybook/blocks": "7.4.0",
+    "@nuxt/kit": "3.7.2",
+    "@nuxt/schema": "3.7.2",
+    "@storybook/addon-essentials": "7.4.1",
+    "@storybook/addon-interactions": "7.4.1",
+    "@storybook/addon-links": "7.4.1",
+    "@storybook/blocks": "7.4.1",
     "@storybook/jest": "0.2.2",
     "@storybook/test-runner": "0.13.0",
     "@storybook/testing-library": "0.2.0",
-    "@storybook/vue3": "7.4.0",
-    "@storybook/vue3-vite": "7.4.0",
+    "@storybook/vue3": "7.4.1",
+    "@storybook/vue3-vite": "7.4.1",
     "@types/node": "18.17.15",
     "@vitejs/plugin-vue": "4.3.4",
     "@vue/tsconfig": "0.4.0",
@@ -30,14 +30,14 @@
     "postcss": "8.4.29",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "storybook": "7.4.0",
     "storybook-addon-vue-slots": "0.9.21",
+    "storybook": "7.4.1",
     "storybook-dark-mode": "3.0.1",
     "tailwindcss": "3.3.3",
     "unplugin-auto-import": "0.16.6",
     "unplugin-vue-components": "0.25.2",
-    "unplugin-vue-macros": "2.5.0",
+    "unplugin-vue-macros": "2.5.1",
     "vite": "4.4.9",
-    "vue-tsc": "1.8.10"
+    "vue-tsc": "1.8.11"
   }
 }
