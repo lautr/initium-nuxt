@@ -12,8 +12,8 @@
     "vue": "3.3.4"
   },
   "devDependencies": {
-    "@nuxt/kit": "3.7.1",
-    "@nuxt/schema": "3.7.1",
+    "@nuxt/kit": "3.7.2",
+    "@nuxt/schema": "3.7.2",
     "@storybook/addon-essentials": "7.4.1",
     "@storybook/addon-interactions": "7.4.1",
     "@storybook/addon-links": "7.4.1",
