@@ -7,6 +7,7 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    AlphaUiButton: typeof import('./components/alpha/ui/Button.vue')['default']
     InteractionSignIn: typeof import('./components/interaction/SignIn.vue')['default']
     LayoutApplication: typeof import('./components/layout/Application.vue')['default']
     LayoutSplash: typeof import('./components/layout/Splash.vue')['default']

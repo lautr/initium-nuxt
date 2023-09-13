@@ -1,5 +1,5 @@
 {
-  "name": "@lautr/initium-nuxt-webapp",
+  "name": "@lautr/initium-nuxt-alpha",
   "private": true,
   "scripts": {
     "preview": "nuxt preview",

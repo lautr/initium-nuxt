@@ -1,6 +1,12 @@
-module.exports = {
+export default {
   stories: ['../stories/**/*.mdx', '../stories/**/*.ts'],
-  addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@storybook/addon-interactions', 'storybook-dark-mode'],
+  addons: [
+    '@storybook/addon-links',
+    '@storybook/addon-essentials',
+    '@storybook/addon-interactions',
+    'storybook-addon-vue-slots',
+    'storybook-dark-mode'
+  ],
   core: {
     disableTelemetry: true
   },
@@ -11,4 +17,4 @@ module.exports = {
   docs: {
     autodocs: 'tag'
   }
-};
+}

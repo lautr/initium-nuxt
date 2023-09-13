@@ -1,31 +1,33 @@
 import type { Meta, StoryObj } from '@storybook/vue3'
 import LayoutApplication from '~/components/layout/Application.vue'
-import UiSheet from '~/components/ui/Sheet.vue'
 
 const meta: Meta<typeof LayoutApplication> = {
   title: 'Layout/Application',
   component: LayoutApplication,
-  render: args => ({
-    components: {
-      UiSheet,
-      LayoutApplication,
+  tags: ['autodocs'],
+  parameters: {
+    docs: {
+      description: {
+        component: 'Application Layout',
+      },
     },
-    setup() {
-      return { args }
+    slots: {
+      default: {
+        template: '{{ args.default || "Application Content" }}',
+        description: 'content',
+      },
+      header: {
+        template: '{{ args.header || "Application Header" }}',
+        description: 'header',
+      },
     },
-    template: `
-      <LayoutApplication v-bind="args">
-        {{ args.content }}
-      </LayoutApplication>
-    `,
-  }),
-}
+  },
+} satisfies Meta<typeof LayoutApplication>
 
-type Story = StoryObj<typeof LayoutApplication>
+type Story = StoryObj<typeof meta>
 
 export default meta
-export const Application: Story = {
-  args: {
-    content: 'Application Content',
-  },
+
+export const Default: Story = {
+  args: {},
 }
