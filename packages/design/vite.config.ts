@@ -17,6 +17,8 @@ export default defineConfig({
     }),
     Components({
       dirs: ['./components'],
+      extensions: ['vue', 'ts'],
+      include: [/\.vue$/, /\.vue\?vue/, /\.stories\.ts$/],
       dts: true,
       directoryAsNamespace: true,
     }),

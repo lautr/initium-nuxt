@@ -5,27 +5,29 @@ import UiSheet from '~/components/ui/Sheet.vue'
 const meta: Meta<typeof LayoutSplash> = {
   title: 'Layout/Splash',
   component: LayoutSplash,
-  render: args => ({
-    components: {
-      UiSheet,
-      LayoutSplash,
+  tags: ['autodocs'],
+  parameters: {
+    docs: {
+      description: {
+        component: 'A full screen layout with a centered element, e.g. login.',
+      },
     },
-    setup() {
-      return { args }
-    },
-    template: `
-      <LayoutSplash v-bind="args">
-        <UiSheet>{{ args.content }}</UiSheet>
-      </LayoutSplash>
-    `,
-  }),
+  },
 }
 
 type Story = StoryObj<typeof LayoutSplash>
 
 export default meta
-export const Splash: Story = {
-  args: {
-    content: 'Splash Content',
+export const Content: Story = {
+  parameters: {
+    slots: {
+      default: {
+        components: {
+          UiSheet,
+        },
+        template: '<UiSheet>{{ args.default || "Splash Content" }}</UiSheet>',
+      },
+    },
   },
 }
+export const Default: Story = {}

@@ -5,12 +5,20 @@ import InteractionSignIn from '~/components/interaction/SignIn.vue'
 const meta: Meta<typeof InteractionSignIn> = {
   title: 'Interaction/SignIn',
   component: InteractionSignIn,
+  tags: ['autodocs'],
+  parameters: {
+    docs: {
+      description: {
+        component: 'sign in element',
+      },
+    },
+  },
 }
 
 type Story = StoryObj<typeof InteractionSignIn>
 
 export default meta
-export const SignIn: Story = {
+export const Deault: Story = {
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement)
 

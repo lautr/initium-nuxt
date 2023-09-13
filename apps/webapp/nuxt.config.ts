@@ -1,6 +1,12 @@
+import { createResolver } from '@nuxt/kit'
+
+const { resolve } = createResolver(import.meta.url)
+
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  css: ['~/assets/main.css'],
+  alias: {
+    '@lautr/initium-nuxt-webapp': resolve('./'),
+  },
   components: {
     dirs: [
       '~/components',

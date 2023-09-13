@@ -4,24 +4,26 @@ import UiButton from '~/components/ui/Button.vue'
 const meta: Meta<typeof UiButton> = {
   title: 'UI/Button',
   component: UiButton,
-  render: args => ({
-    components: {
-      UiButton,
+  tags: ['autodocs'],
+  parameters: {
+    docs: {
+      description: {
+        component: 'button element',
+      },
     },
-    setup() {
-      return { args }
+    slots: {
+      default: {
+        template: '{{ args.default || "Button" }}',
+        description: 'button text',
+      },
     },
-    template: `
-      <UiButton v-bind="args">{{ args.content }}</UiButton>
-    `,
-  }),
-}
-
-type Story = StoryObj<typeof UiButton>
+  },
+} satisfies Meta<typeof UiButton>
 
 export default meta
-export const Button: Story = {
-  args: {
-    content: 'Button Text',
-  },
+
+type Story = StoryObj<typeof meta>
+
+export const Default: Story = {
+  args: {},
 }
