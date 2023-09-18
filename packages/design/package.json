@@ -27,7 +27,7 @@
     "@vitejs/plugin-vue": "4.3.4",
     "@vue/tsconfig": "0.4.0",
     "autoprefixer": "10.4.15",
-    "postcss": "8.4.29",
+    "postcss": "8.4.30",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "storybook": "7.4.2",
