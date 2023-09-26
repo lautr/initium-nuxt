@@ -1,15 +1,15 @@
 {
   "extends": "@vue/tsconfig/tsconfig.json",
-  "include": ["env.d.ts", "./**/*", "vite.config.*"],
   "compilerOptions": {
+    "baseUrl": ".",
     "composite": true,
     "types": [
       "node",
       "unplugin-vue-macros/macros-global"
     ],
-    "baseUrl": ".",
     "paths": {
       "~/*": ["./*"]
     }
-  }
+  },
+  "include": ["env.d.ts", "./**/*", "vite.config.*"]
 }
