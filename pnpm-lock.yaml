@@ -55,8 +55,8 @@ importers:
         specifier: 3.7.4
         version: 3.7.4(eslint@8.51.0)(typescript@5.2.2)
       pinia:
-        specifier: 2.1.6
-        version: 2.1.6(typescript@5.2.2)
+        specifier: 2.1.7
+        version: 2.1.7(typescript@5.2.2)
       vitest:
         specifier: 0.34.6
         version: 0.34.6
@@ -95,8 +95,8 @@ importers:
         specifier: 3.7.4
         version: 3.7.4(eslint@8.51.0)(typescript@5.2.2)
       pinia:
-        specifier: 2.1.6
-        version: 2.1.6(typescript@5.2.2)
+        specifier: 2.1.7
+        version: 2.1.7(typescript@5.2.2)
       vitest:
         specifier: 0.34.6
         version: 0.34.6
@@ -3658,7 +3658,7 @@ packages:
     resolution: {integrity: sha512-bhuNFngJpmBCdAqWguezNJ/oJFR7wvKieqiZrmmdmPR07XjsidAw8RLXHMZE9kUm32M9E6T057OBbG/22jERTg==}
     dependencies:
       '@nuxt/kit': 3.7.1
-      pinia: 2.1.6(typescript@5.2.2)
+      pinia: 2.1.7(typescript@5.2.2)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - rollup
@@ -13608,8 +13608,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /pinia@2.1.6(typescript@5.2.2):
-    resolution: {integrity: sha512-bIU6QuE5qZviMmct5XwCesXelb5VavdOWKWaB17ggk++NUwQWWbP5YnsONTk3b752QkW9sACiR81rorpeOMSvQ==}
+  /pinia@2.1.7(typescript@5.2.2):
+    resolution: {integrity: sha512-+C2AHFtcFqjPih0zpYuvof37SFxMQ7OEG2zV9jRI12i9BOy3YQVAHwdKtyyc8pDcDyIc33WCIsZaCFWU7WWxGQ==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
@@ -13622,7 +13622,7 @@ packages:
     dependencies:
       '@vue/devtools-api': 6.5.0
       typescript: 5.2.2
-      vue-demi: 0.14.5
+      vue-demi: 0.14.6
     dev: true
 
   /pirates@4.0.5:
@@ -16924,19 +16924,6 @@ packages:
 
   /vue-component-type-helpers@1.8.19:
     resolution: {integrity: sha512-1OANGSZK4pzHF4uc86usWi+o5Y0zgoDtqWkPg6Am6ot+jHSAmpOah59V/4N82So5xRgivgCxGgK09lBy1XNUfQ==}
-    dev: true
-
-  /vue-demi@0.14.5:
-    resolution: {integrity: sha512-o9NUVpl/YlsGJ7t+xuqJKx8EBGf1quRhCiT6D/J0pfwmk9zUwYkC7yrF4SZCe6fETvSM3UNL2edcbYrSyc4QHA==}
-    engines: {node: '>=12'}
-    hasBin: true
-    requiresBuild: true
-    peerDependencies:
-      '@vue/composition-api': ^1.0.0-rc.1
-      vue: ^3.0.0-0 || ^2.6.0
-    peerDependenciesMeta:
-      '@vue/composition-api':
-        optional: true
     dev: true
 
   /vue-demi@0.14.6:
