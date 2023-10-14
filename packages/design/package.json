@@ -31,7 +31,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "storybook": "7.4.6",
-    "storybook-addon-vue-slots": "0.9.21",
+    "storybook-addon-vue-slots": "0.9.24",
     "storybook-dark-mode": "3.0.1",
     "tailwindcss": "3.3.3",
     "unplugin-auto-import": "0.16.6",
