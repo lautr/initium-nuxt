@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@lautr/initium-nuxt-design": "workspace:*",
-    "@nuxtjs/tailwindcss": "6.8.1"
+    "@nuxtjs/tailwindcss": "6.9.3"
   },
   "devDependencies": {
     "@nuxt/devtools": "1.0.0",
