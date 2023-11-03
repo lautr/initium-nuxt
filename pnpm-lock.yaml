@@ -27,8 +27,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/design
       '@nuxtjs/tailwindcss':
-        specifier: 6.9.3
-        version: 6.9.3
+        specifier: 6.9.4
+        version: 6.9.4
     devDependencies:
       '@nuxt/devtools':
         specifier: 1.0.0
@@ -67,8 +67,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/design
       '@nuxtjs/tailwindcss':
-        specifier: 6.9.3
-        version: 6.9.3
+        specifier: 6.9.4
+        version: 6.9.4
     devDependencies:
       '@nuxt/devtools':
         specifier: 1.0.0
@@ -3270,8 +3270,8 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxtjs/tailwindcss@6.9.3:
-    resolution: {integrity: sha512-NGODFTmM8OZl9Ex/sg98WNTOg/hJ6KlutgFo9HyOkB02k6B2lOMaR5MTbJYUSNsjTylcfwWLTW8t7Ve7Q9ZYIg==}
+  /@nuxtjs/tailwindcss@6.9.4:
+    resolution: {integrity: sha512-T3B3P7RgJ/WTW3plHziLWqWbMzCWctUHpjqhW1WCXB/U3FOQxGH5dG4uEOmQkA6Gj4cbTNStIU/cRxpZhbBMhg==}
     dependencies:
       '@nuxt/kit': 3.8.0
       '@nuxt/postcss8': 1.1.3
