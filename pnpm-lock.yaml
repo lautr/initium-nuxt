@@ -129,8 +129,8 @@ importers:
         specifier: 0.2.3
         version: 0.2.3
       '@storybook/test-runner':
-        specifier: 0.15.1
-        version: 0.15.1(@types/node@18.18.11)
+        specifier: 0.15.2
+        version: 0.15.2(@types/node@18.18.11)
       '@storybook/testing-library':
         specifier: 0.2.2
         version: 0.2.2
@@ -5050,9 +5050,9 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/test-runner@0.15.1(@types/node@18.18.11):
-    resolution: {integrity: sha512-VHm9E6DM4ibs132EVJnavhX8Y15WARRHaZcLMkdb1R9Wmh1X6pdojl77AERQzIOCzhfBg291G3MZzCcE9enh8A==}
-    engines: {node: ^14.15.0 || ^16.10.0 || ^18.0.0 || >=20.0.0}
+  /@storybook/test-runner@0.15.2(@types/node@18.18.11):
+    resolution: {integrity: sha512-nHwThLvxho9wNAVxtESoAcrQD7UolOAJISwcG9uz3bmtTIm7h5DMlpfX+2DKbJyq5REg8nhcauZv5iFvwBdn1Q==}
+    engines: {node: ^16.10.0 || ^18.0.0 || >=20.0.0}
     hasBin: true
     dependencies:
       '@babel/core': 7.23.2
