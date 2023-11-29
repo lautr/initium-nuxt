@@ -165,8 +165,8 @@ importers:
         specifier: 7.6.0
         version: 7.6.0
       storybook-addon-vue-slots:
-        specifier: 0.9.26
-        version: 0.9.26(@storybook/blocks@7.6.0)(@storybook/vue3@7.6.0)(react-dom@18.2.0)(react@18.2.0)(vue@3.3.4)
+        specifier: 0.9.27
+        version: 0.9.27(@storybook/blocks@7.6.0)(@storybook/vue3@7.6.0)(react-dom@18.2.0)(react@18.2.0)(vue@3.3.4)
       storybook-dark-mode:
         specifier: 3.0.3
         version: 3.0.3(react-dom@18.2.0)(react@18.2.0)
@@ -3299,7 +3299,7 @@ packages:
       hookable: 5.5.3
       pathe: 1.1.1
       pkg-types: 1.0.3
-      std-env: 3.4.3
+      std-env: 3.5.0
       ufo: 1.3.2
       unimport: 3.5.0(rollup@3.29.4)
       untyped: 1.4.0
@@ -5663,7 +5663,7 @@ packages:
       ts-dedent: 2.2.0
       type-fest: 2.19.0
       vue: 3.3.4
-      vue-component-type-helpers: 1.8.22
+      vue-component-type-helpers: 1.8.24
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -15423,8 +15423,8 @@ packages:
     resolution: {integrity: sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==}
     dev: true
 
-  /storybook-addon-vue-slots@0.9.26(@storybook/blocks@7.6.0)(@storybook/vue3@7.6.0)(react-dom@18.2.0)(react@18.2.0)(vue@3.3.4):
-    resolution: {integrity: sha512-nqxksK/85uDVMImkcDJfOImkAh82Mvj8Hd845d6ZjZMtMheH/ajAugDT1hyBbKcQhJUR1wFSETmigQhoUGJTVg==}
+  /storybook-addon-vue-slots@0.9.27(@storybook/blocks@7.6.0)(@storybook/vue3@7.6.0)(react-dom@18.2.0)(react@18.2.0)(vue@3.3.4):
+    resolution: {integrity: sha512-Hz+6Ln5dBo8w9yKM0HqP/9Z5k1262DkDK8eSx0mZDitI32SL5Sbz4geVrRheFa7xursxF+9T5x/LoGKjpVMy7A==}
     peerDependencies:
       '@storybook/blocks': ^7.0.27
       '@storybook/components': ^7.0.27
@@ -17103,8 +17103,8 @@ packages:
       ufo: 1.3.2
     dev: true
 
-  /vue-component-type-helpers@1.8.22:
-    resolution: {integrity: sha512-LK3wJHs3vJxHG292C8cnsRusgyC5SEZDCzDCD01mdE/AoREFMl2tzLRuzwyuEsOIz13tqgBcnvysN3Lxsa14Fw==}
+  /vue-component-type-helpers@1.8.24:
+    resolution: {integrity: sha512-lqWs/7fdRXoSBAlbouHBX+LNuaY6gI9xWW34m/ZIz9zVPYHEyw0b2/zaCBwlKx0NtKTeF/6pOpvrxVkh7nhIYg==}
     dev: true
 
   /vue-demi@0.14.6:
