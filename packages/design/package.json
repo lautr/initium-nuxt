@@ -24,7 +24,7 @@
     "@storybook/vue3": "7.6.2",
     "@storybook/vue3-vite": "7.6.2",
     "@types/node": "18.19.0",
-    "@vitejs/plugin-vue": "4.5.0",
+    "@vitejs/plugin-vue": "4.5.1",
     "@vue/tsconfig": "0.4.0",
     "autoprefixer": "10.4.16",
     "postcss": "8.4.31",
