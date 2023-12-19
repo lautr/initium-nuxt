@@ -171,8 +171,8 @@ importers:
         specifier: 3.0.3
         version: 3.0.3(react-dom@18.2.0)(react@18.2.0)
       tailwindcss:
-        specifier: 3.3.6
-        version: 3.3.6
+        specifier: 3.3.7
+        version: 3.3.7
       unplugin-auto-import:
         specifier: 0.17.2
         version: 0.17.2(@nuxt/kit@3.8.0)
@@ -15697,8 +15697,8 @@ packages:
       - ts-node
     dev: false
 
-  /tailwindcss@3.3.6:
-    resolution: {integrity: sha512-AKjF7qbbLvLaPieoKeTjG1+FyNZT6KaJMJPFeQyLfIp7l82ggH1fbHJSsYIvnbTFQOlkh+gBYpyby5GT1LIdLw==}
+  /tailwindcss@3.3.7:
+    resolution: {integrity: sha512-pjgQxDZPvyS/nG3ZYkyCvsbONJl7GdOejfm24iMt2ElYQQw8Jc4p0m8RdMp7mznPD0kUhfzwV3zAwa80qI0zmQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
