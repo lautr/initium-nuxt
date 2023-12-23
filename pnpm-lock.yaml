@@ -43,8 +43,8 @@ importers:
         specifier: 0.5.1
         version: 0.5.1(typescript@5.3.3)
       '@vue-macros/nuxt':
-        specifier: 1.9.14
-        version: 1.9.14(nuxt@3.8.0)(typescript@5.3.3)
+        specifier: 1.9.16
+        version: 1.9.16(nuxt@3.8.0)(typescript@5.3.3)
       '@vueuse/nuxt':
         specifier: 10.7.0
         version: 10.7.0(nuxt@3.8.0)
@@ -83,8 +83,8 @@ importers:
         specifier: 0.5.1
         version: 0.5.1(typescript@5.3.3)
       '@vue-macros/nuxt':
-        specifier: 1.9.14
-        version: 1.9.14(nuxt@3.8.0)(typescript@5.3.3)
+        specifier: 1.9.16
+        version: 1.9.16(nuxt@3.8.0)(typescript@5.3.3)
       '@vueuse/nuxt':
         specifier: 10.7.0
         version: 10.7.0(nuxt@3.8.0)
@@ -6775,15 +6775,15 @@ packages:
       - vue
     dev: true
 
-  /@vue-macros/nuxt@1.9.14(nuxt@3.8.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-FrS3Ystd6a+pPWpCM1PCwewptTQlKyop6j7EJv9dDi0GuKtnBqprBA5E8ZEHEf/6+6iMz8eZvM454PqsnLH3NQ==}
+  /@vue-macros/nuxt@1.9.16(nuxt@3.8.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-gYLGwNrFpObGPdVqjNcL7exap0EUGNPWPJYgGmLukXJxDP5C4kl2Ze8Nm2LWCgHhS/IzfCmmHTDbs7yqLe4f2A==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       nuxt: ^3.0.0
     dependencies:
       '@nuxt/kit': 3.8.2
       '@vue-macros/common': 1.10.0(vue@3.3.4)
-      '@vue-macros/volar': 0.18.4(typescript@5.3.3)
+      '@vue-macros/volar': 0.18.6(typescript@5.3.3)
       nuxt: 3.8.0(eslint@8.56.0)(typescript@5.3.3)
       unplugin-vue-macros: 2.7.6(typescript@5.3.3)
     transitivePeerDependencies:
@@ -6883,8 +6883,8 @@ packages:
       - vue
     dev: true
 
-  /@vue-macros/volar@0.18.4(typescript@5.3.3):
-    resolution: {integrity: sha512-s/luSOBNiUXGvDA4AO70lkUnaoLNY/c04U2NBXbBpTdnGMd8uekYBtzv1xS2Br7JG/T1XdHDNskJG4nKh5VzcQ==}
+  /@vue-macros/volar@0.18.6(typescript@5.3.3):
+    resolution: {integrity: sha512-aEhOL9o8hN053u+YLhKunW9cjkDeQIv5QfXp0s8aCW+yb3H7AohZKxgeSVplrr43Nk6D8h/Eq/AOteSKdAVEjA==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       vue-tsc: ^1.6.0
