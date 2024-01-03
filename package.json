@@ -1,7 +1,7 @@
 {
   "name": "@lautr/initium-nuxt",
   "version": "1.0.0",
-  "packageManager": "pnpm@8.13",
+  "packageManager": "pnpm@8.14",
   "description": "",
   "author": "",
   "license": "ISC",
