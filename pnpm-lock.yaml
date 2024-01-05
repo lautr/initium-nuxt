@@ -165,8 +165,8 @@ importers:
         specifier: 7.6.7
         version: 7.6.7
       storybook-addon-vue-slots:
-        specifier: 0.9.27
-        version: 0.9.27(@storybook/blocks@7.6.7)(@storybook/vue3@7.6.7)(react-dom@18.2.0)(react@18.2.0)(vue@3.3.4)
+        specifier: 0.9.29
+        version: 0.9.29(@storybook/blocks@7.6.7)(@storybook/vue3@7.6.7)(react-dom@18.2.0)(react@18.2.0)(vue@3.3.4)
       storybook-dark-mode:
         specifier: 3.0.3
         version: 3.0.3(react-dom@18.2.0)(react@18.2.0)
@@ -15439,8 +15439,8 @@ packages:
     resolution: {integrity: sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==}
     dev: true
 
-  /storybook-addon-vue-slots@0.9.27(@storybook/blocks@7.6.7)(@storybook/vue3@7.6.7)(react-dom@18.2.0)(react@18.2.0)(vue@3.3.4):
-    resolution: {integrity: sha512-Hz+6Ln5dBo8w9yKM0HqP/9Z5k1262DkDK8eSx0mZDitI32SL5Sbz4geVrRheFa7xursxF+9T5x/LoGKjpVMy7A==}
+  /storybook-addon-vue-slots@0.9.29(@storybook/blocks@7.6.7)(@storybook/vue3@7.6.7)(react-dom@18.2.0)(react@18.2.0)(vue@3.3.4):
+    resolution: {integrity: sha512-7KdbUbYN8Lmblc9Rf06mYNQX10aYePNZBONpNMtFIS+VsZGxVXiaclkE95siou3/TPe/yRhv3hnE/VbFsnUlFw==}
     peerDependencies:
       '@storybook/blocks': ^7.0.27
       '@storybook/components': ^7.0.27
