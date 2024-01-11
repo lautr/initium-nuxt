@@ -16,7 +16,7 @@
     "@nuxtjs/tailwindcss": "6.10.4"
   },
   "devDependencies": {
-    "@nuxt/devtools": "1.0.6",
+    "@nuxt/devtools": "1.0.8",
     "@nuxt/test-utils-edge": "3.3.3-28007403.1fd491f1",
     "@nuxtjs/color-mode": "3.3.2",
     "@pinia/nuxt": "0.5.1",
