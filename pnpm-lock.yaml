@@ -144,8 +144,8 @@ importers:
         specifier: 18.19.8
         version: 18.19.8
       '@vitejs/plugin-vue':
-        specifier: 4.6.2
-        version: 4.6.2(vite@4.5.2)(vue@3.3.4)
+        specifier: 5.0.4
+        version: 5.0.4(vite@4.5.2)(vue@3.3.4)
       '@vue/tsconfig':
         specifier: 0.5.1
         version: 0.5.1
@@ -6217,6 +6217,17 @@ packages:
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.0.0 || ^5.0.0
+      vue: ^3.2.25
+    dependencies:
+      vite: 4.5.2(@types/node@18.19.8)
+      vue: 3.3.4
+    dev: true
+
+  /@vitejs/plugin-vue@5.0.4(vite@4.5.2)(vue@3.3.4):
+    resolution: {integrity: sha512-WS3hevEszI6CEVEx28F8RjTX97k3KsrcY6kvTg7+Whm5y3oYvcqzVeGCU3hxSAn4uY2CLCkeokkGKpoctccilQ==}
+    engines: {node: ^18.0.0 || >=20.0.0}
+    peerDependencies:
+      vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
       vite: 4.5.2(@types/node@18.19.8)
