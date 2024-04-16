@@ -9,7 +9,7 @@
     "ci:test": "pnpm dlx concurrently -k -s first -n \"SB,TEST\" -c \"magenta,blue\" \"pnpm build --quiet && pnpm dlx http-server storybook-static --port 6006 --silent\" \"pnpm dlx wait-on http://127.0.0.1:6006 && pnpm test\""
   },
   "dependencies": {
-    "vue": "3.3.4"
+    "vue": "3.4.23"
   },
   "devDependencies": {
     "@nuxt/kit": "3.8.0",
