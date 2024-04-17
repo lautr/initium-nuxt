@@ -151,10 +151,10 @@ importers:
         version: 0.5.1
       autoprefixer:
         specifier: 10.4.19
-        version: 10.4.19(postcss@8.4.33)
+        version: 10.4.19(postcss@8.4.38)
       postcss:
-        specifier: 8.4.33
-        version: 8.4.33
+        specifier: 8.4.38
+        version: 8.4.38
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -13736,7 +13736,7 @@ snapshots:
       '@vue/shared': 3.4.5
       entities: 4.5.0
       estree-walker: 2.0.2
-      source-map-js: 1.0.2
+      source-map-js: 1.2.0
 
   '@vue/compiler-dom@3.3.11':
     dependencies:
@@ -13758,8 +13758,8 @@ snapshots:
       '@vue/shared': 3.3.11
       estree-walker: 2.0.2
       magic-string: 0.30.9
-      postcss: 8.4.33
-      source-map-js: 1.0.2
+      postcss: 8.4.38
+      source-map-js: 1.2.0
 
   '@vue/compiler-sfc@3.4.23':
     dependencies:
@@ -18398,24 +18398,24 @@ snapshots:
     dependencies:
       enhanced-resolve: 4.5.0
 
-  postcss-import@15.1.0(postcss@8.4.33):
+  postcss-import@15.1.0(postcss@8.4.38):
     dependencies:
-      postcss: 8.4.33
+      postcss: 8.4.38
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
       resolve: 1.22.8
 
-  postcss-js@4.0.1(postcss@8.4.33):
+  postcss-js@4.0.1(postcss@8.4.38):
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.4.33
+      postcss: 8.4.38
 
-  postcss-load-config@4.0.1(postcss@8.4.33):
+  postcss-load-config@4.0.1(postcss@8.4.38):
     dependencies:
       lilconfig: 2.1.0
       yaml: 2.3.2
     optionalDependencies:
-      postcss: 8.4.33
+      postcss: 8.4.38
 
   postcss-merge-longhand@6.0.5(postcss@8.4.38):
     dependencies:
@@ -18455,9 +18455,9 @@ snapshots:
       postcss: 8.4.38
       postcss-selector-parser: 6.0.16
 
-  postcss-nested@6.0.1(postcss@8.4.33):
+  postcss-nested@6.0.1(postcss@8.4.38):
     dependencies:
-      postcss: 8.4.33
+      postcss: 8.4.38
       postcss-selector-parser: 6.0.13
 
   postcss-nesting@12.0.2(postcss@8.4.33):
@@ -19520,11 +19520,11 @@ snapshots:
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.0.0
-      postcss: 8.4.33
-      postcss-import: 15.1.0(postcss@8.4.33)
-      postcss-js: 4.0.1(postcss@8.4.33)
-      postcss-load-config: 4.0.1(postcss@8.4.33)
-      postcss-nested: 6.0.1(postcss@8.4.33)
+      postcss: 8.4.38
+      postcss-import: 15.1.0(postcss@8.4.38)
+      postcss-js: 4.0.1(postcss@8.4.38)
+      postcss-load-config: 4.0.1(postcss@8.4.38)
+      postcss-nested: 6.0.1(postcss@8.4.38)
       postcss-selector-parser: 6.0.13
       resolve: 1.22.8
       sucrase: 3.32.0
@@ -20284,7 +20284,7 @@ snapshots:
   vite@4.4.9(@types/node@18.18.1)(terser@5.17.4):
     dependencies:
       esbuild: 0.18.11
-      postcss: 8.4.33
+      postcss: 8.4.38
       rollup: 3.29.4
     optionalDependencies:
       '@types/node': 18.18.1
@@ -20294,7 +20294,7 @@ snapshots:
   vite@4.5.3(@types/node@18.18.1)(terser@5.17.4):
     dependencies:
       esbuild: 0.18.11
-      postcss: 8.4.33
+      postcss: 8.4.38
       rollup: 3.29.4
     optionalDependencies:
       '@types/node': 18.18.1
@@ -20304,7 +20304,7 @@ snapshots:
   vite@4.5.3(@types/node@18.19.8)(terser@5.17.4):
     dependencies:
       esbuild: 0.18.11
-      postcss: 8.4.33
+      postcss: 8.4.38
       rollup: 3.29.4
     optionalDependencies:
       '@types/node': 18.19.8
