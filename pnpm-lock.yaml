@@ -37,8 +37,8 @@ importers:
         specifier: 3.3.3-28007403.1fd491f1
         version: 3.3.3-28007403.1fd491f1(rollup@4.14.3)(vue@3.4.23(typescript@5.3.3))
       '@nuxtjs/color-mode':
-        specifier: 3.3.2
-        version: 3.3.2(rollup@4.14.3)
+        specifier: 3.4.0
+        version: 3.4.0(rollup@4.14.3)
       '@pinia/nuxt':
         specifier: 0.5.1
         version: 0.5.1(rollup@4.14.3)(typescript@5.3.3)(vue@3.4.23(typescript@5.3.3))
@@ -77,8 +77,8 @@ importers:
         specifier: 3.3.3-28007403.1fd491f1
         version: 3.3.3-28007403.1fd491f1(rollup@4.14.3)(vue@3.4.23(typescript@5.3.3))
       '@nuxtjs/color-mode':
-        specifier: 3.3.2
-        version: 3.3.2(rollup@4.14.3)
+        specifier: 3.4.0
+        version: 3.4.0(rollup@4.14.3)
       '@pinia/nuxt':
         specifier: 0.5.1
         version: 0.5.1(rollup@4.14.3)(typescript@5.3.3)(vue@3.4.23(typescript@5.3.3))
@@ -1565,10 +1565,6 @@ packages:
     resolution: {integrity: sha512-/S5abZL62BITCvC/TY3KWA6N721U1Osln3cQdBb56XHIeafZCBVqTi92Xb0o7ovl72mMRhrKwRu7elzvz9oT/g==}
     engines: {node: ^14.18.0 || >=16.10.0}
 
-  '@nuxt/kit@3.8.1':
-    resolution: {integrity: sha512-DrhG1Z85iH68QOTkgfb0HVfM2g7+CfcMWrFWMDwck9ofyM2RXQUZyfmvMedwBnui1AjjpgpLO9078yZM+RqNUg==}
-    engines: {node: ^14.18.0 || >=16.10.0}
-
   '@nuxt/kit@3.9.1':
     resolution: {integrity: sha512-QvwZ4QmxmKEnGXXwhLapfogW8enIX30GD7nbmasAkcDIf4GdP2IWUwhd068mrXMbzdZupRLV1J5E74Dr516o5g==}
     engines: {node: ^14.18.0 || >=16.10.0}
@@ -1583,10 +1579,6 @@ packages:
 
   '@nuxt/schema@3.7.4':
     resolution: {integrity: sha512-q6js+97vDha4Fa2x2kDVEuokJr+CGIh1TY2wZp2PLZ7NhG3XEeib7x9Hq8XE8B6pD0GKBRy3eRPPOY69gekBCw==}
-    engines: {node: ^14.18.0 || >=16.10.0}
-
-  '@nuxt/schema@3.8.1':
-    resolution: {integrity: sha512-fSaWRcI/2mUskfTZTGSnH6Ny0x05CRzylbVn6WFV0d6UEKIVy42Qd6n+h7yoFfp4cq4nji6u16PT4SqS1DEhsw==}
     engines: {node: ^14.18.0 || >=16.10.0}
 
   '@nuxt/schema@3.9.1':
@@ -1615,8 +1607,8 @@ packages:
     peerDependencies:
       vue: ^3.3.4
 
-  '@nuxtjs/color-mode@3.3.2':
-    resolution: {integrity: sha512-BLpBfrYZngV2QWFQ4HNEFwAXa3Pno43Ge+2XHcZJTTa1Z4KzRLvOwku8yiyV3ovIaaXKGwduBdv3Z5Ocdp0/+g==}
+  '@nuxtjs/color-mode@3.4.0':
+    resolution: {integrity: sha512-rS51nG3zW8ksOwNubIP3BPQ+vBL0r2M6td1kkB/VaR1e1uVtNfWlBPfZjb604bgNCE2AeRNqaI0CrxkfnQ6h6Q==}
 
   '@nuxtjs/tailwindcss@6.10.4':
     resolution: {integrity: sha512-MG2HYTOH4iJjdfxpfgQ5dDQD/FV+MzqhKk6pYDKkZnTtb7HiKz7B4Yujnqvj5tSwV+kanbU9n++BFuAOJZop4w==}
@@ -3858,9 +3850,6 @@ packages:
   c12@1.4.2:
     resolution: {integrity: sha512-3IP/MuamSVRVw8W8+CHWAz9gKN4gd+voF2zm/Ln6D25C2RhytEZ1ABbC8MjKr4BR9rhoV1JQ7jJA158LDiTkLg==}
 
-  c12@1.5.1:
-    resolution: {integrity: sha512-BWZRJgDEveT8uI+cliCwvYSSSSvb4xKoiiu5S0jaDbKBopQLQF7E+bq9xKk1pTcG+mUa3yXuFO7bD9d8Lr9Xxg==}
-
   c12@1.6.1:
     resolution: {integrity: sha512-fAZOi3INDvIbmjuwAVVggusyRTxwNdTAnwLay8IsXwhFzDwPPGzFxzrx6L55CPFGPulUSZI0eyFUvRDXveoE3g==}
 
@@ -4393,9 +4382,6 @@ packages:
 
   defu@6.1.2:
     resolution: {integrity: sha512-+uO4+qr7msjNNWKYPHqN/3+Dx3NFkmIzayk2L1MyZQlvgZb/J1A0fo410dpKrN2SnqFjt8n4JL8fDJE0wIgjFQ==}
-
-  defu@6.1.3:
-    resolution: {integrity: sha512-Vy2wmG3NTkmHNg/kzpuvHhkqeIx3ODWqasgCRbKtbXEN0G+HpEEv9BtJLp7ZG1CZloFaC41Ah3ZFbq7aqCqMeQ==}
 
   defu@6.1.4:
     resolution: {integrity: sha512-mEQCMmwJu317oSz8CwdIOdwf3xMif1ttiM8LTufzc3g6kR+9Pe236twL8j3IYT1F7GfRgGcW6MWxzZjLIkuHIg==}
@@ -7560,9 +7546,6 @@ packages:
   scule@1.0.0:
     resolution: {integrity: sha512-4AsO/FrViE/iDNEPaAQlb77tf0csuq27EsVpy6ett584EcRTp6pTDLoGWVxCD77y5iU5FauOvhsI4o1APwPoSQ==}
 
-  scule@1.1.0:
-    resolution: {integrity: sha512-vRUjqhyM/YWYzT+jsMk6tnl3NkY4A4soJ8uyh3O6Um+JXEQL9ozUCe7pqrxn3CSKokw0hw3nFStfskzpgYwR0g==}
-
   scule@1.3.0:
     resolution: {integrity: sha512-6FtHJEvt+pVMIB9IBY+IcCJ6Z5f1iQnytgyfKMhDKgmzYG+TeH/wx1y3l27rshSbLiSanrR9ffZDrEsmjlQF2g==}
 
@@ -10692,35 +10675,11 @@ snapshots:
       jiti: 1.20.0
       knitwork: 1.0.0
       mlly: 1.4.2
-      pathe: 1.1.1
+      pathe: 1.1.2
       pkg-types: 1.0.3
       scule: 1.0.0
-      semver: 7.5.4
+      semver: 7.6.0
       ufo: 1.3.0
-      unctx: 2.3.1
-      unimport: 3.7.0(rollup@4.14.3)
-      untyped: 1.4.0
-    transitivePeerDependencies:
-      - rollup
-      - supports-color
-
-  '@nuxt/kit@3.8.1(rollup@4.14.3)':
-    dependencies:
-      '@nuxt/schema': 3.8.1(rollup@4.14.3)
-      c12: 1.5.1
-      consola: 3.2.3
-      defu: 6.1.3
-      globby: 13.2.2
-      hash-sum: 2.0.0
-      ignore: 5.3.0
-      jiti: 1.21.0
-      knitwork: 1.0.0
-      mlly: 1.4.2
-      pathe: 1.1.1
-      pkg-types: 1.0.3
-      scule: 1.1.0
-      semver: 7.5.4
-      ufo: 1.3.2
       unctx: 2.3.1
       unimport: 3.7.0(rollup@4.14.3)
       untyped: 1.4.0
@@ -10797,22 +10756,6 @@ snapshots:
       pathe: 1.1.2
       pkg-types: 1.0.3
       postcss-import-resolver: 2.0.0
-      std-env: 3.7.0
-      ufo: 1.3.2
-      unimport: 3.7.1(rollup@4.14.3)
-      untyped: 1.4.0
-    transitivePeerDependencies:
-      - rollup
-      - supports-color
-
-  '@nuxt/schema@3.8.1(rollup@4.14.3)':
-    dependencies:
-      '@nuxt/ui-templates': 1.3.1
-      consola: 3.2.3
-      defu: 6.1.4
-      hookable: 5.5.3
-      pathe: 1.1.2
-      pkg-types: 1.0.3
       std-env: 3.7.0
       ufo: 1.3.2
       unimport: 3.7.1(rollup@4.14.3)
@@ -10938,11 +10881,12 @@ snapshots:
       - vti
       - vue-tsc
 
-  '@nuxtjs/color-mode@3.3.2(rollup@4.14.3)':
+  '@nuxtjs/color-mode@3.4.0(rollup@4.14.3)':
     dependencies:
-      '@nuxt/kit': 3.8.1(rollup@4.14.3)
-      lodash.template: 4.5.0
-      pathe: 1.1.1
+      '@nuxt/kit': 3.11.2(rollup@4.14.3)
+      pathe: 1.1.2
+      pkg-types: 1.0.3
+      semver: 7.6.0
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -14184,20 +14128,6 @@ snapshots:
       pkg-types: 1.0.3
       rc9: 2.1.2
 
-  c12@1.5.1:
-    dependencies:
-      chokidar: 3.6.0
-      defu: 6.1.4
-      dotenv: 16.3.1
-      giget: 1.2.1
-      jiti: 1.21.0
-      mlly: 1.4.2
-      ohash: 1.1.3
-      pathe: 1.1.2
-      perfect-debounce: 1.0.0
-      pkg-types: 1.0.3
-      rc9: 2.1.2
-
   c12@1.6.1:
     dependencies:
       chokidar: 3.6.0
@@ -14765,8 +14695,6 @@ snapshots:
       object-keys: 1.1.1
 
   defu@6.1.2: {}
-
-  defu@6.1.3: {}
 
   defu@6.1.4: {}
 
@@ -18707,8 +18635,6 @@ snapshots:
       loose-envify: 1.4.0
 
   scule@1.0.0: {}
-
-  scule@1.1.0: {}
 
   scule@1.3.0: {}
 
