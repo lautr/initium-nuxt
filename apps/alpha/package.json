@@ -21,7 +21,7 @@
     "@nuxtjs/color-mode": "3.4.0",
     "@pinia/nuxt": "0.5.1",
     "@vue-macros/nuxt": "1.9.30",
-    "@vueuse/nuxt": "10.7.2",
+    "@vueuse/nuxt": "10.9.0",
     "autoprefixer": "10.4.19",
     "nuxt": "3.11.2",
     "pinia": "2.1.7",
