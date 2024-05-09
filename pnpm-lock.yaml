@@ -37,8 +37,8 @@ importers:
         specifier: 3.3.3-28007403.1fd491f1
         version: 3.3.3-28007403.1fd491f1
       '@nuxtjs/color-mode':
-        specifier: 3.4.0
-        version: 3.4.0
+        specifier: 3.4.1
+        version: 3.4.1
       '@pinia/nuxt':
         specifier: 0.5.1
         version: 0.5.1(typescript@5.4.5)
@@ -77,8 +77,8 @@ importers:
         specifier: 3.3.3-28007403.1fd491f1
         version: 3.3.3-28007403.1fd491f1
       '@nuxtjs/color-mode':
-        specifier: 3.4.0
-        version: 3.4.0
+        specifier: 3.4.1
+        version: 3.4.1
       '@pinia/nuxt':
         specifier: 0.5.1
         version: 0.5.1(typescript@5.4.5)
@@ -2989,8 +2989,8 @@ packages:
       - vue-tsc
     dev: true
 
-  /@nuxtjs/color-mode@3.4.0:
-    resolution: {integrity: sha512-rS51nG3zW8ksOwNubIP3BPQ+vBL0r2M6td1kkB/VaR1e1uVtNfWlBPfZjb604bgNCE2AeRNqaI0CrxkfnQ6h6Q==}
+  /@nuxtjs/color-mode@3.4.1:
+    resolution: {integrity: sha512-vZgJqDstxInGw3RGSWbLoCLXtU1mvh1LLeuEA/X3a++DYA4ifwSbNoiSiOyb9qZHFEwz1Xr99H71sXV4IhOaEg==}
     dependencies:
       '@nuxt/kit': 3.11.2
       pathe: 1.1.2
@@ -4883,7 +4883,7 @@ packages:
       ts-dedent: 2.2.0
       type-fest: 2.19.0
       vue: 3.4.23(typescript@5.4.5)
-      vue-component-type-helpers: 2.0.13
+      vue-component-type-helpers: 2.0.16
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -15975,8 +15975,8 @@ packages:
       ufo: 1.5.3
     dev: true
 
-  /vue-component-type-helpers@2.0.13:
-    resolution: {integrity: sha512-xNO5B7DstNWETnoYflLkVgh8dK8h2ZDgxY1M2O0zrqGeBNq5yAZ8a10yCS9+HnixouNGYNX+ggU9MQQq86HTpg==}
+  /vue-component-type-helpers@2.0.16:
+    resolution: {integrity: sha512-qisL/iAfdO++7w+SsfYQJVPj6QKvxp4i1MMxvsNO41z/8zu3KuAw9LkhKUfP/kcOWGDxESp+pQObWppXusejCA==}
     dev: true
 
   /vue-demi@0.14.7(vue@3.4.23):
