@@ -18,7 +18,7 @@
   "devDependencies": {
     "@nuxt/devtools": "1.1.5",
     "@nuxt/test-utils-edge": "3.3.3-28007403.1fd491f1",
-    "@nuxtjs/color-mode": "3.4.0",
+    "@nuxtjs/color-mode": "3.4.1",
     "@pinia/nuxt": "0.5.1",
     "@vue-macros/nuxt": "1.9.30",
     "@vueuse/nuxt": "10.9.0",
