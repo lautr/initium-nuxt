@@ -25,6 +25,6 @@
     "autoprefixer": "10.4.19",
     "nuxt": "3.11.2",
     "pinia": "2.1.7",
-    "vitest": "0.34.6"
+    "vitest": "1.6.0"
   }
 }
