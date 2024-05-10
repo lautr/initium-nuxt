@@ -174,8 +174,8 @@ importers:
         specifier: 3.4.3
         version: 3.4.3
       unplugin-auto-import:
-        specifier: 0.17.5
-        version: 0.17.5(@nuxt/kit@3.11.2)
+        specifier: 0.17.6
+        version: 0.17.6(@nuxt/kit@3.11.2)
       unplugin-vue-components:
         specifier: 0.27.0
         version: 0.27.0(@nuxt/kit@3.11.2)(vue@3.4.27)
@@ -316,6 +316,10 @@ packages:
 
   /@antfu/utils@0.7.7:
     resolution: {integrity: sha512-gFPqTG7otEJ8uP6wrhDv6mqwGWYZKNvAcCq6u9hOj0c+IKCEsY4L1oC9trPq2SaWIzAfHvqfBDxF591JkMf+kg==}
+    dev: true
+
+  /@antfu/utils@0.7.8:
+    resolution: {integrity: sha512-rWQkqXRESdjXtc+7NRfK9lASQjpXJu1ayp7qi1d23zZorY+wBHVLHHoVcMsEnkqEBWTFqbztO7/QdJFzyEcLTg==}
     dev: true
 
   /@aw-web-design/x-default-browser@1.4.126:
@@ -15449,8 +15453,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /unplugin-auto-import@0.17.5(@nuxt/kit@3.11.2):
-    resolution: {integrity: sha512-fHNDkDSxv3PGagX1wmKBYBkgaM4AKAgZmdJw/bxjhNljx9KSXSgHpGfX0MwUrq9qw6q1bhHIZVWyOwoY2koo4w==}
+  /unplugin-auto-import@0.17.6(@nuxt/kit@3.11.2):
+    resolution: {integrity: sha512-dmX0Pex5DzMzVuALkexboOZvh51fL/BD6aoPO7qHoTYGlQp0GRKsREv2KMF1lzYI9SXKQiRxAjwzbQnrFFNydQ==}
     engines: {node: '>=14'}
     peerDependencies:
       '@nuxt/kit': ^3.2.2
@@ -15461,7 +15465,7 @@ packages:
       '@vueuse/core':
         optional: true
     dependencies:
-      '@antfu/utils': 0.7.7
+      '@antfu/utils': 0.7.8
       '@nuxt/kit': 3.11.2
       '@rollup/pluginutils': 5.1.0(rollup@4.14.3)
       fast-glob: 3.3.2
