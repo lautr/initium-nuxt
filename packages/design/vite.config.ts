@@ -11,7 +11,7 @@ export default defineConfig({
     vue(),
     VueMacros(),
     AutoImport({
-      imports: ['vue', 'vue-router'],
+      imports: ['vue', 'vue-router', '@vueuse/core'],
       dirs: ['./composables'],
       vueTemplate: true,
     }),
