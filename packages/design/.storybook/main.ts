@@ -5,16 +5,16 @@ export default {
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
     'storybook-addon-vue-slots',
-    'storybook-dark-mode'
+    'storybook-dark-mode',
   ],
   core: {
-    disableTelemetry: true
+    disableTelemetry: true,
   },
   framework: {
     name: '@storybook/vue3-vite',
-    options: {}
+    options: {},
   },
   docs: {
-    autodocs: 'tag'
-  }
+    autodocs: 'tag',
+  },
 }

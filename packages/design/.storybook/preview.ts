@@ -1,11 +1,11 @@
 import '../index.css'
 // import from './components.d.ts'
 
-import type { Preview } from '@storybook/vue3';
+import type { Preview } from '@storybook/vue3'
 
 const preview: Preview = {
   parameters: {
-    actions: { argTypesRegex: "^on[A-Z].*" },
+    actions: { argTypesRegex: '^on[A-Z].*' },
     controls: {
       matchers: {
         color: /(background|color)$/i,
@@ -19,6 +19,6 @@ const preview: Preview = {
       stylePreview: true,
     },
   },
-};
+}
 
-export default preview;
+export default preview

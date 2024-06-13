@@ -1,5 +1,6 @@
 {
   "name": "@lautr/initium-nuxt",
+  "type": "module",
   "version": "1.0.0",
   "packageManager": "pnpm@8.15",
   "description": "",
@@ -11,15 +12,16 @@
     "lint": "pnpm eslint .",
     "webapp": "pnpm --filter @lautr/initium-nuxt-webapp",
     "design": "pnpm --filter @lautr/initium-nuxt-design",
+    "services": "pnpm --filter @lautr/initium-nuxt-services",
     "dev": "concurrently \"pnpm design dev\" \"pnpm webapp dev\""
   },
   "devDependencies": {
-    "@antfu/eslint-config": "0.43.1",
+    "@antfu/eslint-config": "2.20.0",
     "concurrently": "8.2.2",
-    "eslint": "8.57.0",
+    "eslint": "9.4.0",
     "typescript": "5.4.5"
   },
   "volta": {
-    "node": "18.20.2"
+    "node": "20.14.0"
   }
 }

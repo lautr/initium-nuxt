@@ -11,7 +11,7 @@
 - [💚 Nuxt 3](https://v3.nuxtjs.org) - SSR, ESR, File-based routing, components auto importing, modules, etc.
 - 🤓 Optimized for VSCode usage
 - [⚡️ Vite](https://vitejs.dev/) - Instant HMR
-- [✨ Vitest](https://vitest.dev/guide/) - A blazing fast unit test framework 
+- [✨ Vitest](https://vitest.dev/guide/) - A blazing fast unit test framework
 - [🚝 Monorepo](https://pnpm.io/workspaces) - workspace setup using [pnpm](https://pnpm.io/)
 - [🌬️ Tailwind 3](https://tailwindcss.com/) - the utility-first CSS framework
 - [🖌️ Storybook](https://storybook.js.org/) - build UI components and pages in isolation
