@@ -10,8 +10,8 @@
   },
   "devDependencies": {
     "@nuxt/image": "1.7.0",
-    "@nuxt/kit": "3.12.2",
-    "@nuxt/schema": "3.12.2",
+    "@nuxt/kit": "3.12.3",
+    "@nuxt/schema": "3.12.3",
     "@storybook/addon-essentials": "8.1.11",
     "@storybook/addon-interactions": "8.1.11",
     "@storybook/addon-links": "8.1.11",
