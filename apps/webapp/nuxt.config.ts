@@ -8,6 +8,16 @@ export default defineNuxtConfig({
   alias: {
     '@lautr/initium-nuxt-webapp': resolve('./'),
   },
+  devtools: { enabled: true },
+  sourcemap: false,
+  telemetry: false,
+  experimental: {
+    componentIslands: 'local',
+    asyncContext: true,
+  },
+  features: {
+    inlineStyles: true,
+  },
   components: {
     dirs: [
       '~/components',
