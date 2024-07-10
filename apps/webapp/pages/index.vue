@@ -10,9 +10,5 @@ function foo() {
     <UiButton @click="foo">
       hello world
     </UiButton>
-    <UiInput
-      placeholder="Identity"
-      data-testid="identity"
-    />
   </div>
 </template>

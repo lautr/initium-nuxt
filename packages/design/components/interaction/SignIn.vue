@@ -15,11 +15,11 @@ function onSignIn() {
     class="flex flex-col space-y-2"
     @submit.prevent="onSignIn"
   >
-    <UiInput
+    <!-- <UiInput
       v-model="identity"
       placeholder="Identity"
       data-testid="identity"
-    />
+    /> -->
     <UiButton>
       Authenticate
     </UiButton>
