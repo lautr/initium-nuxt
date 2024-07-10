@@ -153,8 +153,8 @@ importers:
         specifier: 20.14.10
         version: 20.14.10
       '@vitejs/plugin-vue':
-        specifier: 5.0.4
-        version: 5.0.4(vite@5.3.3(@types/node@20.14.10)(terser@5.30.3))(vue@3.4.31(typescript@5.5.3))
+        specifier: 5.0.5
+        version: 5.0.5(vite@5.3.3(@types/node@20.14.10)(terser@5.30.3))(vue@3.4.31(typescript@5.5.3))
       '@vue/tsconfig':
         specifier: 0.5.1
         version: 0.5.1
@@ -2750,8 +2750,8 @@ packages:
       vite: ^5.0.0
       vue: ^3.0.0
 
-  '@vitejs/plugin-vue@5.0.4':
-    resolution: {integrity: sha512-WS3hevEszI6CEVEx28F8RjTX97k3KsrcY6kvTg7+Whm5y3oYvcqzVeGCU3hxSAn4uY2CLCkeokkGKpoctccilQ==}
+  '@vitejs/plugin-vue@5.0.5':
+    resolution: {integrity: sha512-LOjm7XeIimLBZyzinBQ6OSm3UBCNVCpLkxGC0oWmm2YPzVZoxMsdvNVimLTBzpAnR9hl/yn1SHGuRfe6/Td9rQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       vite: ^5.0.0
@@ -10150,7 +10150,7 @@ snapshots:
     dependencies:
       '@nuxt/kit': 3.12.2(magicast@0.3.4)(rollup@4.14.3)
       '@rollup/plugin-replace': 5.0.7(rollup@4.14.3)
-      '@vitejs/plugin-vue': 5.0.4(vite@5.3.3(@types/node@20.14.10)(terser@5.30.3))(vue@3.4.29(typescript@5.5.3))
+      '@vitejs/plugin-vue': 5.0.5(vite@5.3.3(@types/node@20.14.10)(terser@5.30.3))(vue@3.4.29(typescript@5.5.3))
       '@vitejs/plugin-vue-jsx': 4.0.0(vite@5.3.3(@types/node@20.14.10)(terser@5.30.3))(vue@3.4.29(typescript@5.5.3))
       autoprefixer: 10.4.19(postcss@8.4.39)
       clear: 0.1.0
@@ -11972,12 +11972,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@vitejs/plugin-vue@5.0.4(vite@5.3.3(@types/node@20.14.10)(terser@5.30.3))(vue@3.4.29(typescript@5.5.3))':
+  '@vitejs/plugin-vue@5.0.5(vite@5.3.3(@types/node@20.14.10)(terser@5.30.3))(vue@3.4.29(typescript@5.5.3))':
     dependencies:
       vite: 5.3.3(@types/node@20.14.10)(terser@5.30.3)
       vue: 3.4.29(typescript@5.5.3)
 
-  '@vitejs/plugin-vue@5.0.4(vite@5.3.3(@types/node@20.14.10)(terser@5.30.3))(vue@3.4.31(typescript@5.5.3))':
+  '@vitejs/plugin-vue@5.0.5(vite@5.3.3(@types/node@20.14.10)(terser@5.30.3))(vue@3.4.31(typescript@5.5.3))':
     dependencies:
       vite: 5.3.3(@types/node@20.14.10)(terser@5.30.3)
       vue: 3.4.31(typescript@5.5.3)
