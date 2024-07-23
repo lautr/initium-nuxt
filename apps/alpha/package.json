@@ -18,7 +18,7 @@
     "@nuxtjs/color-mode": "3.4.2",
     "@nuxtjs/tailwindcss": "6.12.1",
     "@pinia/nuxt": "0.5.1",
-    "@vue-macros/nuxt": "1.9.39",
+    "@vue-macros/nuxt": "1.10.0",
     "@vueuse/components": "10.11.0",
     "@vueuse/core": "10.11.0",
     "@vueuse/nuxt": "10.11.0",
