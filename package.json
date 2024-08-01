@@ -16,13 +16,13 @@
     "dev": "concurrently \"pnpm design dev\" \"pnpm webapp dev\""
   },
   "devDependencies": {
-    "@antfu/eslint-config": "2.23.2",
+    "@antfu/eslint-config": "2.24.1",
     "concurrently": "8.2.2",
-    "eslint": "9.7.0",
+    "eslint": "9.8.0",
     "typescript": "5.5.4"
   },
   "volta": {
-    "node": "20.15.1",
-    "pnpm": "9.6.0"
+    "node": "20.16.0",
+    "pnpm": "9.5.0"
   }
 }
