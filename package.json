@@ -2,7 +2,7 @@
   "name": "@lautr/initium-nuxt",
   "type": "module",
   "version": "1.0.0",
-  "packageManager": "pnpm@9.5.0",
+  "packageManager": "pnpm@9.6.0",
   "description": "",
   "author": "",
   "license": "ISC",
