@@ -24,7 +24,7 @@
     "@vueuse/components": "10.11.0",
     "@vueuse/core": "10.11.0",
     "@vueuse/nuxt": "10.11.0",
-    "autoprefixer": "10.4.19",
+    "autoprefixer": "10.4.20",
     "nuxt": "3.12.4",
     "pinia": "2.2.0",
     "vitest": "2.0.5"
