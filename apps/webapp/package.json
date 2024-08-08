@@ -21,7 +21,7 @@
     "@nuxtjs/tailwindcss": "6.12.1",
     "@pinia/nuxt": "0.5.3",
     "@vue-macros/nuxt": "1.11.4",
-    "@vueuse/components": "10.11.0",
+    "@vueuse/components": "10.11.1",
     "@vueuse/core": "10.11.0",
     "@vueuse/nuxt": "10.11.0",
     "autoprefixer": "10.4.20",
