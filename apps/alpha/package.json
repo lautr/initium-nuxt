@@ -15,7 +15,7 @@
     "@lautr/initium-nuxt-design": "workspace:*",
     "@nuxt/devtools": "1.3.9",
     "@nuxt/test-utils-edge": "3.8.0-28284309.b3d3d7f4",
-    "@nuxtjs/color-mode": "3.4.2",
+    "@nuxtjs/color-mode": "3.4.4",
     "@nuxtjs/tailwindcss": "6.12.1",
     "@pinia/nuxt": "0.5.3",
     "@vue-macros/nuxt": "1.11.6",

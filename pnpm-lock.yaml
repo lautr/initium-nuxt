@@ -33,8 +33,8 @@ importers:
         specifier: 3.8.0-28284309.b3d3d7f4
         version: 3.8.0-28284309.b3d3d7f4(@jest/globals@29.7.0)(magicast@0.3.4)(playwright-core@1.46.0)(rollup@4.20.0)(vitest@2.0.5(@types/node@20.14.15)(terser@5.31.3))(vue@3.4.38(typescript@5.5.4))
       '@nuxtjs/color-mode':
-        specifier: 3.4.2
-        version: 3.4.2(magicast@0.3.4)(rollup@4.20.0)
+        specifier: 3.4.4
+        version: 3.4.4(magicast@0.3.4)(rollup@4.20.0)
       '@nuxtjs/tailwindcss':
         specifier: 6.12.1
         version: 6.12.1(magicast@0.3.4)(rollup@4.20.0)
@@ -78,8 +78,8 @@ importers:
         specifier: 3.8.0-28284309.b3d3d7f4
         version: 3.8.0-28284309.b3d3d7f4(@jest/globals@29.7.0)(magicast@0.3.4)(playwright-core@1.46.0)(rollup@4.20.0)(vitest@2.0.5(@types/node@20.14.15)(terser@5.31.3))(vue@3.4.38(typescript@5.5.4))
       '@nuxtjs/color-mode':
-        specifier: 3.4.2
-        version: 3.4.2(magicast@0.3.4)(rollup@4.20.0)
+        specifier: 3.4.4
+        version: 3.4.4(magicast@0.3.4)(rollup@4.20.0)
       '@nuxtjs/tailwindcss':
         specifier: 6.12.1
         version: 6.12.1(magicast@0.3.4)(rollup@4.20.0)
@@ -1666,8 +1666,8 @@ packages:
     peerDependencies:
       vue: ^3.3.4
 
-  '@nuxtjs/color-mode@3.4.2':
-    resolution: {integrity: sha512-6A+lDP8R6fFXc1Ip5tDepKq9MJW6oxbRlz1plvW52yacnpeDFXv5S5rDS0ax31AuSFUPlgzHymFSdjcylBwZ6w==}
+  '@nuxtjs/color-mode@3.4.4':
+    resolution: {integrity: sha512-VSNJVGnRIjiGmfbMa0cN+rwNRowDRTL/wku/z5MpKSanVo3khIRitBNqNviso1l3T+LW0pLHeXBNp6L8g/l1EA==}
 
   '@nuxtjs/tailwindcss@6.12.1':
     resolution: {integrity: sha512-UKmaPRVpxlFqLorhL6neEba2tySlsj6w6yDb7jzS6A0AAjyBQ6k3BQqWO+AaTy2iQLX7eR+1yj3/w43HzY8RtA==}
@@ -9713,7 +9713,7 @@ snapshots:
       - vti
       - vue-tsc
 
-  '@nuxtjs/color-mode@3.4.2(magicast@0.3.4)(rollup@4.20.0)':
+  '@nuxtjs/color-mode@3.4.4(magicast@0.3.4)(rollup@4.20.0)':
     dependencies:
       '@nuxt/kit': 3.12.4(magicast@0.3.4)(rollup@4.20.0)
       pathe: 1.1.2
