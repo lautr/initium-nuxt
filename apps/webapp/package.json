@@ -19,7 +19,7 @@
     "@nuxt/test-utils-edge": "3.8.0-28284309.b3d3d7f4",
     "@nuxtjs/color-mode": "3.4.4",
     "@nuxtjs/tailwindcss": "6.12.1",
-    "@pinia/nuxt": "0.5.3",
+    "@pinia/nuxt": "0.5.4",
     "@vue-macros/nuxt": "1.11.6",
     "@vueuse/components": "11.0.1",
     "@vueuse/core": "11.0.1",
