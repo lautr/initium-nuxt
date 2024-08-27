@@ -9,7 +9,7 @@
     "ci:test": "pnpm dlx concurrently -k -s first -n \"SB,TEST\" -c \"magenta,blue\" \"pnpm build --quiet && pnpm dlx http-server storybook-static --port 6006 --silent\" \"pnpm dlx wait-on http://127.0.0.1:6006 && pnpm test\""
   },
   "devDependencies": {
-    "@nuxt/image": "1.7.0",
+    "@nuxt/image": "1.7.1",
     "@nuxt/kit": "3.13.0",
     "@nuxt/schema": "3.13.0",
     "@storybook/addon-essentials": "8.2.9",
