@@ -114,8 +114,8 @@ importers:
   packages/design:
     devDependencies:
       '@nuxt/image':
-        specifier: 1.7.1
-        version: 1.7.1(ioredis@5.4.1)(magicast@0.3.4)(rollup@4.20.0)
+        specifier: 1.8.0
+        version: 1.8.0(ioredis@5.4.1)(magicast@0.3.4)(rollup@4.20.0)
       '@nuxt/kit':
         specifier: 3.13.0
         version: 3.13.0(magicast@0.3.4)(rollup@4.20.0)
@@ -1757,8 +1757,8 @@ packages:
     peerDependencies:
       vite: '*'
 
-  '@nuxt/image@1.7.1':
-    resolution: {integrity: sha512-vD3p9CmFO718sbBZCaizOvk3Uw/M9eE5cotWD9rlGoMOf3bUYnXuxP4mEwa/qgupoZ+X5MnasZoWbrj8y9nfKg==}
+  '@nuxt/image@1.8.0':
+    resolution: {integrity: sha512-GBbORch+ZfWJ0KB8PaXABsPjaiEXB4B4plcpAUVNCdzKZi2qQ4beRnEXfAbtAWPUPefj3rgCG7b9AqAe51Qlzw==}
     engines: {node: ^14.16.0 || >=16.11.0}
 
   '@nuxt/kit-edge@3.8.0-28284309.b3d3d7f4':
@@ -9730,7 +9730,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@nuxt/image@1.7.1(ioredis@5.4.1)(magicast@0.3.4)(rollup@4.20.0)':
+  '@nuxt/image@1.8.0(ioredis@5.4.1)(magicast@0.3.4)(rollup@4.20.0)':
     dependencies:
       '@nuxt/kit': 3.13.0(magicast@0.3.4)(rollup@4.20.0)
       consola: 3.2.3
