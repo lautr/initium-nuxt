@@ -4,7 +4,10 @@ const { resolve } = createResolver(import.meta.url)
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-07-10',
+  future: {
+    compatibilityVersion: 4,
+  },
+  compatibilityDate: '2024-10-30',
   alias: {
     '@lautr/initium-nuxt-webapp': resolve('./'),
   },
