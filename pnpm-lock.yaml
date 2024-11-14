@@ -174,8 +174,8 @@ importers:
         specifier: 4.0.2
         version: 4.0.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.4)
       tailwindcss:
-        specifier: 3.4.14
-        version: 3.4.14
+        specifier: 3.4.15
+        version: 3.4.15
       unplugin-auto-import:
         specifier: 0.18.4
         version: 0.18.4(@nuxt/kit@3.14.159(magicast@0.3.5)(rollup@4.24.4)(webpack-sources@3.2.3))(@vueuse/core@11.2.0(vue@3.5.12(typescript@5.6.3)))(rollup@4.24.4)(webpack-sources@3.2.3)
@@ -6678,6 +6678,11 @@ packages:
     engines: {node: '>=14.0.0'}
     hasBin: true
 
+  tailwindcss@3.4.15:
+    resolution: {integrity: sha512-r4MeXnfBmSOuKUWmXe6h2CcyfzJCEk4F0pptO5jlnYSIViUkVmsawj80N5h2lO3gwcmSb4n3PuN+e+GC1Guylw==}
+    engines: {node: '>=14.0.0'}
+    hasBin: true
+
   tapable@1.1.3:
     resolution: {integrity: sha512-4WK/bYZmj8xLr+HUCODHGF1ZFzsYffasLUgEiMBY4fgtltdO6B4WJtlSbPaDTLpYTcGVwM2qLnFTICEcNxs3kA==}
     engines: {node: '>=6'}
@@ -8434,7 +8439,7 @@ snapshots:
       jest-util: 29.7.0
       jest-validate: 29.7.0
       jest-watcher: 29.7.0
-      micromatch: 4.0.7
+      micromatch: 4.0.8
       pretty-format: 29.7.0
       slash: 3.0.0
       strip-ansi: 6.0.1
@@ -8553,7 +8558,7 @@ snapshots:
       jest-haste-map: 29.7.0
       jest-regex-util: 29.6.3
       jest-util: 29.7.0
-      micromatch: 4.0.7
+      micromatch: 4.0.8
       pirates: 4.0.6
       slash: 3.0.0
       write-file-atomic: 4.0.2
@@ -9125,7 +9130,7 @@ snapshots:
   '@parcel/watcher-wasm@2.4.1':
     dependencies:
       is-glob: 4.0.3
-      micromatch: 4.0.7
+      micromatch: 4.0.8
 
   '@parcel/watcher-win32-arm64@2.4.1':
     optional: true
@@ -9140,7 +9145,7 @@ snapshots:
     dependencies:
       detect-libc: 1.0.3
       is-glob: 4.0.3
-      micromatch: 4.0.7
+      micromatch: 4.0.8
       node-addon-api: 7.1.1
     optionalDependencies:
       '@parcel/watcher-android-arm64': 2.4.1
@@ -12197,7 +12202,7 @@ snapshots:
   externality@1.0.2:
     dependencies:
       enhanced-resolve: 5.17.1
-      mlly: 1.7.2
+      mlly: 1.7.3
       pathe: 1.1.2
       ufo: 1.5.4
 
@@ -13105,7 +13110,7 @@ snapshots:
       jest-regex-util: 29.6.3
       jest-util: 29.7.0
       jest-worker: 29.7.0
-      micromatch: 4.0.7
+      micromatch: 4.0.8
       walker: 1.0.8
     optionalDependencies:
       fsevents: 2.3.3
@@ -13143,7 +13148,7 @@ snapshots:
       '@types/stack-utils': 2.0.3
       chalk: 4.1.2
       graceful-fs: 4.2.11
-      micromatch: 4.0.7
+      micromatch: 4.0.8
       pretty-format: 29.7.0
       slash: 3.0.0
       stack-utils: 2.0.6
@@ -13527,7 +13532,7 @@ snapshots:
       h3: 1.13.0
       http-shutdown: 1.2.2
       jiti: 1.21.6
-      mlly: 1.7.2
+      mlly: 1.7.3
       node-forge: 1.3.1
       pathe: 1.1.2
       std-env: 3.8.0
@@ -13551,10 +13556,10 @@ snapshots:
       h3: 1.13.0
       http-shutdown: 1.2.2
       jiti: 2.4.0
-      mlly: 1.7.2
+      mlly: 1.7.3
       node-forge: 1.3.1
       pathe: 1.1.2
-      std-env: 3.7.0
+      std-env: 3.8.0
       ufo: 1.5.4
       untun: 0.1.3
       uqr: 0.1.2
@@ -15680,6 +15685,33 @@ snapshots:
     transitivePeerDependencies:
       - ts-node
 
+  tailwindcss@3.4.15:
+    dependencies:
+      '@alloc/quick-lru': 5.2.0
+      arg: 5.0.2
+      chokidar: 3.6.0
+      didyoumean: 1.2.2
+      dlv: 1.1.3
+      fast-glob: 3.3.2
+      glob-parent: 6.0.2
+      is-glob: 4.0.3
+      jiti: 1.21.6
+      lilconfig: 2.1.0
+      micromatch: 4.0.8
+      normalize-path: 3.0.0
+      object-hash: 3.0.0
+      picocolors: 1.1.1
+      postcss: 8.4.49
+      postcss-import: 15.1.0(postcss@8.4.49)
+      postcss-js: 4.0.1(postcss@8.4.49)
+      postcss-load-config: 4.0.2(postcss@8.4.49)
+      postcss-nested: 6.2.0(postcss@8.4.49)
+      postcss-selector-parser: 6.1.2
+      resolve: 1.22.8
+      sucrase: 3.35.0
+    transitivePeerDependencies:
+      - ts-node
+
   tapable@1.1.3: {}
 
   tapable@2.2.1: {}
@@ -16190,7 +16222,7 @@ snapshots:
     dependencies:
       knitwork: 1.1.0
       magic-string: 0.30.12
-      mlly: 1.7.2
+      mlly: 1.7.3
       pathe: 1.1.2
       pkg-types: 1.2.1
       unplugin: 1.15.0(webpack-sources@3.2.3)
