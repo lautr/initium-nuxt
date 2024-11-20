@@ -10,8 +10,6 @@ runs:
         node-version: 20
     - uses: pnpm/action-setup@v4.0.0
       name: Install pnpm
-      with:
-        version: 9.12.2
     - uses: actions/checkout@v4
     - name: Get pnpm store directory
       id: pnpm-cache
