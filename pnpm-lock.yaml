@@ -40,7 +40,7 @@ importers:
         version: 6.12.2(magicast@0.3.5)(rollup@4.24.4)
       '@pinia/nuxt':
         specifier: 0.8.0
-        version: 0.8.0(magicast@0.3.5)(pinia@2.2.7(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(rollup@4.24.4)
+        version: 0.8.0(magicast@0.3.5)(pinia@2.2.8(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(rollup@4.24.4)
       '@vue-macros/nuxt':
         specifier: 1.12.9
         version: 1.12.9(@vueuse/core@11.3.0(vue@3.5.13(typescript@5.7.2)))(magicast@0.3.5)(nuxt@3.14.1592(@parcel/watcher@2.4.1)(@types/node@22.10.1)(eslint@9.15.0(jiti@2.4.0))(ioredis@5.4.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.24.4)(terser@5.31.3)(typescript@5.7.2)(vue-tsc@2.1.10(typescript@5.7.2)))(rollup@4.24.4)(typescript@5.7.2)(vue-tsc@2.1.10(typescript@5.7.2))(vue@3.5.13(typescript@5.7.2))
@@ -60,8 +60,8 @@ importers:
         specifier: 3.14.1592
         version: 3.14.1592(@parcel/watcher@2.4.1)(@types/node@22.10.1)(eslint@9.15.0(jiti@2.4.0))(ioredis@5.4.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.24.4)(terser@5.31.3)(typescript@5.7.2)(vue-tsc@2.1.10(typescript@5.7.2))
       pinia:
-        specifier: 2.2.7
-        version: 2.2.7(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))
+        specifier: 2.2.8
+        version: 2.2.8(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))
       vitest:
         specifier: 2.1.6
         version: 2.1.6(@types/node@22.10.1)(terser@5.31.3)
@@ -85,7 +85,7 @@ importers:
         version: 6.12.2(magicast@0.3.5)(rollup@4.24.4)
       '@pinia/nuxt':
         specifier: 0.8.0
-        version: 0.8.0(magicast@0.3.5)(pinia@2.2.7(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(rollup@4.24.4)
+        version: 0.8.0(magicast@0.3.5)(pinia@2.2.8(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(rollup@4.24.4)
       '@vue-macros/nuxt':
         specifier: 1.12.9
         version: 1.12.9(@vueuse/core@11.3.0(vue@3.5.13(typescript@5.7.2)))(magicast@0.3.5)(nuxt@3.14.1592(@parcel/watcher@2.4.1)(@types/node@22.10.1)(eslint@9.15.0(jiti@2.4.0))(ioredis@5.4.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.24.4)(terser@5.31.3)(typescript@5.7.2)(vue-tsc@2.1.10(typescript@5.7.2)))(rollup@4.24.4)(typescript@5.7.2)(vue-tsc@2.1.10(typescript@5.7.2))(vue@3.5.13(typescript@5.7.2))
@@ -105,8 +105,8 @@ importers:
         specifier: 3.14.1592
         version: 3.14.1592(@parcel/watcher@2.4.1)(@types/node@22.10.1)(eslint@9.15.0(jiti@2.4.0))(ioredis@5.4.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.24.4)(terser@5.31.3)(typescript@5.7.2)(vue-tsc@2.1.10(typescript@5.7.2))
       pinia:
-        specifier: 2.2.7
-        version: 2.2.7(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))
+        specifier: 2.2.8
+        version: 2.2.8(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))
       vitest:
         specifier: 2.1.6
         version: 2.1.6(@types/node@22.10.1)(terser@5.31.3)
@@ -5730,8 +5730,8 @@ packages:
     resolution: {integrity: sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==}
     engines: {node: '>=0.10.0'}
 
-  pinia@2.2.7:
-    resolution: {integrity: sha512-M+X9Eh9V5De+8wyj0rD1cgB0zy1mPN/aBEpCI9y+DgVmzXV2dIwjYBluJ5cMQd/jAoHs0VW+EyUSHMZv/Wtcnw==}
+  pinia@2.2.8:
+    resolution: {integrity: sha512-NRTYy2g+kju5tBRe0oNlriZIbMNvma8ZJrpHsp3qudyiMEA8jMmPPKQ2QMHg0Oc4BkUyQYWagACabrwriCK9HQ==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
@@ -9177,10 +9177,10 @@ snapshots:
       '@parcel/watcher-win32-ia32': 2.4.1
       '@parcel/watcher-win32-x64': 2.4.1
 
-  '@pinia/nuxt@0.8.0(magicast@0.3.5)(pinia@2.2.7(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(rollup@4.24.4)':
+  '@pinia/nuxt@0.8.0(magicast@0.3.5)(pinia@2.2.8(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(rollup@4.24.4)':
     dependencies:
       '@nuxt/kit': 3.14.1592(magicast@0.3.5)(rollup@4.24.4)
-      pinia: 2.2.7(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))
+      pinia: 2.2.8(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))
     transitivePeerDependencies:
       - magicast
       - rollup
@@ -14578,7 +14578,7 @@ snapshots:
 
   pify@2.3.0: {}
 
-  pinia@2.2.7(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)):
+  pinia@2.2.8(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)):
     dependencies:
       '@vue/devtools-api': 6.6.4
       vue: 3.5.13(typescript@5.7.2)
