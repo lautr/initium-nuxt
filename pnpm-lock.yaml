@@ -114,8 +114,8 @@ importers:
   packages/design:
     devDependencies:
       '@nuxt/image':
-        specifier: 1.8.1
-        version: 1.8.1(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.24.4)
+        specifier: 1.9.0
+        version: 1.9.0(db0@0.2.1)(magicast@0.3.5)(rollup@4.24.4)
       '@nuxt/kit':
         specifier: 3.15.1
         version: 3.15.1(magicast@0.3.5)(rollup@4.24.4)
@@ -1289,9 +1289,9 @@ packages:
     peerDependencies:
       vite: '*'
 
-  '@nuxt/image@1.8.1':
-    resolution: {integrity: sha512-qNj7OCNsoGcutGOo1R2PYp4tQ/6uD77aSakyDoVAmLSRJBmhFTnT2+gIqVD95JMmkSHgYhmSX4gGxnaQK/t1cw==}
-    engines: {node: ^14.16.0 || >=16.11.0}
+  '@nuxt/image@1.9.0':
+    resolution: {integrity: sha512-kuuePx/jtlmsuG/G8mTMELntw4p8MLD4tu9f4A064xor/ks29oEoBmFRzvfFwxqZ7cqfG2M4LZfTZFjQz5St+Q==}
+    engines: {node: '>=18.20.5'}
 
   '@nuxt/kit-edge@3.8.0-28284309.b3d3d7f4':
     resolution: {integrity: sha512-yUUBNl+VF/+q0MJEKYAOXv72wvXzqqRnYW0beQcpXIhVZI8K7buoLIaZeAAsGtbMoIjDGRVoRaRq1paTcYRHvA==}
@@ -4261,9 +4261,6 @@ packages:
     resolution: {integrity: sha512-O1Ld7Dr+nqPnmGpdhzLmMTQ4vAsD+rHwMm1NLUmoUFFymBOMKxCCrtDxqdBRYXdeEPEi3SyoR4TizJLQrnKBNA==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  h3@1.12.0:
-    resolution: {integrity: sha512-Zi/CcNeWBXDrFNlV0hUBJQR9F7a96RjMeAZweW/ZWkR9fuXrMcvKnSA63f/zZ9l0GgQOZDVHGvXivNN9PWOwhA==}
-
   h3@1.13.0:
     resolution: {integrity: sha512-vFEAu/yf8UMUcB4s43OaDaigcqpQd14yanmOsn+NcRX3/guSKncyE2rOYhq8RIchgJrPSs/QiIddnTTR1ddiAg==}
 
@@ -5000,10 +4997,6 @@ packages:
 
   lines-and-columns@1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
-
-  listhen@1.7.2:
-    resolution: {integrity: sha512-7/HamOm5YD9Wb7CFgAZkKgVPA96WwhcTQoqtm2VTZGVbVVn3IWKRBTgrU7cchA3Q8k9iCsG8Osoi9GX4JsGM9g==}
-    hasBin: true
 
   listhen@1.9.0:
     resolution: {integrity: sha512-I8oW2+QL5KJo8zXNWX046M134WchxsXC7SawLPvRQpogCbkyQIaFxPE89A2HiwR7vAK2Dm2ERBAmyjTYGYEpBg==}
@@ -6295,6 +6288,7 @@ packages:
   rollup-plugin-visualizer@5.13.1:
     resolution: {integrity: sha512-vMg8i6BprL8aFm9DKvL2c8AwS8324EgymYQo9o6E26wgVvwMhsJxS37aNL6ZsU7X9iAcMYwdME7gItLfG5fwJg==}
     engines: {node: '>=18'}
+    deprecated: Contains unintended breaking changes
     hasBin: true
     peerDependencies:
       rolldown: 1.x
@@ -6513,9 +6507,6 @@ packages:
   statuses@2.0.1:
     resolution: {integrity: sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==}
     engines: {node: '>= 0.8'}
-
-  std-env@3.7.0:
-    resolution: {integrity: sha512-JPbdCEQLj1w5GilpiHAx3qJvFndqybBysA3qUOnznweH4QbNYUsW/ea8QzSrnh0vNsezMMw5bcVool8lM0gwzg==}
 
   std-env@3.8.0:
     resolution: {integrity: sha512-Bc3YwwCB+OzldMxOXJIIvC6cPRWr/LxOp48CdQTOkPyk/t4JWWJbrilwBd7RJzKV8QW7tJkcgAmeuLLJugl5/w==}
@@ -7010,50 +7001,6 @@ packages:
   unplugin@2.1.2:
     resolution: {integrity: sha512-Q3LU0e4zxKfRko1wMV2HmP8lB9KWislY7hxXpxd+lGx0PRInE4vhMBVEZwpdVYHvtqzhSrzuIfErsob6bQfCzw==}
     engines: {node: '>=18.12.0'}
-
-  unstorage@1.12.0:
-    resolution: {integrity: sha512-ARZYTXiC+e8z3lRM7/qY9oyaOkaozCeNd2xoz7sYK9fv7OLGhVsf+BZbmASqiK/HTZ7T6eAlnVq9JynZppyk3w==}
-    peerDependencies:
-      '@azure/app-configuration': ^1.7.0
-      '@azure/cosmos': ^4.1.1
-      '@azure/data-tables': ^13.2.2
-      '@azure/identity': ^4.4.1
-      '@azure/keyvault-secrets': ^4.8.0
-      '@azure/storage-blob': ^12.24.0
-      '@capacitor/preferences': ^6.0.2
-      '@netlify/blobs': ^6.5.0 || ^7.0.0
-      '@planetscale/database': ^1.19.0
-      '@upstash/redis': ^1.34.0
-      '@vercel/kv': ^1.0.1
-      idb-keyval: ^6.2.1
-      ioredis: ^5.4.1
-    peerDependenciesMeta:
-      '@azure/app-configuration':
-        optional: true
-      '@azure/cosmos':
-        optional: true
-      '@azure/data-tables':
-        optional: true
-      '@azure/identity':
-        optional: true
-      '@azure/keyvault-secrets':
-        optional: true
-      '@azure/storage-blob':
-        optional: true
-      '@capacitor/preferences':
-        optional: true
-      '@netlify/blobs':
-        optional: true
-      '@planetscale/database':
-        optional: true
-      '@upstash/redis':
-        optional: true
-      '@vercel/kv':
-        optional: true
-      idb-keyval:
-        optional: true
-      ioredis:
-        optional: true
 
   unstorage@1.14.4:
     resolution: {integrity: sha512-1SYeamwuYeQJtJ/USE1x4l17LkmQBzg7deBJ+U9qOBoHo15d1cDxG4jM31zKRgF7pG0kirZy4wVMX6WL6Zoscg==}
@@ -8754,20 +8701,19 @@ snapshots:
       - utf-8-validate
       - vue
 
-  '@nuxt/image@1.8.1(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.24.4)':
+  '@nuxt/image@1.9.0(db0@0.2.1)(magicast@0.3.5)(rollup@4.24.4)':
     dependencies:
       '@nuxt/kit': 3.15.1(magicast@0.3.5)(rollup@4.24.4)
-      consola: 3.2.3
+      consola: 3.3.3
       defu: 6.1.4
-      h3: 1.12.0
+      h3: 1.13.0
       image-meta: 0.2.1
-      node-fetch-native: 1.6.4
       ohash: 1.1.4
-      pathe: 1.1.2
-      std-env: 3.7.0
+      pathe: 2.0.0
+      std-env: 3.8.0
       ufo: 1.5.4
     optionalDependencies:
-      ipx: 2.1.0(ioredis@5.4.1)
+      ipx: 2.1.0(db0@0.2.1)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -8776,16 +8722,21 @@ snapshots:
       - '@azure/keyvault-secrets'
       - '@azure/storage-blob'
       - '@capacitor/preferences'
+      - '@deno/kv'
       - '@netlify/blobs'
       - '@planetscale/database'
       - '@upstash/redis'
+      - '@vercel/blob'
       - '@vercel/kv'
+      - aws4fetch
+      - db0
       - idb-keyval
       - ioredis
       - magicast
       - rollup
       - supports-color
       - uWebSockets.js
+      - uploadthing
 
   '@nuxt/kit-edge@3.8.0-28284309.b3d3d7f4(magicast@0.3.5)(rollup@4.24.4)':
     dependencies:
@@ -8942,7 +8893,7 @@ snapshots:
   '@nuxt/schema@3.13.2(rollup@4.24.4)':
     dependencies:
       compatx: 0.1.8
-      consola: 3.3.1
+      consola: 3.3.3
       defu: 6.1.4
       hookable: 5.5.3
       pathe: 1.1.2
@@ -8981,7 +8932,7 @@ snapshots:
     dependencies:
       c12: 2.0.1(magicast@0.3.5)
       compatx: 0.1.8
-      consola: 3.3.1
+      consola: 3.3.3
       defu: 6.1.4
       hookable: 5.5.3
       pathe: 1.1.2
@@ -11226,7 +11177,7 @@ snapshots:
 
   citty@0.1.6:
     dependencies:
-      consola: 3.3.1
+      consola: 3.3.3
 
   cjs-module-lexer@1.3.1: {}
 
@@ -12530,21 +12481,6 @@ snapshots:
     dependencies:
       duplexer: 0.1.2
 
-  h3@1.12.0:
-    dependencies:
-      cookie-es: 1.2.2
-      crossws: 0.2.4
-      defu: 6.1.4
-      destr: 2.0.3
-      iron-webcrypto: 1.2.1
-      ohash: 1.1.4
-      radix3: 1.1.2
-      ufo: 1.5.4
-      uncrypto: 0.1.3
-      unenv: 1.10.0
-    transitivePeerDependencies:
-      - uWebSockets.js
-
   h3@1.13.0:
     dependencies:
       cookie-es: 1.2.2
@@ -12746,23 +12682,23 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ipx@2.1.0(ioredis@5.4.1):
+  ipx@2.1.0(db0@0.2.1):
     dependencies:
       '@fastify/accept-negotiator': 1.1.0
       citty: 0.1.6
-      consola: 3.3.1
+      consola: 3.3.3
       defu: 6.1.4
       destr: 2.0.3
       etag: 1.8.1
-      h3: 1.12.0
+      h3: 1.13.0
       image-meta: 0.2.1
-      listhen: 1.7.2
-      ofetch: 1.3.4
+      listhen: 1.9.0
+      ofetch: 1.4.1
       pathe: 1.1.2
       sharp: 0.32.6
       svgo: 3.3.2
       ufo: 1.5.4
-      unstorage: 1.12.0(ioredis@5.4.1)
+      unstorage: 1.14.4(db0@0.2.1)(ioredis@5.4.1)
       xss: 1.0.15
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -12772,13 +12708,18 @@ snapshots:
       - '@azure/keyvault-secrets'
       - '@azure/storage-blob'
       - '@capacitor/preferences'
+      - '@deno/kv'
       - '@netlify/blobs'
       - '@planetscale/database'
       - '@upstash/redis'
+      - '@vercel/blob'
       - '@vercel/kv'
+      - aws4fetch
+      - db0
       - idb-keyval
       - ioredis
       - uWebSockets.js
+      - uploadthing
     optional: true
 
   iron-webcrypto@1.2.1: {}
@@ -13551,30 +13492,6 @@ snapshots:
   lilconfig@3.1.3: {}
 
   lines-and-columns@1.2.4: {}
-
-  listhen@1.7.2:
-    dependencies:
-      '@parcel/watcher': 2.4.1
-      '@parcel/watcher-wasm': 2.4.1
-      citty: 0.1.6
-      clipboardy: 4.0.0
-      consola: 3.3.3
-      crossws: 0.2.4
-      defu: 6.1.4
-      get-port-please: 3.1.2
-      h3: 1.13.0
-      http-shutdown: 1.2.2
-      jiti: 1.21.7
-      mlly: 1.7.3
-      node-forge: 1.3.1
-      pathe: 1.1.2
-      std-env: 3.8.0
-      ufo: 1.5.4
-      untun: 0.1.3
-      uqr: 0.1.2
-    transitivePeerDependencies:
-      - uWebSockets.js
-    optional: true
 
   listhen@1.9.0:
     dependencies:
@@ -15543,8 +15460,6 @@ snapshots:
 
   statuses@2.0.1: {}
 
-  std-env@3.7.0: {}
-
   std-env@3.8.0: {}
 
   stop-iteration-iterator@1.0.0:
@@ -16222,24 +16137,6 @@ snapshots:
     dependencies:
       acorn: 8.14.0
       webpack-virtual-modules: 0.6.2
-
-  unstorage@1.12.0(ioredis@5.4.1):
-    dependencies:
-      anymatch: 3.1.3
-      chokidar: 3.6.0
-      destr: 2.0.3
-      h3: 1.13.0
-      listhen: 1.7.2
-      lru-cache: 10.4.3
-      mri: 1.2.0
-      node-fetch-native: 1.6.4
-      ofetch: 1.4.1
-      ufo: 1.5.4
-    optionalDependencies:
-      ioredis: 5.4.1
-    transitivePeerDependencies:
-      - uWebSockets.js
-    optional: true
 
   unstorage@1.14.4(db0@0.2.1)(ioredis@5.4.1):
     dependencies:
