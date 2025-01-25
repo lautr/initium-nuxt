@@ -4,7 +4,10 @@ const { resolve } = createResolver(import.meta.url)
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-07-10',
+  future: {
+    compatibilityVersion: 4,
+  },
+  compatibilityDate: '2024-10-30',
   alias: {
     '@lautr/initium-nuxt-webapp': resolve('./'),
   },
@@ -79,9 +82,9 @@ export default defineNuxtConfig({
     build: {
       rollupOptions: {
         output: {
-          chunkFileNames: '_nuxt/cc-[hash].js',
-          assetFileNames: '_nuxt/cc-[hash][extname]',
-          entryFileNames: '_nuxt/cc-[hash].js',
+          chunkFileNames: '_nuxt/in-[hash].js',
+          assetFileNames: '_nuxt/in-[hash][extname]',
+          entryFileNames: '_nuxt/in-[hash].js',
           // target ~250KB per chunk in an ideal world
           experimentalMinChunkSize: 250 * 1024,
           manualChunks: (id: string) => {
@@ -111,7 +114,7 @@ export default defineNuxtConfig({
     },
   },
   hooks: {
-    'build:manifest': (manifest) => {
+    'build:manifest': (manifest: any) => {
       // removes css files from output to avoid blocking requests
       // this is a workaround for https://github.com/nuxt/nuxt/issues/21821
       Object.keys(manifest).forEach((key: string) => {
@@ -125,7 +128,7 @@ export default defineNuxtConfig({
         const file = manifest[key]
         if (file.assets) {
           file.assets = file.assets.filter(
-            assetName => !/.+\.gif|jpe?g|png|svg$/.test(assetName),
+            (assetName: string) => !/.+\.gif|jpe?g|png|svg$/.test(assetName),
           )
         }
       }
