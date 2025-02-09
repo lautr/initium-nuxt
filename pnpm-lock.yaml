@@ -193,7 +193,7 @@ importers:
         version: 3.5.13(typescript@5.7.3)
       vue-i18n:
         specifier: '11'
-        version: 11.1.0(vue@3.5.13(typescript@5.7.3))
+        version: 11.1.1(vue@3.5.13(typescript@5.7.3))
       vue-tsc:
         specifier: 2.2.0
         version: 2.2.0(typescript@5.7.3)
@@ -1108,16 +1108,16 @@ packages:
     resolution: {integrity: sha512-c7hNEllBlenFTHBky65mhq8WD2kbN9Q6gk0bTk8lSBvc554jpXSkST1iePudpt7+A/AQvuHs9EMqjHDXMY1lrA==}
     engines: {node: '>=18.18'}
 
-  '@intlify/core-base@11.1.0':
-    resolution: {integrity: sha512-5KFrnfgcv4cVWzA1RC4HqMHYEWSD/69GQU7wpKJ2l6mA6ggqEjb9NJN5VJNJvP2mU5y8MAGwXLAJXJo5sbIkMQ==}
+  '@intlify/core-base@11.1.1':
+    resolution: {integrity: sha512-bb8gZvoeKExCI2r/NVCK9E4YyOkvYGaSCPxVZe8T0jz8aX+dHEOZWxK06Z/Y9mWRkJfBiCH4aOhDF1yr1t5J8Q==}
     engines: {node: '>= 16'}
 
-  '@intlify/message-compiler@11.1.0':
-    resolution: {integrity: sha512-UuV1YwWPBNgL4uqtC1vZPHF2QtYYqVeCDIsbV6JC6Vv90UWmEiU77U7EZmNVVV7DepT83Ow5MaF1CiWI77b61w==}
+  '@intlify/message-compiler@11.1.1':
+    resolution: {integrity: sha512-4iEsUZ3aF7jXY19CJFN5VP+pPyLITD9FVsjB13z9TU1UxaZLlFsmNhvRxlPDSOfHAP5RpNF2QKKdZ3DHVf4Yzw==}
     engines: {node: '>= 16'}
 
-  '@intlify/shared@11.1.0':
-    resolution: {integrity: sha512-DvpNSxiMrFqYMaGSRDDnQgO/L0MqNH4KWw9CUx8LRHHIdWp08En9DpmSRNpauUOxKpHAhyJJxx92BHZk9J84EQ==}
+  '@intlify/shared@11.1.1':
+    resolution: {integrity: sha512-2kGiWoXaeV8HZlhU/Nml12oTbhv7j2ufsJ5vQaa0VTjzUmZVdd/nmKFRAOJ/FtjO90Qba5AnZDwsrY7ZND5udA==}
     engines: {node: '>= 16'}
 
   '@ioredis/commands@1.2.0':
@@ -6498,6 +6498,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  semver@7.7.1:
+    resolution: {integrity: sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   send@0.19.0:
     resolution: {integrity: sha512-dW41u5VfLXu8SJh5bwRmyYUbAoSB3c9uQh6L8h/KtsFREPWpbX1lrljJo186Jc4nmci/sGUZ9a0a0J2zgfq2hw==}
     engines: {node: '>= 0.8.0'}
@@ -7516,8 +7521,8 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
 
-  vue-i18n@11.1.0:
-    resolution: {integrity: sha512-UgtYUe99mLfo7ya5TJSsJcgJZaqIunwXjff5UA03xRry0VtgN4zIUbuoycK9/ZZQJg5Cmr6V6zq+u0H0P0hlNw==}
+  vue-i18n@11.1.1:
+    resolution: {integrity: sha512-0P6DkKy96R4Wh2sIZJEHw8ivnlD1pnB6Ib/eldoF1SUpQutfKZv6aMqZwICS1gW0rwq24ZSXw7y3jW+PRVYqWA==}
     engines: {node: '>= 16'}
     peerDependencies:
       vue: ^3.0.0
@@ -8505,17 +8510,17 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.1': {}
 
-  '@intlify/core-base@11.1.0':
+  '@intlify/core-base@11.1.1':
     dependencies:
-      '@intlify/message-compiler': 11.1.0
-      '@intlify/shared': 11.1.0
+      '@intlify/message-compiler': 11.1.1
+      '@intlify/shared': 11.1.1
 
-  '@intlify/message-compiler@11.1.0':
+  '@intlify/message-compiler@11.1.1':
     dependencies:
-      '@intlify/shared': 11.1.0
+      '@intlify/shared': 11.1.1
       source-map-js: 1.2.1
 
-  '@intlify/shared@11.1.0': {}
+  '@intlify/shared@11.1.1': {}
 
   '@ioredis/commands@1.2.0': {}
 
@@ -8765,7 +8770,7 @@ snapshots:
       nopt: 5.0.0
       npmlog: 5.0.1
       rimraf: 3.0.2
-      semver: 7.7.0
+      semver: 7.6.3
       tar: 6.2.1
     transitivePeerDependencies:
       - encoding
@@ -8946,7 +8951,7 @@ snapshots:
     dependencies:
       '@nuxt/schema': '@nuxt/schema-edge@3.8.0-28284309.b3d3d7f4(rollup@4.34.3)'
       c12: 1.11.2(magicast@0.3.5)
-      consola: 3.4.0
+      consola: 3.2.3
       defu: 6.1.4
       globby: 13.2.2
       hash-sum: 2.0.0
@@ -8957,7 +8962,7 @@ snapshots:
       pathe: 1.1.2
       pkg-types: 1.3.1
       scule: 1.3.0
-      semver: 7.7.0
+      semver: 7.7.1
       ufo: 1.5.4
       unctx: 2.4.1
       unimport: 3.14.6(rollup@4.34.3)
@@ -9133,7 +9138,7 @@ snapshots:
   '@nuxt/schema-edge@3.8.0-28284309.b3d3d7f4(rollup@4.34.3)':
     dependencies:
       '@nuxt/ui-templates': 1.3.4
-      consola: 3.4.0
+      consola: 3.2.3
       defu: 6.1.4
       hookable: 5.5.3
       pathe: 1.1.2
@@ -10302,7 +10307,7 @@ snapshots:
       fast-glob: 3.3.3
       is-glob: 4.0.3
       minimatch: 9.0.5
-      semver: 7.7.0
+      semver: 7.7.1
       ts-api-utils: 1.3.0(typescript@5.7.3)
     optionalDependencies:
       typescript: 5.7.3
@@ -10317,7 +10322,7 @@ snapshots:
       fast-glob: 3.3.3
       is-glob: 4.0.3
       minimatch: 9.0.5
-      semver: 7.7.0
+      semver: 7.7.1
       ts-api-utils: 1.3.0(typescript@5.7.3)
     optionalDependencies:
       typescript: 5.7.3
@@ -12130,12 +12135,12 @@ snapshots:
   eslint-compat-utils@0.5.1(eslint@9.20.0(jiti@2.4.2)):
     dependencies:
       eslint: 9.20.0(jiti@2.4.2)
-      semver: 7.7.0
+      semver: 7.7.1
 
   eslint-compat-utils@0.6.0(eslint@9.20.0(jiti@2.4.2)):
     dependencies:
       eslint: 9.20.0(jiti@2.4.2)
-      semver: 7.7.0
+      semver: 7.7.1
 
   eslint-config-flat-gitignore@0.3.0(eslint@9.20.0(jiti@2.4.2)):
     dependencies:
@@ -12192,7 +12197,7 @@ snapshots:
       get-tsconfig: 4.8.1
       is-glob: 4.0.3
       minimatch: 9.0.5
-      semver: 7.7.0
+      semver: 7.7.1
       stable-hash: 0.0.4
       tslib: 2.6.3
     transitivePeerDependencies:
@@ -12210,7 +12215,7 @@ snapshots:
       espree: 10.3.0
       esquery: 1.6.0
       parse-imports: 2.1.1
-      semver: 7.7.0
+      semver: 7.7.1
       spdx-expression-parse: 4.0.0
       synckit: 0.9.1
     transitivePeerDependencies:
@@ -12240,7 +12245,7 @@ snapshots:
       globals: 15.12.0
       ignore: 5.3.2
       minimatch: 9.0.5
-      semver: 7.7.0
+      semver: 7.7.1
 
   eslint-plugin-no-only-tests@3.3.0: {}
 
@@ -12295,7 +12300,7 @@ snapshots:
       read-pkg-up: 7.0.1
       regexp-tree: 0.1.27
       regjsparser: 0.10.0
-      semver: 7.7.0
+      semver: 7.7.1
       strip-indent: 3.0.0
 
   eslint-plugin-unused-imports@4.1.4(@typescript-eslint/eslint-plugin@8.15.0(@typescript-eslint/parser@8.15.0(eslint@9.20.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.20.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.20.0(jiti@2.4.2)):
@@ -12312,7 +12317,7 @@ snapshots:
       natural-compare: 1.4.0
       nth-check: 2.1.1
       postcss-selector-parser: 6.1.2
-      semver: 7.7.0
+      semver: 7.7.1
       vue-eslint-parser: 9.4.3(eslint@9.20.0(jiti@2.4.2))
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
@@ -13261,7 +13266,7 @@ snapshots:
       '@babel/parser': 7.26.5
       '@istanbuljs/schema': 0.1.3
       istanbul-lib-coverage: 3.2.2
-      semver: 7.7.0
+      semver: 7.7.1
     transitivePeerDependencies:
       - supports-color
 
@@ -13619,7 +13624,7 @@ snapshots:
       jest-util: 29.7.0
       natural-compare: 1.4.0
       pretty-format: 29.7.0
-      semver: 7.7.0
+      semver: 7.7.1
     transitivePeerDependencies:
       - supports-color
 
@@ -13738,7 +13743,7 @@ snapshots:
       acorn: 8.14.0
       eslint-visitor-keys: 3.4.3
       espree: 9.6.1
-      semver: 7.7.0
+      semver: 7.7.1
 
   jsonc-parser@3.3.1: {}
 
@@ -13945,7 +13950,7 @@ snapshots:
 
   make-dir@4.0.0:
     dependencies:
-      semver: 7.7.0
+      semver: 7.7.1
 
   make-synchronized@0.2.9: {}
 
@@ -14706,7 +14711,7 @@ snapshots:
       consola: 3.4.0
       execa: 8.0.1
       pathe: 1.1.2
-      pkg-types: 1.3.1
+      pkg-types: 1.3.0
       ufo: 1.5.4
 
   nypm@0.4.1:
@@ -15652,6 +15657,8 @@ snapshots:
   semver@7.6.3: {}
 
   semver@7.7.0: {}
+
+  semver@7.7.1: {}
 
   send@0.19.0:
     dependencies:
@@ -16833,7 +16840,7 @@ snapshots:
   vscode-languageclient@7.0.0:
     dependencies:
       minimatch: 3.1.2
-      semver: 7.7.0
+      semver: 7.6.3
       vscode-languageserver-protocol: 3.16.0
 
   vscode-languageserver-protocol@3.16.0:
@@ -16899,14 +16906,14 @@ snapshots:
       espree: 9.6.1
       esquery: 1.6.0
       lodash: 4.17.21
-      semver: 7.7.0
+      semver: 7.7.1
     transitivePeerDependencies:
       - supports-color
 
-  vue-i18n@11.1.0(vue@3.5.13(typescript@5.7.3)):
+  vue-i18n@11.1.1(vue@3.5.13(typescript@5.7.3)):
     dependencies:
-      '@intlify/core-base': 11.1.0
-      '@intlify/shared': 11.1.0
+      '@intlify/core-base': 11.1.1
+      '@intlify/shared': 11.1.1
       '@vue/devtools-api': 6.6.4
       vue: 3.5.13(typescript@5.7.3)
 
