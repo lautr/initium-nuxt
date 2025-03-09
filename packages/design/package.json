@@ -24,7 +24,7 @@
     "@types/node": "22.13.5",
     "@vitejs/plugin-vue": "5.2.1",
     "@vue/tsconfig": "0.7.0",
-    "autoprefixer": "10.4.20",
+    "autoprefixer": "10.4.21",
     "postcss": "8.5.3",
     "storybook": "8.6.2",
     "storybook-addon-vue-slots": "0.9.29",
