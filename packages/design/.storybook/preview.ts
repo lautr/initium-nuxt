@@ -1,7 +1,6 @@
-import '../index.css'
-// import from './components.d.ts'
-
 import type { Preview } from '@storybook/vue3'
+
+import '../index.css'
 
 const preview: Preview = {
   parameters: {
