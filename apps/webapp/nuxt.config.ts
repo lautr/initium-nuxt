@@ -1,10 +1,12 @@
 import { createResolver } from '@nuxt/kit'
+import tailwind from '@tailwindcss/vite'
 
 const { resolve } = createResolver(import.meta.url)
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   compatibilityDate: '2024-07-10',
+  css: ['~/assets/main.css'],
   alias: {
     '@lautr/initium-nuxt-webapp': resolve('./'),
   },
@@ -40,7 +42,6 @@ export default defineNuxtConfig({
         classSuffix: '',
       },
     ],
-    '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',
     '@vue-macros/nuxt',
     '@lautr/initium-nuxt-design/nuxt.ts',
@@ -52,36 +53,17 @@ export default defineNuxtConfig({
       },
     },
   },
-  tailwindcss: {
-    config: {
-      content: [
-        '../../packages/design/components/**/*.vue',
-        '../../packages/design/styles/*.css',
-        './components/**/*.{js,vue,ts}',
-        './layouts/**/*.vue',
-        './pages/**/*.vue',
-        './plugins/**/*.{js,ts}',
-        './nuxt.config.{js,ts}',
-        './app.vue',
-      ],
-      darkMode: 'class',
-      theme: {
-        extend: {},
-      },
-      plugins: [],
-    },
-    viewer: false,
-  },
   typescript: {
     shim: false,
   },
   vite: {
+    plugins: [tailwind()],
     build: {
       rollupOptions: {
         output: {
-          chunkFileNames: '_nuxt/cc-[hash].js',
-          assetFileNames: '_nuxt/cc-[hash][extname]',
-          entryFileNames: '_nuxt/cc-[hash].js',
+          chunkFileNames: '_nuxt/in-[hash].js',
+          assetFileNames: '_nuxt/in-[hash][extname]',
+          entryFileNames: '_nuxt/in-[hash].js',
           // target ~250KB per chunk in an ideal world
           experimentalMinChunkSize: 250 * 1024,
           manualChunks: (id: string) => {
