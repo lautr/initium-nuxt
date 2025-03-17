@@ -22,7 +22,7 @@
     "@storybook/vue3": "8.6.6",
     "@storybook/vue3-vite": "8.6.6",
     "@types/node": "22.13.10",
-    "@vitejs/plugin-vue": "5.2.1",
+    "@vitejs/plugin-vue": "5.2.2",
     "@vue/tsconfig": "0.7.0",
     "autoprefixer": "10.4.21",
     "postcss": "8.5.3",
