@@ -23,7 +23,7 @@
     "@vueuse/core": "13.0.0",
     "@vueuse/nuxt": "13.0.0",
     "autoprefixer": "10.4.21",
-    "nuxt": "3.16.0",
+    "nuxt": "3.16.1",
     "pinia": "3.0.1",
     "vitest": "3.0.9"
   }
