@@ -13,7 +13,7 @@
 - [⚡️ Vite](https://vitejs.dev/) - Instant HMR
 - [✨ Vitest](https://vitest.dev/guide/) - A blazing fast unit test framework
 - [🚝 Monorepo](https://pnpm.io/workspaces) - workspace setup using [pnpm](https://pnpm.io/)
-- [🌬️ Tailwind 3](https://tailwindcss.com/) - the utility-first CSS framework
+- [🌬️ Tailwind 4](https://tailwindcss.com/) - the utility-first CSS framework
 - [🖌️ Storybook](https://storybook.js.org/) - build UI components and pages in isolation
 - [🌓 Color Mode](https://github.com/nuxt-community/color-mode-module) - dark, light & custom mode integrated in Tailwind and Nuxt
 - 🔥 The `<script setup>` syntax

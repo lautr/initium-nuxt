@@ -1,5 +1,6 @@
 {
   "name": "@lautr/initium-nuxt-design",
+  "type": "module",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -7,6 +8,9 @@
     "build": "storybook build",
     "test": "test-storybook --index-json",
     "ci:test": "pnpm dlx concurrently -k -s first -n \"SB,TEST\" -c \"magenta,blue\" \"pnpm build --quiet && pnpm dlx http-server storybook-static --port 6006 --silent\" \"pnpm dlx wait-on http://127.0.0.1:6006 && pnpm test\""
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "4.0.14"
   },
   "devDependencies": {
     "@nuxt/image": "1.10.0",
@@ -29,7 +33,7 @@
     "storybook": "8.6.7",
     "storybook-addon-vue-slots": "0.9.29",
     "storybook-dark-mode": "4.0.2",
-    "tailwindcss": "3.4.17",
+    "tailwindcss": "4.0.14",
     "unplugin-auto-import": "19.1.1",
     "unplugin-vue-components": "28.4.1",
     "unplugin-vue-macros": "2.14.5",

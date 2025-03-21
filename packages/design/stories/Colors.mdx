@@ -1,21 +1,12 @@
-import { Meta, ColorPalette, ColorItem } from '@storybook/blocks';
-import config from '~/utils/tailwind'
+import { Meta } from "@storybook/addon-docs";
+import { Markdown } from "@storybook/blocks";
 
 <Meta title="Foundations/Colors" />
 
-<ColorPalette>
-  {Object.entries(config.colors).filter((color) => !(typeof color[1] === 'object') && !['inherit', 'currentColor'].includes(color[1])).map((color) => (
-    <ColorItem
-      key={ color[0] }
-      title={ color[0] }
-      colors={{ [color[0]]: color[1] }}
-    />
-  ))}
-  {Object.entries(config.colors).filter((color) => typeof color[1] === 'object').map((color) => (
-    <ColorItem
-      key={ color[0] }
-      title={ color[0] }
-      colors={ color[1] }
-    />
-  ))}
-</ColorPalette>
+<Markdown>
+{`
+This functionality is no longer supported by Tailwind 4
+
+see https://github.com/tailwindlabs/tailwindcss/discussions/14764
+`}
+</Markdown>
