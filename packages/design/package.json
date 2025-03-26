@@ -34,7 +34,7 @@
     "storybook-addon-vue-slots": "0.9.29",
     "storybook-dark-mode": "4.0.2",
     "tailwindcss": "4.0.16",
-    "unplugin-auto-import": "19.1.1",
+    "unplugin-auto-import": "19.1.2",
     "unplugin-vue-components": "28.4.1",
     "unplugin-vue-macros": "2.14.5",
     "vite": "6.2.3",
