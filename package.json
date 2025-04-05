@@ -19,7 +19,7 @@
     "@antfu/eslint-config": "4.11.0",
     "concurrently": "9.1.2",
     "eslint": "9.23.0",
-    "typescript": "5.8.2"
+    "typescript": "5.8.3"
   },
   "volta": {
     "node": "22.14.0",
