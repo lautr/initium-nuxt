@@ -25,7 +25,7 @@
     "@storybook/testing-library": "0.2.2",
     "@storybook/vue3": "8.6.12",
     "@storybook/vue3-vite": "8.6.12",
-    "@types/node": "22.14.0",
+    "@types/node": "22.14.1",
     "@vitejs/plugin-vue": "5.2.3",
     "@vue/tsconfig": "0.7.0",
     "autoprefixer": "10.4.21",
