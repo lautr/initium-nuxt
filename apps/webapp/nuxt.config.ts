@@ -5,8 +5,8 @@ const { resolve } = createResolver(import.meta.url)
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-07-10',
-  css: ['~/assets/main.css'],
+  compatibilityVersion: 4,
+  css: ['~/app/assets/main.css'],
   alias: {
     '@lautr/initium-nuxt-webapp': resolve('./'),
   },
@@ -22,11 +22,11 @@ export default defineNuxtConfig({
   },
   components: {
     dirs: [
-      '~/components',
+      '~/app/components',
     ],
   },
   imports: {
-    dirs: ['stores'],
+    dirs: ['app/stores'],
   },
   modules: [
     [

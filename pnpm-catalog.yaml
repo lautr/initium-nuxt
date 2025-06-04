@@ -1,0 +1,71 @@
+dependencies:
+  # Nuxt Core & Devtools
+  nuxt: "3.17.4"
+  "@nuxt/devtools": "2.4.1"
+  "@nuxt/test-utils-edge": "3.8.0-28284309.b3d3d7f4" # Used in apps/alpha and apps/webapp
+  "@nuxt/kit": "3.17.4" # Used in packages/design
+  "@nuxt/schema": "3.17.4" # Used in packages/design
+  "@nuxt/image": "1.10.0" # Used in packages/design
+
+  # Styling
+  "@nuxtjs/tailwindcss": "6.14.0" # Used in apps/alpha (consider if webapp should use this instead of separate tailwindcss/vite)
+  tailwindcss: "4.1.8" # Used in apps/webapp and packages/design
+  "@tailwindcss/vite": "4.1.8" # Used in apps/webapp and packages/design
+  autoprefixer: "10.4.21" # Common across alpha, webapp, design
+  "@nuxtjs/color-mode": "3.5.2" # Common in apps
+
+  # State Management
+  pinia: "3.0.2" # Common in apps
+  "@pinia/nuxt": "0.11.0" # Common in apps
+
+  # Vue Ecosystem
+  vue: "3.5.16" # Used in packages/design
+  "@vitejs/plugin-vue": "5.2.4" # Used in packages/design
+  "@vue-macros/nuxt": "1.13.5" # Common in apps
+  unplugin-vue-macros: "2.14.5" # Used in packages/design (related to @vue-macros/nuxt)
+
+  # VueUse
+  "@vueuse/components": "13.3.0" # Common in apps
+  "@vueuse/core": "13.3.0" # Common in apps
+  "@vueuse/nuxt": "13.3.0" # Common in apps
+
+  # Testing
+  vitest: "3.2.0" # Common in apps
+  "@storybook/jest": "0.2.3" # Used in packages/design
+  "@storybook/test-runner": "0.22.0" # Used in packages/design
+  "@storybook/testing-library": "0.2.2" # Used in packages/design
+
+
+  # Storybook (Mostly in packages/design, but good to catalog if versions are consistent)
+  storybook: "8.6.14"
+  "@storybook/addon-essentials": "8.6.14"
+  "@storybook/addon-interactions": "8.6.14"
+  "@storybook/addon-links": "8.6.14"
+  "@storybook/blocks": "8.6.14"
+  "@storybook/vue3": "8.6.14"
+  "@storybook/vue3-vite": "8.6.14"
+  "storybook-addon-vue-slots": "0.9.29"
+  "storybook-dark-mode": "4.0.2"
+
+  # Tooling & Utilities
+  postcss: "8.5.4" # Used in packages/design
+  vite: "6.3.5" # Used in packages/design
+  "unplugin-auto-import": "19.3.0" # Used in packages/design
+  "unplugin-vue-components": "28.7.0" # Used in packages/design
+  "vue-i18n": "11" # Used in packages/design
+  "vue-tsc": "2.2.10" # Used in packages/design
+  "@vue/tsconfig": "0.7.0" # Used in packages/design
+  "@types/node": "22.15.29" # Used in packages/design
+
+
+  # Project Wide Linters & Typescript
+  eslint: "9.28.0" # From root package.json
+  typescript: "5.8.3" # From root package.json
+  "@antfu/eslint-config": "4.13.2" # From root package.json
+  concurrently: "9.1.2" # From root package.json
+  "@tsconfig/recommended": "1.0.8" # From packages/services
+
+  # Workspace specific, but cataloging for consistency if ever shared
+  # "@lautr/initium-nuxt-design": "workspace:*" # Not for catalog, resolved by pnpm workspace protocol
+  # Consider if any other packages from root or other places should be here.
+  # For example, if multiple packages start using @nuxt/image, it's good to have it here.
