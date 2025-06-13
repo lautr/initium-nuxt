@@ -1,12 +1,12 @@
 <script lang="ts" setup>
 const emit = defineEmits<{
-  (e: 'signIn', identity: string): void
+  (e: 'sign-in', identity: string): void
 }>()
 
 const identity = ref('')
 
 function onSignIn() {
-  emit('signIn', identity.value)
+  emit('sign-in', identity.value)
 }
 </script>
 
