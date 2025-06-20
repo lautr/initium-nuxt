@@ -1719,6 +1719,15 @@ packages:
       rollup:
         optional: true
 
+  '@rollup/pluginutils@5.2.0':
+    resolution: {integrity: sha512-qWJ2ZTbmumwiLFomfzTyt5Kng4hwPi9rwCYN4SHb6eaRU1KNO4ccxINHr/VhH4GgPlt1XfSTLX2LBTme8ne4Zw==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+
   '@rollup/rollup-android-arm-eabi@4.40.0':
     resolution: {integrity: sha512-+Fbls/diZ0RDerhE8kyC6hjADCXA1K4yVNlH0EYfd2XjyH0UGgzaQ8MlT0pCXAThfxv3QUAczHaL+qSv1E4/Cg==}
     cpu: [arm]
@@ -2388,6 +2397,9 @@ packages:
 
   '@types/estree@1.0.7':
     resolution: {integrity: sha512-w28IoSUCJpidD/TGviZwwMJckNESJZXFu7NBZ5YJ4mEUnNraUn9Pm8HSZm/jDF1pDWYKspWE7oVphigUPRakIQ==}
+
+  '@types/estree@1.0.8':
+    resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
 
   '@types/graceful-fs@4.1.9':
     resolution: {integrity: sha512-olP3sd1qOEe5dXTSaFvQG+02VdRXcdytWLAZsAq1PecU8uqQAhkrnbli7DagjtXKW/Bl7YJbUsa8MPcuc8LHEQ==}
@@ -9848,7 +9860,7 @@ snapshots:
     dependencies:
       '@nuxt/schema': '@nuxt/schema-edge@3.8.0-28284309.b3d3d7f4(rollup@4.41.0)'
       c12: 1.11.2(magicast@0.3.5)
-      consola: 3.4.2
+      consola: 3.2.3
       defu: 6.1.4
       globby: 13.2.2
       hash-sum: 2.0.0
@@ -9860,7 +9872,7 @@ snapshots:
       pkg-types: 1.3.1
       scule: 1.3.0
       semver: 7.7.2
-      ufo: 1.6.1
+      ufo: 1.5.4
       unctx: 2.4.1
       unimport: 3.14.6(rollup@4.41.0)
       untyped: 1.5.2
@@ -9980,14 +9992,14 @@ snapshots:
   '@nuxt/schema-edge@3.8.0-28284309.b3d3d7f4(rollup@4.41.0)':
     dependencies:
       '@nuxt/ui-templates': 1.3.4
-      consola: 3.4.2
+      consola: 3.2.3
       defu: 6.1.4
       hookable: 5.5.3
       pathe: 1.1.2
       pkg-types: 1.3.1
       postcss-import-resolver: 2.0.0
       std-env: 3.9.0
-      ufo: 1.6.1
+      ufo: 1.5.4
       unimport: 3.14.6(rollup@4.41.0)
       untyped: 1.5.2
     transitivePeerDependencies:
@@ -10389,6 +10401,14 @@ snapshots:
   '@rollup/pluginutils@5.1.4(rollup@4.41.0)':
     dependencies:
       '@types/estree': 1.0.7
+      estree-walker: 2.0.2
+      picomatch: 4.0.2
+    optionalDependencies:
+      rollup: 4.41.0
+
+  '@rollup/pluginutils@5.2.0(rollup@4.41.0)':
+    dependencies:
+      '@types/estree': 1.0.8
       estree-walker: 2.0.2
       picomatch: 4.0.2
     optionalDependencies:
@@ -11055,6 +11075,8 @@ snapshots:
 
   '@types/estree@1.0.7': {}
 
+  '@types/estree@1.0.8': {}
+
   '@types/graceful-fs@4.1.9':
     dependencies:
       '@types/node': 22.15.32
@@ -11297,7 +11319,7 @@ snapshots:
   '@vercel/nft@0.27.7(rollup@4.41.0)':
     dependencies:
       '@mapbox/node-pre-gyp': 1.0.11
-      '@rollup/pluginutils': 5.1.4(rollup@4.41.0)
+      '@rollup/pluginutils': 5.2.0(rollup@4.41.0)
       acorn: 8.15.0
       acorn-import-attributes: 1.9.5(acorn@8.15.0)
       async-sema: 3.1.1
@@ -14055,7 +14077,7 @@ snapshots:
   giget@1.2.3:
     dependencies:
       citty: 0.1.6
-      consola: 3.4.2
+      consola: 3.2.3
       defu: 6.1.4
       node-fetch-native: 1.6.6
       nypm: 0.3.12
@@ -16227,11 +16249,11 @@ snapshots:
   nypm@0.3.12:
     dependencies:
       citty: 0.1.6
-      consola: 3.4.2
+      consola: 3.2.3
       execa: 8.0.1
       pathe: 1.1.2
       pkg-types: 1.3.1
-      ufo: 1.6.1
+      ufo: 1.5.4
 
   nypm@0.6.0:
     dependencies:
@@ -17968,7 +17990,7 @@ snapshots:
 
   unimport@3.14.6(rollup@4.41.0):
     dependencies:
-      '@rollup/pluginutils': 5.1.4(rollup@4.41.0)
+      '@rollup/pluginutils': 5.2.0(rollup@4.41.0)
       acorn: 8.15.0
       escape-string-regexp: 5.0.0
       estree-walker: 3.0.3
