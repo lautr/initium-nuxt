@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "private": "true",
   "devDependencies": {
-    "@tsconfig/recommended": "1.0.10"
+    "@tsconfig/recommended": "catalog:types"
   }
 }
