@@ -15,19 +15,19 @@
   },
   "devDependencies": {
     "@lautr/initium-nuxt-design": "workspace:*",
-    "@nuxt/devtools": "2.5.0",
-    "@nuxt/test-utils-edge": "3.8.0-28284309.b3d3d7f4",
-    "@nuxtjs/color-mode": "3.5.2",
-    "@pinia/nuxt": "0.11.1",
-    "@tailwindcss/vite": "4.1.10",
-    "@vue-macros/nuxt": "1.13.5",
-    "@vueuse/components": "13.4.0",
-    "@vueuse/core": "13.4.0",
-    "@vueuse/nuxt": "13.4.0",
-    "autoprefixer": "10.4.21",
-    "nuxt": "3.17.5",
-    "pinia": "3.0.3",
-    "tailwindcss": "4.1.10",
-    "vitest": "3.2.4"
+    "@nuxt/devtools": "catalog:prod",
+    "@nuxt/test-utils-edge": "catalog:test",
+    "@nuxtjs/color-mode": "catalog:frontend",
+    "@pinia/nuxt": "catalog:frontend",
+    "@tailwindcss/vite": "catalog:build",
+    "@vue-macros/nuxt": "catalog:frontend",
+    "@vueuse/components": "catalog:frontend",
+    "@vueuse/core": "catalog:frontend",
+    "@vueuse/nuxt": "catalog:frontend",
+    "autoprefixer": "catalog:frontend",
+    "nuxt": "catalog:prod",
+    "pinia": "catalog:frontend",
+    "tailwindcss": "catalog:frontend",
+    "vitest": "catalog:test"
   }
 }

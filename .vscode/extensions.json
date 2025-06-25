@@ -5,6 +5,7 @@
     "csstools.postcss",
     "cpylua.language-postcss",
     "dbaeumer.vscode-eslint",
-    "vue.volar"
+    "vue.volar",
+    "njzy.pnpm-catalog-lens-njzy"
   ]
 }
