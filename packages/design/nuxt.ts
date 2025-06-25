@@ -9,10 +9,8 @@ export default defineNuxtModule({
   },
   hooks: {
     'components:dirs': (dirs) => {
-      // Add ./components dir to the list
       dirs.push({
-        path: fileURLToPath(new URL('./src/components', import.meta.url)),
-        // prefix: 'awesome', // this could be used to assign a prefix to the components
+        path: fileURLToPath(new URL('./components', import.meta.url)),
       })
     },
   },
