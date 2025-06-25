@@ -1,7 +1,7 @@
-import type { Meta, StoryObj } from '@storybook/vue3'
+import type { Meta, StoryObj } from '@storybook/vue3-vite'
 import UiButton from '~/components/ui/Button.vue'
 
-const meta: Meta<typeof UiButton> = {
+const meta = {
   title: 'UI/Button',
   component: UiButton,
   tags: ['autodocs'],
@@ -11,19 +11,25 @@ const meta: Meta<typeof UiButton> = {
         component: 'button element',
       },
     },
-    slots: {
-      default: {
-        template: '{{ args.default || "Button" }}',
-        description: 'button text',
-      },
-    },
   },
 } satisfies Meta<typeof UiButton>
 
 export default meta
-
 type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
-  args: {},
+  render: args => ({
+    components: { UiButton },
+    setup() {
+      return { args }
+    },
+    template: `
+      <UiButton v-bind="args">
+        {{ args.default || 'Button' }}
+      </UiButton>
+    `,
+  }),
+  args: {
+    default: 'Button',
+  },
 }

@@ -1,7 +1,7 @@
-import type { Meta, StoryObj } from '@storybook/vue3'
+import type { Meta, StoryObj } from '@storybook/vue3-vite'
 import UiSheet from '~/components/ui/Sheet.vue'
 
-const meta: Meta<typeof UiSheet> = {
+const meta = {
   title: 'UI/Sheet',
   component: UiSheet,
   tags: ['autodocs'],
@@ -12,18 +12,24 @@ const meta: Meta<typeof UiSheet> = {
       },
     },
   },
-}
-
-type Story = StoryObj<typeof UiSheet>
+} satisfies Meta<typeof UiSheet>
 
 export default meta
+type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
-  parameters: {
-    slots: {
-      default: {
-        template: '{{ args.default || "Sheet Content" }}',
-      },
+  render: args => ({
+    components: { UiSheet },
+    setup() {
+      return { args }
     },
+    template: `
+      <UiSheet v-bind="args">
+        {{ args.default || 'Sheet Content' }}
+      </UiSheet>
+    `,
+  }),
+  args: {
+    default: 'Sheet Content',
   },
 }

@@ -15,11 +15,11 @@ export default defineConfig({
     VueMacros(),
     AutoImport({
       imports: ['vue', 'vue-router', '@vueuse/core'],
-      dirs: ['./composables'],
+      dirs: ['./composables', '../components'],
       vueTemplate: true,
     }),
     Components({
-      dirs: ['./components'],
+      dirs: ['./components', '../components'],
       extensions: ['vue', 'ts'],
       include: [/\.vue$/, /\.vue\?vue/, /\.stories\.ts$/],
       dts: true,
