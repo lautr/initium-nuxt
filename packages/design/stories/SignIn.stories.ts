@@ -1,8 +1,8 @@
-import type { Meta, StoryObj } from '@storybook/vue3'
+import type { Meta, StoryObj } from '@storybook/vue3-vite'
 import { userEvent, within } from '@storybook/testing-library'
 import InteractionSignIn from '~/components/interaction/SignIn.vue'
 
-const meta: Meta<typeof InteractionSignIn> = {
+const meta = {
   title: 'Interaction/SignIn',
   component: InteractionSignIn,
   tags: ['autodocs'],
@@ -13,12 +13,21 @@ const meta: Meta<typeof InteractionSignIn> = {
       },
     },
   },
-}
-
-type Story = StoryObj<typeof InteractionSignIn>
+} satisfies Meta<typeof InteractionSignIn>
 
 export default meta
-export const Deault: Story = {
+type Story = StoryObj<typeof meta>
+
+export const Default: Story = {
+  render: args => ({
+    components: { InteractionSignIn },
+    setup() {
+      return { args }
+    },
+    template: `
+      <InteractionSignIn v-bind="args" />
+    `,
+  }),
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement)
 

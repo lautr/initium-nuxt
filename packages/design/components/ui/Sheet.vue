@@ -1,4 +1,11 @@
-<script lang="ts" setup>
+<script lang="ts">
+export default {
+  name: 'SheetComponent',
+}
+</script>
+
+<script setup lang="ts">
+// Sheet component for content containers
 </script>
 
 <template>

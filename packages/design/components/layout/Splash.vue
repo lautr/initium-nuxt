@@ -1,4 +1,11 @@
-<script lang="ts" setup>
+<script lang="ts">
+export default {
+  name: 'SplashLayout',
+}
+</script>
+
+<script setup lang="ts">
+// Splash component for full screen layouts with centered content
 </script>
 
 <template>
