@@ -20,7 +20,6 @@
     "@storybook/addon-a11y": "catalog:build",
     "@storybook/addon-docs": "catalog:build",
     "@storybook/addon-vitest": "catalog:build",
-    "@storybook/testing-library": "catalog:test",
     "@storybook/vue3-vite": "catalog:build",
     "@tailwindcss/vite": "catalog:build",
     "@vitejs/plugin-vue": "catalog:build",
