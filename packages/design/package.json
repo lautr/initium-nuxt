@@ -11,7 +11,6 @@
     "ci:test": "pnpm dlx concurrently -k -s first -n \"SB,TEST\" -c \"magenta,blue\" \"pnpm build --quiet && pnpm dlx http-server storybook-static --port 6006 --silent\" \"pnpm dlx wait-on http://127.0.0.1:6006 && pnpm test\""
   },
   "dependencies": {
-    "@storybook/test": "8.6.14",
     "vue": "catalog:frontend"
   },
   "devDependencies": {
@@ -21,6 +20,7 @@
     "@storybook/addon-a11y": "catalog:build",
     "@storybook/addon-docs": "catalog:build",
     "@storybook/addon-vitest": "catalog:build",
+    "@storybook/test": "catalog:test",  
     "@storybook/vue3-vite": "catalog:build",
     "@tailwindcss/vite": "catalog:build",
     "@vitejs/plugin-vue": "catalog:build",
