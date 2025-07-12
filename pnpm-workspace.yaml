@@ -31,7 +31,7 @@ catalogs:
   #  Packages for linting/formatting (e.g., eslint, knip).
   lint:
     '@antfu/eslint-config': 4.16.2
-    eslint: 9.30.1
+    eslint: 9.31.0
   # Packages that are included directly in the final bundle.
   #  inlined:
   # Runtime production dependencies.
