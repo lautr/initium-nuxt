@@ -2,7 +2,7 @@
   "name": "@lautr/initium-nuxt",
   "type": "module",
   "version": "1.0.0",
-  "packageManager": "pnpm@10.13.1",
+  "packageManager": "pnpm@10.14.0",
   "description": "",
   "author": "",
   "license": "ISC",
@@ -23,6 +23,6 @@
   },
   "volta": {
     "node": "22.17.1",
-    "pnpm": "10.13.1"
+    "pnpm": "10.14.0"
   }
 }
