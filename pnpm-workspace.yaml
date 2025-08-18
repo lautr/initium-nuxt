@@ -57,6 +57,6 @@ catalogs:
   # Packages for type checking and definitions.
   types:
     '@tsconfig/recommended': 1.0.10
-    '@vue/tsconfig': 0.8.0
+    '@vue/tsconfig': 0.8.1
     typescript: 5.9.2
     vue-tsc: 3.0.5
