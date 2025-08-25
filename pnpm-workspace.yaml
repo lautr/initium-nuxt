@@ -43,7 +43,7 @@ catalogs:
     nuxt: 3.18.1
   # Packages used for scripting tasks (e.g., tsx, tinyglobby, cpx).
   script:
-    concurrently: 9.2.0
+    concurrently: 9.2.1
   # Packages used for testing (e.g., vitest, playwright, msw).
   test:
     '@nuxt/test-utils-edge': 3.8.0-28284309.b3d3d7f4
