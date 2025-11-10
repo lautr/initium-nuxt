@@ -3,14 +3,14 @@ runs:
   using: composite
   steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
     - name: Install Node.js
       uses: actions/setup-node@v4
       with:
         node-version: 22
     - uses: pnpm/action-setup@v4.2.0
       name: Install pnpm
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - name: Get pnpm store directory
       id: pnpm-cache
       shell: bash
