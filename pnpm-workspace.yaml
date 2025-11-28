@@ -27,7 +27,7 @@ catalogs:
     autoprefixer: 10.4.22
     pinia: 3.0.4
     tailwindcss: 4.1.15
-    vue: 3.5.22
+    vue: 3.5.25
   #  Packages for linting/formatting (e.g., eslint, knip).
   lint:
     '@antfu/eslint-config': 4.19.0
