@@ -10,7 +10,7 @@ catalogs:
     '@storybook/addon-docs': 9.1.16
     '@storybook/addon-vitest': 9.1.16
     '@storybook/vue3-vite': 9.1.16
-    '@tailwindcss/vite': 4.1.15
+    '@tailwindcss/vite': 4.1.17
     '@vitejs/plugin-vue': 6.0.2
     storybook: 9.1.16
     unplugin-auto-import: 19.3.0
@@ -26,7 +26,7 @@ catalogs:
     '@vueuse/nuxt': 13.9.0
     autoprefixer: 10.4.22
     pinia: 3.0.4
-    tailwindcss: 4.1.15
+    tailwindcss: 4.1.17
     vue: 3.5.25
   #  Packages for linting/formatting (e.g., eslint, knip).
   lint:
