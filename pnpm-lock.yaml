@@ -22,8 +22,8 @@ catalogs:
       specifier: 4.1.17
       version: 4.1.17
     '@vitejs/plugin-vue':
-      specifier: 6.0.2
-      version: 6.0.2
+      specifier: 6.0.3
+      version: 6.0.3
     storybook:
       specifier: 9.1.17
       version: 9.1.17
@@ -269,7 +269,7 @@ importers:
         version: 4.1.17(vite@7.2.4(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.3)(yaml@2.8.1))
       '@vitejs/plugin-vue':
         specifier: catalog:build
-        version: 6.0.2(vite@7.2.4(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.3)(yaml@2.8.1))(vue@3.5.25(typescript@5.9.3))
+        version: 6.0.3(vite@7.2.4(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.3)(yaml@2.8.1))(vue@3.5.25(typescript@5.9.3))
       '@vitest/browser':
         specifier: catalog:test
         version: 3.2.4(playwright@1.57.0)(vite@7.2.4(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.3)(yaml@2.8.1))(vitest@3.2.4)
@@ -1745,6 +1745,9 @@ packages:
   '@rolldown/pluginutils@1.0.0-beta.50':
     resolution: {integrity: sha512-5e76wQiQVeL1ICOZVUg4LSOVYg9jyhGCin+icYozhsUzM+fHE7kddi1bdiE0jwVqTfkjba3jUFbEkoC9WkdvyA==}
 
+  '@rolldown/pluginutils@1.0.0-beta.53':
+    resolution: {integrity: sha512-vENRlFU4YbrwVqNDZ7fLvy+JR1CRkyr01jhSiDpE1u6py3OMzQfztQU2jxykW3ALNxO4kSlqIDeYyD0Y9RcQeQ==}
+
   '@rollup/plugin-alias@5.1.1':
     resolution: {integrity: sha512-PR9zDb+rOzkRb2VD+EuKB7UC41vU5DIwZ5qqCpk0KJudcWAyi8rvYOhS7+L5aZCspw1stTViLgN5v6FF1p5cgQ==}
     engines: {node: '>=14.0.0'}
@@ -2491,6 +2494,13 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       vite: ^5.0.0 || ^6.0.0 || ^7.0.0
+      vue: ^3.2.25
+
+  '@vitejs/plugin-vue@6.0.3':
+    resolution: {integrity: sha512-TlGPkLFLVOY3T7fZrwdvKpjprR3s4fxRln0ORDo1VQ7HHyxJwTlrjKU3kpVWTlaAjIEuCTokmjkZnr8Tpc925w==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    peerDependencies:
+      vite: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
       vue: ^3.2.25
 
   '@vitest/browser@3.2.4':
@@ -6706,8 +6716,8 @@ packages:
   vue-component-type-helpers@2.0.29:
     resolution: {integrity: sha512-58i+ZhUAUpwQ+9h5Hck0D+jr1qbYl4voRt5KffBx8qzELViQ4XdT/Tuo+mzq8u63teAG8K0lLaOiL5ofqW38rg==}
 
-  vue-component-type-helpers@3.1.8:
-    resolution: {integrity: sha512-oaowlmEM6BaYY+8o+9D9cuzxpWQWHqHTMKakMxXu0E+UCIOMTljyIPO15jcnaCwJtZu/zWDotK7mOIHvWD9mcw==}
+  vue-component-type-helpers@3.2.2:
+    resolution: {integrity: sha512-x8C2nx5XlUNM0WirgfTkHjJGO/ABBxlANZDtHw2HclHtQnn+RFPTnbjMJn8jHZW4TlUam0asHcA14lf1C6Jb+A==}
 
   vue-devtools-stub@0.1.0:
     resolution: {integrity: sha512-RutnB7X8c5hjq39NceArgXg28WZtZpGc3+J16ljMiYnFhKvd8hITxSWQSQ5bvldxMDU6gG5mkxl1MTQLXckVSQ==}
@@ -8490,6 +8500,8 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.0-beta.50': {}
 
+  '@rolldown/pluginutils@1.0.0-beta.53': {}
+
   '@rollup/plugin-alias@5.1.1(rollup@4.53.3)':
     optionalDependencies:
       rollup: 4.53.3
@@ -8853,7 +8865,7 @@ snapshots:
       storybook: 9.1.17(@testing-library/dom@10.4.0)(vite@7.2.4(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.3)(yaml@2.8.1))
       type-fest: 2.19.0
       vue: 3.5.25(typescript@5.9.3)
-      vue-component-type-helpers: 3.1.8
+      vue-component-type-helpers: 3.2.2
 
   '@stylistic/eslint-plugin@5.2.2(eslint@9.39.1(jiti@2.6.1))':
     dependencies:
@@ -9154,6 +9166,12 @@ snapshots:
   '@vitejs/plugin-vue@6.0.2(vite@7.2.4(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.3)(yaml@2.8.1))(vue@3.5.25(typescript@5.9.3))':
     dependencies:
       '@rolldown/pluginutils': 1.0.0-beta.50
+      vite: 7.2.4(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.3)(yaml@2.8.1)
+      vue: 3.5.25(typescript@5.9.3)
+
+  '@vitejs/plugin-vue@6.0.3(vite@7.2.4(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.3)(yaml@2.8.1))(vue@3.5.25(typescript@5.9.3))':
+    dependencies:
+      '@rolldown/pluginutils': 1.0.0-beta.53
       vite: 7.2.4(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.3)(yaml@2.8.1)
       vue: 3.5.25(typescript@5.9.3)
 
@@ -14376,7 +14394,7 @@ snapshots:
 
   vue-component-type-helpers@2.0.29: {}
 
-  vue-component-type-helpers@3.1.8: {}
+  vue-component-type-helpers@3.2.2: {}
 
   vue-devtools-stub@0.1.0: {}
 
