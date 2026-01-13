@@ -24,7 +24,7 @@ catalogs:
     '@vueuse/components': 13.9.0
     '@vueuse/core': 13.9.0
     '@vueuse/nuxt': 13.9.0
-    autoprefixer: 10.4.22
+    autoprefixer: 10.4.23
     pinia: 3.0.4
     tailwindcss: 4.1.17
     vue: 3.5.25
