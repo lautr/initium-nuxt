@@ -38,9 +38,9 @@ catalogs:
   prod:
     '@nuxt/devtools': 2.7.0
     '@nuxt/image': 1.11.0
-    '@nuxt/kit': 3.20.2
-    '@nuxt/schema': 3.20.2
-    nuxt: 3.20.2
+    '@nuxt/kit': 4.3.1
+    '@nuxt/schema': 4.3.1
+    nuxt: 4.3.1
   # Packages used for scripting tasks (e.g., tsx, tinyglobby, cpx).
   script:
     concurrently: 9.2.1
