@@ -22,7 +22,7 @@
     "typescript": "catalog:types"
   },
   "volta": {
-    "node": "22.22.0",
+    "node": "22.22.2",
     "pnpm": "10.28.0"
   }
 }
