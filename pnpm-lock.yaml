@@ -108,8 +108,8 @@ catalogs:
       specifier: 3.2.4
       version: 3.2.4
     playwright:
-      specifier: 1.59.1
-      version: 1.59.1
+      specifier: 1.60.0
+      version: 1.60.0
     vitest:
       specifier: 3.2.4
       version: 3.2.4
@@ -154,7 +154,7 @@ importers:
         version: 2.7.0(vite@7.3.3(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.31.3)(yaml@2.8.2))(vue@3.5.34(typescript@5.9.3))
       '@nuxt/test-utils-edge':
         specifier: catalog:test
-        version: 3.8.0-28284309.b3d3d7f4(magicast@0.3.5)(playwright-core@1.59.1)(rollup@4.60.3)(vitest@3.2.4)(vue@3.5.34(typescript@5.9.3))
+        version: 3.8.0-28284309.b3d3d7f4(magicast@0.3.5)(playwright-core@1.60.0)(rollup@4.60.3)(vitest@3.2.4)(vue@3.5.34(typescript@5.9.3))
       '@nuxtjs/color-mode':
         specifier: catalog:frontend
         version: 3.5.2(magicast@0.3.5)
@@ -196,7 +196,7 @@ importers:
         version: 2.7.0(vite@7.3.3(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.31.3)(yaml@2.8.2))(vue@3.5.34(typescript@5.9.3))
       '@nuxt/test-utils-edge':
         specifier: catalog:test
-        version: 3.8.0-28284309.b3d3d7f4(magicast@0.3.5)(playwright-core@1.59.1)(rollup@4.60.3)(vitest@3.2.4)(vue@3.5.34(typescript@5.9.3))
+        version: 3.8.0-28284309.b3d3d7f4(magicast@0.3.5)(playwright-core@1.60.0)(rollup@4.60.3)(vitest@3.2.4)(vue@3.5.34(typescript@5.9.3))
       '@nuxtjs/color-mode':
         specifier: catalog:frontend
         version: 3.5.2(magicast@0.3.5)
@@ -272,7 +272,7 @@ importers:
         version: 6.0.6(vite@7.3.3(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.31.3)(yaml@2.8.2))(vue@3.5.34(typescript@5.9.3))
       '@vitest/browser':
         specifier: catalog:test
-        version: 3.2.4(playwright@1.59.1)(vite@7.3.3(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.31.3)(yaml@2.8.2))(vitest@3.2.4)
+        version: 3.2.4(playwright@1.60.0)(vite@7.3.3(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.31.3)(yaml@2.8.2))(vitest@3.2.4)
       '@vitest/coverage-v8':
         specifier: catalog:test
         version: 3.2.4(@vitest/browser@3.2.4)(vitest@3.2.4)
@@ -281,7 +281,7 @@ importers:
         version: 0.9.1(typescript@5.9.3)(vue@3.5.34(typescript@5.9.3))
       playwright:
         specifier: catalog:test
-        version: 1.59.1
+        version: 1.60.0
       storybook:
         specifier: catalog:build
         version: 9.1.20(@testing-library/dom@10.4.0)(vite@7.3.3(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.31.3)(yaml@2.8.2))
@@ -5553,13 +5553,13 @@ packages:
   pkg-types@2.3.1:
     resolution: {integrity: sha512-y+ichcgc2LrADuhLNAx8DFjVfgz91pRxfZdI3UDhxHvcVEZsenLO+7XaU5vOp0u/7V/wZ+plyuQxtrDlZJ+yeg==}
 
-  playwright-core@1.59.1:
-    resolution: {integrity: sha512-HBV/RJg81z5BiiZ9yPzIiClYV/QMsDCKUyogwH9p3MCP6IYjUFu/MActgYAvK0oWyV9NlwM3GLBjADyWgydVyg==}
+  playwright-core@1.60.0:
+    resolution: {integrity: sha512-9bW6zvX/m0lEbgTKJ6YppOKx8H3VOPBMOCFh2irXFOT4BbHgrx5hPjwJYLT40Lu+4qtD36qKc/Hn56StUW57IA==}
     engines: {node: '>=18'}
     hasBin: true
 
-  playwright@1.59.1:
-    resolution: {integrity: sha512-C8oWjPR3F81yljW9o5OxcWzfh6avkVwDD2VYdwIGqTkl+OGFISgypqzfu7dOe4QNLL2aqcWBmI3PMtLIK233lw==}
+  playwright@1.60.0:
+    resolution: {integrity: sha512-hheHdokM8cdqCb0lcE3s+zT4t4W+vvjpGxsZlDnikarzx8tSzMebh3UiFtgqwFwnTnjYQcsyMF8ei2mCO/tpeA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -8617,7 +8617,7 @@ snapshots:
       rc9: 3.0.1
       std-env: 4.1.0
 
-  '@nuxt/test-utils-edge@3.8.0-28284309.b3d3d7f4(magicast@0.3.5)(playwright-core@1.59.1)(rollup@4.60.3)(vitest@3.2.4)(vue@3.5.34(typescript@5.9.3))':
+  '@nuxt/test-utils-edge@3.8.0-28284309.b3d3d7f4(magicast@0.3.5)(playwright-core@1.60.0)(rollup@4.60.3)(vitest@3.2.4)(vue@3.5.34(typescript@5.9.3))':
     dependencies:
       '@nuxt/kit': '@nuxt/kit-edge@3.8.0-28284309.b3d3d7f4(magicast@0.3.5)(rollup@4.60.3)'
       '@nuxt/schema': '@nuxt/schema-edge@3.8.0-28284309.b3d3d7f4(rollup@4.60.3)'
@@ -8630,7 +8630,7 @@ snapshots:
       ufo: 1.6.1
       vue: 3.5.34(typescript@5.9.3)
     optionalDependencies:
-      playwright-core: 1.59.1
+      playwright-core: 1.60.0
       vitest: 3.2.4(@types/debug@4.1.12)(@vitest/browser@3.2.4)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.31.3)(yaml@2.8.2)
     transitivePeerDependencies:
       - magicast
@@ -9339,7 +9339,7 @@ snapshots:
       storybook: 9.1.20(@testing-library/dom@10.4.0)(vite@7.3.3(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.31.3)(yaml@2.8.2))
       ts-dedent: 2.2.0
     optionalDependencies:
-      '@vitest/browser': 3.2.4(playwright@1.59.1)(vite@7.3.3(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.31.3)(yaml@2.8.2))(vitest@3.2.4)
+      '@vitest/browser': 3.2.4(playwright@1.60.0)(vite@7.3.3(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.31.3)(yaml@2.8.2))(vitest@3.2.4)
       '@vitest/runner': 3.2.4
       vitest: 3.2.4(@types/debug@4.1.12)(@vitest/browser@3.2.4)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.31.3)(yaml@2.8.2)
     transitivePeerDependencies:
@@ -9708,7 +9708,7 @@ snapshots:
       vite: 7.3.3(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.31.3)(yaml@2.8.2)
       vue: 3.5.34(typescript@5.9.3)
 
-  '@vitest/browser@3.2.4(playwright@1.59.1)(vite@7.3.3(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.31.3)(yaml@2.8.2))(vitest@3.2.4)':
+  '@vitest/browser@3.2.4(playwright@1.60.0)(vite@7.3.3(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.31.3)(yaml@2.8.2))(vitest@3.2.4)':
     dependencies:
       '@testing-library/dom': 10.4.0
       '@testing-library/user-event': 14.6.1(@testing-library/dom@10.4.0)
@@ -9720,7 +9720,7 @@ snapshots:
       vitest: 3.2.4(@types/debug@4.1.12)(@vitest/browser@3.2.4)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.31.3)(yaml@2.8.2)
       ws: 8.18.2
     optionalDependencies:
-      playwright: 1.59.1
+      playwright: 1.60.0
     transitivePeerDependencies:
       - bufferutil
       - msw
@@ -9744,7 +9744,7 @@ snapshots:
       tinyrainbow: 2.0.0
       vitest: 3.2.4(@types/debug@4.1.12)(@vitest/browser@3.2.4)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.31.3)(yaml@2.8.2)
     optionalDependencies:
-      '@vitest/browser': 3.2.4(playwright@1.59.1)(vite@7.3.3(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.31.3)(yaml@2.8.2))(vitest@3.2.4)
+      '@vitest/browser': 3.2.4(playwright@1.60.0)(vite@7.3.3(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.31.3)(yaml@2.8.2))(vitest@3.2.4)
     transitivePeerDependencies:
       - supports-color
 
@@ -11314,7 +11314,7 @@ snapshots:
       espree: 10.4.0
       esquery: 1.6.0
       parse-imports-exports: 0.2.4
-      semver: 7.7.4
+      semver: 7.8.0
       spdx-expression-parse: 4.0.0
     transitivePeerDependencies:
       - supports-color
@@ -11343,7 +11343,7 @@ snapshots:
       globals: 15.15.0
       ignore: 5.3.2
       minimatch: 9.0.5
-      semver: 7.7.4
+      semver: 7.8.0
       ts-declaration-location: 1.0.7(typescript@5.9.3)
     transitivePeerDependencies:
       - typescript
@@ -11410,7 +11410,7 @@ snapshots:
       pluralize: 8.0.0
       regexp-tree: 0.1.27
       regjsparser: 0.12.0
-      semver: 7.7.4
+      semver: 7.8.0
       strip-indent: 4.0.0
 
   eslint-plugin-unused-imports@4.1.4(@typescript-eslint/eslint-plugin@8.38.0(@typescript-eslint/parser@8.38.0(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0)):
@@ -11426,7 +11426,7 @@ snapshots:
       natural-compare: 1.4.0
       nth-check: 2.1.1
       postcss-selector-parser: 6.1.2
-      semver: 7.7.4
+      semver: 7.8.0
       vue-eslint-parser: 10.2.0(eslint@9.39.4(jiti@2.7.0))
       xml-name-validator: 4.0.0
     optionalDependencies:
@@ -12123,7 +12123,7 @@ snapshots:
       acorn: 8.16.0
       eslint-visitor-keys: 3.4.3
       espree: 9.6.1
-      semver: 7.7.4
+      semver: 7.8.0
 
   jstransformer@1.0.0:
     dependencies:
@@ -13346,11 +13346,11 @@ snapshots:
       exsolve: 1.0.8
       pathe: 2.0.3
 
-  playwright-core@1.59.1: {}
+  playwright-core@1.60.0: {}
 
-  playwright@1.59.1:
+  playwright@1.60.0:
     dependencies:
-      playwright-core: 1.59.1
+      playwright-core: 1.60.0
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -14934,7 +14934,7 @@ snapshots:
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/debug': 4.1.12
-      '@vitest/browser': 3.2.4(playwright@1.59.1)(vite@7.3.3(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.31.3)(yaml@2.8.2))(vitest@3.2.4)
+      '@vitest/browser': 3.2.4(playwright@1.60.0)(vite@7.3.3(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.31.3)(yaml@2.8.2))(vitest@3.2.4)
     transitivePeerDependencies:
       - jiti
       - less
@@ -14996,7 +14996,7 @@ snapshots:
       eslint-visitor-keys: 4.2.1
       espree: 10.4.0
       esquery: 1.6.0
-      semver: 7.7.4
+      semver: 7.8.0
     transitivePeerDependencies:
       - supports-color
 
