@@ -59,4 +59,4 @@ catalogs:
     '@tsconfig/recommended': 1.0.13
     '@vue/tsconfig': 0.9.1
     typescript: 5.9.3
-    vue-tsc: 3.2.8
+    vue-tsc: 3.3.5
