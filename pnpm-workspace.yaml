@@ -11,7 +11,7 @@ catalogs:
     '@storybook/addon-vitest': 9.1.20
     '@storybook/vue3-vite': 9.1.20
     '@tailwindcss/vite': 4.3.1
-    '@vitejs/plugin-vue': 6.0.7
+    '@vitejs/plugin-vue': 6.0.8
     storybook: 9.1.20
     unplugin-auto-import: 19.3.0
     unplugin-vue-components: 28.8.0
