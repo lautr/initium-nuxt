@@ -30,7 +30,7 @@ catalogs:
     vue: 3.5.40
   #  Packages for linting/formatting (e.g., eslint, knip).
   lint:
-    '@antfu/eslint-config': 4.19.0
+    '@antfu/eslint-config': 9.2.0
     eslint: 9.39.5
   # Packages that are included directly in the final bundle.
   #  inlined:
