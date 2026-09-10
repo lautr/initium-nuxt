@@ -37,7 +37,7 @@ catalogs:
   # Runtime production dependencies.
   prod:
     '@nuxt/devtools': 2.7.0
-    '@nuxt/image': 1.11.0
+    '@nuxt/image': 2.1.0
     '@nuxt/kit': 3.21.11
     '@nuxt/schema': 3.21.11
     nuxt: 3.21.11
