@@ -8,7 +8,7 @@ catalogs:
   build:
     '@storybook/addon-a11y': 9.1.20
     '@storybook/addon-docs': 9.1.20
-    '@storybook/addon-vitest': 9.1.20
+    '@storybook/addon-vitest': 9.1.21
     '@storybook/vue3-vite': 9.1.20
     '@tailwindcss/vite': 4.3.3
     '@vitejs/plugin-vue': 6.0.10
