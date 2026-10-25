@@ -6,10 +6,10 @@ packages:
 catalogs:
   # Packages used for building the project (e.g., vite, rolldown).
   build:
-    '@storybook/addon-a11y': 9.1.20
-    '@storybook/addon-docs': 9.1.20
+    '@storybook/addon-a11y': 9.1.21
+    '@storybook/addon-docs': 9.1.21
     '@storybook/addon-vitest': 9.1.21
-    '@storybook/vue3-vite': 9.1.20
+    '@storybook/vue3-vite': 9.1.21
     '@tailwindcss/vite': 4.3.3
     '@vitejs/plugin-vue': 6.0.10
     storybook: 9.1.21
